@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e8ba0a4-f19e-46cd-ab3f-b7c70677788a" name="Default" comment="" />
+    <list default="true" id="2e8ba0a4-f19e-46cd-ab3f-b7c70677788a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Autumn/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Autumn/Project Proposal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Autumn/train" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7c964770e40781306a81$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7c964770e40781306a81$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$9ff76d630aa7113a3b57$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$9ff76d630aa7113a3b57$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$2d67e7755474cb27b68f.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$2d67e7755474cb27b68f.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$1b9d2a6508c1ba546c2b.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$1b9d2a6508c1ba546c2b.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/usesaul-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/usesaul-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$924b25ff45e5af4d72b2$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$924b25ff45e5af4d72b2$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$924b25ff45e5af4d72b2$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$924b25ff45e5af4d72b2$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7c964770e40781306a81.cache" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7c964770e40781306a81.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$4788051062ac665b7cd3.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$4788051062ac665b7cd3.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$4788051062ac665b7cd3$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$4788051062ac665b7cd3$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$f36754d83aa346eb0347$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$f36754d83aa346eb0347$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/config-classes/$7c964770e40781306a81$.class" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7c964770e40781306a81$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$095916a31afa07dfcaa7.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$095916a31afa07dfcaa7.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$1b9d2a6508c1ba546c2b$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$1b9d2a6508c1ba546c2b$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$9ff76d630aa7113a3b57$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$9ff76d630aa7113a3b57$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$1b9d2a6508c1ba546c2b$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$1b9d2a6508c1ba546c2b$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$f36754d83aa346eb0347$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$f36754d83aa346eb0347$$anonfun$$sbtdef$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$4788051062ac665b7cd3$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$4788051062ac665b7cd3$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Saul_ClassProjects.iml" afterPath="$PROJECT_DIR$/.idea/modules/Saul_ClassProjects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$63cdd5b23dba30131e45.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$63cdd5b23dba30131e45.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+    </list>
     <ignored path="useSaul.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +77,37 @@
     <favorites_list name="useSaul" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BadgeDataModel.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeDataModel.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,8 +121,18 @@
       <file leaf-file-name="README.Md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/README.Md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectSpecificatio" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/Katie/ProjectSpecificatio">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -55,31 +148,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BagesApp.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BagesApp.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BagesApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="150">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="badges.test" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/badges/badges.test">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -99,6 +182,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -117,6 +201,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/badge2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeDataModel.scala" />
         <option value="$PROJECT_DIR$/doc/README.Md" />
+        <option value="$PROJECT_DIR$/doc/Katie/ProjectSpecificatio" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
       </list>
     </option>
   </component>
@@ -129,7 +216,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1934" />
+    <option name="width" value="1942" />
     <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -141,6 +228,9 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -157,239 +247,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMPS_3240_6240Fall16" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garrett_langfeld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garrett_langfeld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garrett_langfeld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="badges" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,7 +272,7 @@
     <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4402299" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -410,17 +280,16 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\glang\OneDrive\Documents\Tulane\Senior Year First Semester\Capstone\Saul_Class_Projects\data\garrett_langfeld" />
-      <recent name="$PROJECT_DIR$/data/badges" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/badges" />
     </key>
   </component>
   <component name="RunManager" selected="Application.BadgesApp">
@@ -675,6 +544,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -769,12 +639,45 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -840,6 +743,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -849,10 +758,38 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <list size="1">
@@ -865,52 +802,19 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="useSaul" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="usesaul" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="usesaul-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/../../../../Github_Projects/Saul" value="4330924980000" />
-        <entry key="$PROJECT_DIR$/../../../../Github_Projects2/saul" value="4331152617000" />
-        <entry key="$PROJECT_DIR$/../../../../Github_temp/saul" value="5813668892000" />
-        <entry key="$PROJECT_DIR$/../../../../Github_temp1/myMasterSaul/saul" value="5815046792000" />
-        <entry key="$PROJECT_DIR$/../../../../Github_temp1/upStreamMasterSaul/saul" value="5816380548000" />
-        <entry key="$PROJECT_DIR$/../../../DanielVersion/saul" value="5807865272000" />
-        <entry key="$PROJECT_DIR$/../../../JoeyVersion/saul" value="5811272140000" />
-        <entry key="$PROJECT_DIR$/../../../SameerVersion/saul" value="4333549959000" />
-        <entry key="$PROJECT_DIR$/../saul" value="5866767204000" />
-        <entry key="$PROJECT_DIR$/../../saul" value="4333554195000" />
-        <entry key="$PROJECT_DIR$/../../../saul" value="4332741123000" />
-        <entry key="$PROJECT_DIR$/../../../../saul" value="1430328645000" />
-        <entry key="$USER_HOME$/saul" value="1430248458000" />
-      </map>
-    </option>
-  </component>
-  <component name="ScalaProjectSettings">
-    <option name="intInjectionMapping">
-      <map>
-        <entry key="xml" value="XML" />
+        <entry key="/../Github_Projects/Saul" value="4330924980000" />
+        <entry key="/../Github_Projects2/saul" value="4331152617000" />
+        <entry key="/../Github_temp/saul" value="5813668892000" />
+        <entry key="/../Github_temp1/myMasterSaul/saul" value="5815046792000" />
+        <entry key="/../Github_temp1/upStreamMasterSaul/saul" value="5816380548000" />
+        <entry key="/../saul" value="1430328645000" />
+        <entry key="/DanielVersion/saul" value="5807865272000" />
+        <entry key="/JoeyVersion/saul" value="5811272140000" />
+        <entry key="/SameerVersion/saul" value="4333549959000" />
+        <entry key="/saul" value="4332741123000" />
+        <entry key="$USER_HOME$/saul" value="4333554195000" />
       </map>
     </option>
   </component>
@@ -927,32 +831,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473743318542</updated>
-      <workItem from="1474599424445" duration="2255000" />
+      <workItem from="1474501448834" duration="82000" />
+      <workItem from="1474501532947" duration="101000" />
+      <workItem from="1474582175390" duration="50000" />
+      <workItem from="1474600619309" duration="247000" />
+      <workItem from="1474600892948" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2255000" />
+    <option name="totallyTimeSpent" value="522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1934" height="1042" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287827" sideWeight="0.49960846" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.50679916" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.235782" sideWeight="0.51405406" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6759941" sideWeight="0.49960846" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.49320084" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.235782" sideWeight="0.48594594" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26882845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1772973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.49960846" order="3" side_tool="false" content_ui="tabs" />
@@ -964,6 +871,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49960846" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -999,15 +907,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doc/README.Md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1015,17 +915,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BadgeReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeDataModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/README.Md" />
+    <entry file="file://$PROJECT_DIR$/doc/Katie/ProjectSpecificatio">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BagesApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
@@ -1033,7 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="90">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
@@ -1041,9 +958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/badges/badges.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
+        <state relative-caret-position="1275">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,13 +973,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeDataModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="180">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/README.Md">
+    <entry file="file://$PROJECT_DIR$/doc/README.Md" />
+    <entry file="file://$PROJECT_DIR$/doc/Katie/ProjectSpecificatio">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1073,23 +990,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="135">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BadgeReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BagesApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
@@ -1097,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="90">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
@@ -1105,9 +1014,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/badges/badges.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
+        <state relative-caret-position="1275">
           <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,70 +1027,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeDataModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/README.Md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BadgeReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BagesApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/badges/badges.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/badges/badges.train">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/edu.illinois.cs.cogcomp/LBJava/srcs/LBJava-1.2.20-sources.jar!/edu/illinois/cs/cogcomp/lbjava/learn/SparseNetworkLearner.java" />
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1227,26 +1072,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BadgeReader.java">
+    <entry file="file://$PROJECT_DIR$/data/badges/badges.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="2125">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/badges/badges.train">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/README.Md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BadgeReader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BagesApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1267,7 +1112,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/badges/badges.train">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/README.Md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1275,18 +1127,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/badges/badges.test">
+    <entry file="file://$PROJECT_DIR$/doc/Katie/ProjectSpecificatio">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BagesApp.scala">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1344,11 +1220,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Saul_ClassProjects</last-edited>
+          <last-edited>usesaul</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4402299" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

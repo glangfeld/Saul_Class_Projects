@@ -705,6 +705,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 <<<<<<< HEAD
+<<<<<<< HEAD
 [debug] :: resolution report :: resolve 1118ms :: artifacts dl 35ms
 [debug] 	report for usesaul#usesaul$sbt_2.11;1.0 default produced in /Users/LiangTan/Documents/Machine Learning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sbt_2.11-default.xml
 [debug] 	resolve done (1118ms resolve - 35ms download)
@@ -713,6 +714,11 @@
 [debug] 	report for default#usesaul$sbt_2.11;1.0 default produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul$sbt_2.11-default.xml
 [debug] 	resolve done (613ms resolve - 25ms download)
 >>>>>>> 6520e02cdd1190574752421658de3489594be4ae
+=======
+[debug] :: resolution report :: resolve 1994ms :: artifacts dl 103ms
+[debug] 	report for usesaul#usesaul$sbt_2.11;1.0 default produced in C:\Users\Myranda\Desktop\Saul_Class_Projects\target\resolution-cache\reports\usesaul-usesaul$sbt_2.11-default.xml
+[debug] 	resolve done (1994ms resolve - 103ms download)
+>>>>>>> 013136d1adc427b2bad88e38d31a9578caf7c8ea
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: usesaul#usesaul$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1077,6 +1083,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
 <<<<<<< HEAD
+<<<<<<< HEAD
 [debug] :: resolution report :: resolve 227ms :: artifacts dl 40ms
 [debug] 	report for usesaul#usesaul$sources_2.11;1.0 default produced in /Users/LiangTan/Documents/Machine Learning/Saul_Class_Projects/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-default.xml
 [debug] 	resolve done (227ms resolve - 40ms download)
@@ -1085,3 +1092,8 @@
 [debug] 	report for default#usesaul$sources_2.11;1.0 default produced in /Users/Parisa/iSoftware/Github_forked/ParisaVersion/ParisaPublicVersion/useSaul/target/resolution-cache/reports/default-usesaul$sources_2.11-default.xml
 [debug] 	resolve done (81ms resolve - 15ms download)
 >>>>>>> 6520e02cdd1190574752421658de3489594be4ae
+=======
+[debug] :: resolution report :: resolve 454ms :: artifacts dl 76ms
+[debug] 	report for usesaul#usesaul$sources_2.11;1.0 default produced in C:\Users\Myranda\Desktop\Saul_Class_Projects\target\resolution-cache\reports\usesaul-usesaul$sources_2.11-default.xml
+[debug] 	resolve done (454ms resolve - 76ms download)
+>>>>>>> 013136d1adc427b2bad88e38d31a9578caf7c8ea

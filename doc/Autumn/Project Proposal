@@ -1,0 +1,14 @@
+Character Recognition in Handwriting
+by Autumn Summers
+
+The goal of the problem is to teach a computer how to identify specific letters, numbers, and symbols in a scanned image of handwritten letters, numbers, and/or symbols. This problem is important because having a reliable program that translates handwritten documents into word/text files would improve documentation of handwritten and old documents.
+
+
+My input space is an image with words on it.
+My output space is a text document with those words in it.
+
+
+There are whole databases for this problem. One such database is here:
+ http://www.fki.inf.unibe.ch/databases/iam-handwriting-database
+
+Because this problem deals with classifying images as various characters, I will use supervised learning.
