@@ -4,7 +4,7 @@
 		module="usesaul$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160915222159"
+		publication="20160926191013"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -45,9 +45,6 @@
 		<dependency org="org.ojalgo" name="ojalgo" rev="37.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="ojalgo" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.apache.commons" name="commons-math3" rev="3.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
 		<dependency org="edu.illinois.cs.cogcomp" name="illinois-core-utilities" rev="3.0.64" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="illinois-core-utilities" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -83,6 +80,9 @@
 		</dependency>
 		<dependency org="com.h2database" name="h2" rev="1.4.191" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="h2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-math3" rev="3.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-math3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="scalatest_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
