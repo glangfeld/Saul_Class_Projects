@@ -1,8 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/workspace.xml
-.idea/misc.xml
 .DS_Store
-.idea
 /RUNNING_PID
 */logs/
 /project/*-shim.sbt
@@ -18,3 +15,4 @@ annotation-cache/
 *~
 */*.swp
 *.swp
+/.idea/
