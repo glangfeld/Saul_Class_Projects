@@ -16,3 +16,4 @@ annotation-cache/
 */*.swp
 *.swp
 /.idea/
+/project/target/
