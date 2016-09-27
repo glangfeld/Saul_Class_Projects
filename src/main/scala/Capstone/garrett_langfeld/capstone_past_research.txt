@@ -1,0 +1,8 @@
+Evaluation of Credit Risk
+Marland Sitt, Tony Wu
+http://cs229.stanford.edu/proj2012/SittWu-EvaluationOfCreditRisk.pdf
+In this paper, the authors describe their construction of a SVM-based credit rating classifier.  Such a classifier could be used for new companies that have not been previously rated, get new credit ratings for companies that have recently undergone a large change, or discover misrated companies.  The authors had to turn discrete categorical data into input that a standard machine learning algorithm could use.  For credit ratings, they divided the ratings into sixteen different classes, with the top two and bottom two ratings in one class.  The authors used a SVM-Rank method with a Cutting-Plane algorithm and round-robin learning.  The SVM-Rank had a 48.5% accuracy while Round Robin learning had a 69.8% accuracy.  Based on these results, I would probably try Round Robin learning first to see if I get satisfactory results.
+
+Predicting Corporate Credit Ratings using Neural Network Models
+Simon James Frank
+The author attempts to use a backpropagation neural network to predict credit ratings and ratings changes for companies in a specific industry or country.  In particular, this project focused on manufacturing companies in the USA.  The author used variables related to profitability, cash flow adequacy, capital structure, and liquidity.  The author created three different models to determine the optimal model structure, evaluate the effect that using correlated inputs has on a model’s classification accuracy, and see how latent projection techniques can improve a model’s generalization ability.  75% of the data was for training purposes and 25% for validation.  The author achieved a classification rating accuracy of 75%.
