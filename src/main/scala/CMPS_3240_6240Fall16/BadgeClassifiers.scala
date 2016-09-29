@@ -11,6 +11,7 @@ object BadgeClassifiers {
   object BadgeClassifier extends Learnable[String](badge) {
     def label = BadgeLabel
     override lazy val classifier = new SparseNetworkLearner()
+    //override lazy val classifier = new SupportVectorMachine()
     override def feature = using(BadgeFeature1)
   }
 }

@@ -1,4 +1,4 @@
-INFO  [2016-09-16 10:30:57,023] C.BadgeClassifiers$BadgeClassifier$: Learnable: Learn with data of size 200
-INFO  [2016-09-16 10:30:57,032] C.BadgeClassifiers$BadgeClassifier$: Training: 5 iterations remain.
-INFO  [2016-09-16 11:12:07,284] C.BadgeClassifiers$BadgeClassifier$: Learnable: Learn with data of size 200
-INFO  [2016-09-16 11:12:07,287] C.BadgeClassifiers$BadgeClassifier$: Training: 5 iterations remain.
+INFO  [2016-09-28 22:13:56,185] C.BadgeClassifiers$BadgeClassifier$: Learnable: Learn with data of size 200
+INFO  [2016-09-28 22:13:56,199] C.BadgeClassifiers$BadgeClassifier$: Training: 5 iterations remain.
+INFO  [2016-09-28 22:16:54,026] C.BadgeClassifiers$BadgeClassifier$: Learnable: Learn with data of size 200
+INFO  [2016-09-28 22:16:54,036] C.BadgeClassifiers$BadgeClassifier$: Training: 5 iterations remain.
