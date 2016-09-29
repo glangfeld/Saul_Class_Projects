@@ -2,16 +2,335 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8ba0a4-f19e-46cd-ab3f-b7c70677788a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2012-master/Scripts/SpRLEval.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/SpRL.final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/SpRL.final_lib/log4j-1.2.15.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Chloe/StartofProject_chloechen.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Nathan_Nguyen/NathanProjectResearch.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Data/NVCA-Voting-Agt-with-Bad-Actor-Provisions-Feb-2014.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Data/SPA-with-Bad-Actor-Provisions-Feb-2014.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Data/series-seed---certificate-of-incorporation-v-3-2.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Data/series-seed---stock-investment-agreement-v-3-2.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Research/Machine Learning Classification Algorithms to Analyze Charts in PDFs.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Research/Machine Learning in Automated Text Categorization.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/PriserAndWjeter/Machine Learning PRoject Proposal.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/PriserAndWjeter/Machine Learning Research.odt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/TaylorHuntington/MLData.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/TaylorHuntington/MLResearch.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Winona/paper_summary.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2012-master/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2012-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2012-master/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2012-master/Scripts/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2012-master/SpRL-2012-Data/SpRL-2012-Gold.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2012-master/SpRL-2012-Data/SpRL-2012-Train.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/45 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/45 N 23 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 21 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 23 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 24 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 25 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 26 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 27 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/46 N 28 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/47 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/47 N 23 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/47 N 24 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/47 N 25 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/47 N 26 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/47 N 27 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/47 N 28 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/48 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/48 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/48 N 12 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/48 N 27 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/gold/48 N 8 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/45 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/45 N 23 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 21 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 23 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 24 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 25 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 26 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 27 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/46 N 28 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/47 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/47 N 23 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/47 N 24 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/47 N 25 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/47 N 26 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/47 N 27 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/47 N 28 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/48 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/48 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/48 N 12 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/48 N 27 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/48 N 8 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/48 N 9 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/49 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/49 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/49 N 12 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/49 N 13 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/49 N 9 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/50 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/50 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/50 N 7 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/50 N 8 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/test/50 N 9 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/31 N 86 W.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/37N 112W.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/44 N 23 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/44 N 24 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/44 N 25 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/44 N 26 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/44 N 28 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/44 N 44 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/45 N 24 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/45 N 25 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/45 N 26 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/45 N 27 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/45 N 28 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/45 N 29 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/46 N 18 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/46 N 19 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 14 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 15 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 16 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 17 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 18 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 19 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 20 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/47 N 21 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 13 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 14 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 15 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 16 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 17 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 18 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 19 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 20 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 21 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/48 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/49 N 15 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/49 N 18 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/49 N 19 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/49 N 20 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/49 N 21 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/49 N 22 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/50 N 5 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/51 N 3 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/51 N 4 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/52 N 3 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/52 N 4 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/52 N 5 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/52 N 6 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/52N 5E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/53 N 4 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/53 N 5 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/53 N 6 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/53 N 7 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/55 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/55 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/55 N 12 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/55 N 13 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/55 N 15 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/55 N 16 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/56 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/56 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/56 N 12 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/56 N 8 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/56 N 9 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/57 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/57 N 11 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/57 N 8 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/57 N 9 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/57N 41E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/58 N 10 E.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Angola.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Antigua &amp; Barbuda.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Australia.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Australia2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Austria.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Bahamas.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Belgium.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Belize.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Benin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Bolivia.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Botswana.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Brazil.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Canada.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Cape Verde.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Chad.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Chile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Costa Rica.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Cuba.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Denmark.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/El Salvador.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/France.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Greece.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/Guniea Bissau.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/ConfluenceProject/train/New Caledonia.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/IAPR TC-12/gold/SpRL_SemEval2013_gold.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/IAPR TC-12/test/SpRL_SemEval2013_test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/IAPR TC-12/train/SpRL_SemEval2013_train.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/corpus/AnnToSpRL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/corpus/CorpusAnalysis.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/corpus/SpRLReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/CP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/DIRECTION.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/DISTANCE.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/LANDMARK.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/MOTIONINDICATOR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/ObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/PATH.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/RELATION.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/SPATIALINDICATOR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/SPEX.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/SpRL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/TAGS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/TEXT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/TRAJECTOR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/URL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/util/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/util/JAXBUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/jaxb/util/StringUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/model/Containable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/model/Markable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/model/WithContent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL/model/WithIdentifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/corpus/SpRL2012Reader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/CONTENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/DOC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/LANDMARK.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/ObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/RELATION.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/SENTENCE.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/SPATIALINDICATOR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/SpRL2012/jaxb/TRAJECTOR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/eval/Evaluate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/chloedata/sprl2013-master/Scripts/src/be/liir/eval/Outcome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nicholasTeal/research.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/peterriser/negativewords.trainer.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/peterriser/positivewords.trainer.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Research/Kira" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Neil Barot/Research/Step 2 Assignment" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/garrett_langfeld/project_references.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_gurobi_gurobi_6_0_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/usesaul-build.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.2016-09-15.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/BadgeClassifiers.BadgeClassifier$.lc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/BadgeClassifiers.BadgeClassifier$.lex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/CMPS_3240_6240Fall16.BadgeClassifiers.BadgeClassifier$.lc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/CMPS_3240_6240Fall16.BadgeClassifiers.BadgeClassifier$.lex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyObject.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul$sbt_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul$sbt_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul$sources_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul$sources_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul$sources_javadoc_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul$sources_javadoc_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/usesaul_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sbt_2.11-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_2.11-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul$sources_javadoc_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-usesaul_2.11-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sbt_2.11-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul$sbt_2.11/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul$sbt_2.11/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeDataModel$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeDataModel$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeDataModel$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeDataModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgesApp$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgesApp$delayedInit$body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgesApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Readers/BadgeReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/stm_and_noload.ods" afterPath="$PROJECT_DIR$/data/nicholasTeal/stm_and_noload.ods" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/doc/projectSpecifications.txt" afterPath="$PROJECT_DIR$/doc/nicholasTeal/projectSpecifications.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeClassifiers$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeClassifiers$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeClassifiers$BadgeClassifier$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeClassifiers$BadgeClassifier$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeClassifiers.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/CMPS_3240_6240Fall16/BadgeClassifiers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_7_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_7_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Saul_ClassProjects.iml" afterPath="$PROJECT_DIR$/.idea/modules/Saul_ClassProjects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/saul_class_projects-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/saul_class_projects-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" afterPath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/CourseProjectData/TrainData_part.csv" afterPath="$PROJECT_DIR$/data/CourseProjectData/TrainData_part.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Neil Barot/ProjectSpecification" afterPath="$PROJECT_DIR$/doc/Neil Barot/ProjectSpecification" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" afterPath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/saul_class_projects-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/saul_class_projects-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/saul_class_projects-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/saul_class_projects-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-saul_class_projects-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Readers/BadgeReader.java" afterPath="$PROJECT_DIR$/src/main/java/Readers/BadgeReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala" afterPath="$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/.idea/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/.idea/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/DataReader.java" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/DataReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/company.scala" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/company.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" />
@@ -25,9 +344,33 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul_2.11-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul$sources_2.11/1.0/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul$sources_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul_2.11/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/usesaul/usesaul_2.11/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="useSaul.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,29 +433,29 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Readers/BadgeReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="575">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BadgeClassifiers.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BadgeClassifiers.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="325">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
-                <element signature="e#165#188#0" expanded="true" />
+                <marker date="1475119132172" expanded="true" signature="96:101" ph="/**...*/" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="50">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -191,11 +534,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Readers/BadgeReader.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/past_research.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/capstone_past_research.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/data/garrett_langfeld/Initial_Data.csv" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/DataReader.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/company.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -244,130 +587,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="useSaul" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CMPS_3240_6240Fall16" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="garrett_langfeld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -989,12 +1208,12 @@
       <workItem from="1474934873653" duration="1417000" />
       <workItem from="1474936339176" duration="5352000" />
       <workItem from="1475008237448" duration="1985000" />
-      <workItem from="1475118523787" duration="565000" />
+      <workItem from="1475118523787" duration="621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10138000" />
+    <option name="totallyTimeSpent" value="10194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1934" height="1030" extended-state="0" />
@@ -1089,7 +1308,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
-            <element signature="e#165#188#0" expanded="true" />
+            <marker date="1475119132172" expanded="true" signature="96:101" ph="/**...*/" />
           </folding>
         </state>
       </provider>
@@ -1244,14 +1463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/garrett_langfeld/Initial_Data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1273,7 +1484,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Readers/BadgeReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1316,11 +1527,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CMPS_3240_6240Fall16/BadgeClassifiers.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="325">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
-            <element signature="e#165#188#0" expanded="true" />
+            <marker date="1475119132172" expanded="true" signature="96:101" ph="/**...*/" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

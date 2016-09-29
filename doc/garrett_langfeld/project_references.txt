@@ -1,0 +1,13 @@
+Credit rating changes and the effect on stock prices 
+M.A.J. Timmermans 
+December 20, 2012
+
+This paper discusses changes in stock prices for European corporations receiving credit ratings changes in the period 1997 - 2002.  The author used a multivariate regression to analyze the results.  Also noteworthy is the fact that the author included dummy variables for corporations in the finance industry, as financial firms are more highly-regulated and must disclose more information than non-financial firms, and downgrades from investment grade to speculative ratings.  The author also added a dummy variable for the year of the downgrade, as many downgrades occurring during the credit crisis were later considered inaccurate.  The author found that ratings upgrades did not have any significant effect on stock prices, but downgrades did.  The author also found that the stock prices of small firms were affected more by downgrades than large firms, and that financial firms were also more affected by downgrades than non-financial firms.
+
+This paper did not use machine learning.  However, I believe this project is a good candidate for machine learning if we extend it to develop a program to predict the exact change in stock price based on a rating change and our input variables, and not just generalizations about the relationship between ratings changes and stock prices.  My project will also include more input variables than this paper, and thus machine learning may be needed.
+
+
+Machine Learning in Stock Price Trend Forecasting
+Yuqing Dai, Yuning Zhang
+
+This paper attempts to use machine learning to predict stock price trends.  The authors used the following variables to predict trends in 3M Co’s stock from 2008 - 2013: PE ratio, PX volume, PX ebitda, current enterprise value, 2-day net price change, 10-day volatility, 50-day moving average, 10-day moving average, quick ratio, alpha overridable, alpha for beta pm, beta raw overridable, risk premium, IS EPS, and corresponding S&P 500 index.  The authors used supervised learning theories including logistic regression, Gaussian discriminant analysis, quadratic discriminant analysis, and SVM.  The highest accuracy occurred using SVM and predicting the stock price for 44 days out.  My project is similar in that I am attempting to predict a stock price change, but different in the variables that I am using.  My main input variable is a change in bond rating, but I will have other input variables as well such as market capitalization.  Based on the results of this paper, I will probably try SVM first to see if it is the most accurate predictor of changes in stock prices.

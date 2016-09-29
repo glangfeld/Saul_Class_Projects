@@ -1,21 +1,24 @@
 Neil Barot
 Machine Learning Project Plan
+
+
 1) Give it a title
-Poker Advisor
+Venture Capital Contract Classifier
 
 2) Describe the problem for the audience who is not familiar with your field and terminology and (3) Why this problem is important or interesting?
-Approximately 40 million people playing poker around the world! Of these, a majority of poker games happen online. The science and decision making behind poker hands has been studied. 
-As a result of all this studying, people have calculated the probability of each hand based on the situation. However, with a game like poker, there is a human component where people bluff or are not cognizant of these probabilities and thus they play “imperfectly” or not according to correct probability. 
-Using machine learning, we can try inputting a large amount of history from online poker game databases to build a program that recommends how to play a hand depending on the situation and the forum (e.g. Pokerstar users, a particular friend, etc.).
+When venture capital firms decide to fund a project or company, they often have one of two relationships with the group they are funding. These are thought to be either an "arms-length" relationship or a "collaborative" relationship. However, often times, when groups negotiate with venture capital firms,
+they are inundated by booklets of legal language that do not make clear exactly what the relationship will be like. In partnership with Dr. Kuan from the Freeman Business School, I want to build a PDF contract analyzer that can analyze the text and language in a contract and try and recognize how much of
+a contract seems "collaborative" vs how much seems "arms-length." This will be important in helping firms understand and recognize what type of deals they are getting into with venture capital firms, as venture capital backed firms are strongly on the rise.
 
 4) What is your input space?
-In one example, my input space would be a set of conditions on a table. For example, it would show the current cards showing, the number of players, their chip stacks, the blinds, the pot size, and my current hand.
+Of the two types of contracts, there are various subsections within them. My inputs would be contracts which it would then split into paragraphs/subsections and analyze which type of contract it is.
 
 5) What is your output space?
-The output space would include all possible decisions I could make (check, call, raise by X, and fold). 
+The output space would show each paragraph split up with ranking of how "collaborative" it is vs how "arms-length" it is. It would then show the totals for the entire document.
 
 6) Do you know any data available for your learning task?
-As mentioned earlier, there are websites that have a large number of poker games stored in databases. Pokerstars has a history of played tournaments. You can also collect data from online games with friends, etc. to add to user-specific data sets. 
+Dr. Kuan has provided me two full contracts of each type. My data will then be all the paragraphs in the two contracts.
 
 7) What learning paradigm you think you will use (supervised, unsupervised, ..)?
-Since I would be providing large amounts of data sets and giving and input while looking for a desired output, I would be using supervised learning.
+Since I would be the data sets with answers and giving it as input while looking for a desired output, I would be using supervised learning.
+

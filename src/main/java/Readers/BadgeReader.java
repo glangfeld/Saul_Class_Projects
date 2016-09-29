@@ -24,4 +24,8 @@ public class BadgeReader {
 			br.close();
 		}catch (Exception e) {}
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cc9af9c675bd48a47152551af9acfb949c9b6ba7

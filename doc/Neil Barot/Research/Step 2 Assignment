@@ -1,0 +1,13 @@
+Give a summary about the machine learning techniques that were applied, challenges, etc. How are the results and describe what you think can be done.
+
+Based on the reading, I would start this project by first converting the PDF into machine-readable form. For this I may either write a PDF/Word reader in Java, or use an existing library
+
+From there, I would do word counts with a repository of associations/connotations from my input data. I would see what words are more frequent in a collaborative contract and what words are more
+frequent in an arms-length contract. I would separate these by paragraph and then do a ranking of the two documents to show the balance between collaborative and arms-length in the per paragraph,
+and for the entire document.
+
+One challenge I foresee is the algorithm recognizing filler/fluff words and associating that with a certain type of document (e.g. prepositions, articles, etc.). I believe I may be able to fix this
+with a blacklist of those words. Furthermore, with a relatively small data set, I am concerned if I will have enough input to be able to get a correct output.
+
+For the results, I hope that when I input another document (one that isn't in the learning data), it will be able to give me those rankings and also make a determination on whether it is an "arms-length"
+or a "collaborative" document.
