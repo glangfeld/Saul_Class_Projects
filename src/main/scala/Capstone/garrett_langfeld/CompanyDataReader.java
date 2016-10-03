@@ -6,14 +6,14 @@ import java.util.StringTokenizer;
 
 public class CompanyDataReader
 {
-    public static void main(String[] args) throws IOException
-    {
-        /*
-        BufferedReader br = new BufferedReader(new FileReader("data/garrett_langfeld_Initial_Data.csv"));
+
+    //constructor
+    public CompanyDataReader() throws IOException{
+        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data.csv"));
         String line="";
         while ((line = br.readLine()) != null) {
 
-             String cvsSplitBy = ",";
+            String cvsSplitBy = ",";
             // use comma as separator
             String[] cols = line.split(cvsSplitBy);
             System.out.println("Coulmn 4= " + cols[4] + " , Column 5=" + cols[5]);
@@ -22,7 +22,13 @@ public class CompanyDataReader
                 String f = cols[i];
             }
         }
-        */
+    }
+
+    public static void main(String[] args) throws IOException
+    {
+
+        CompanyDataReader c = new CompanyDataReader();
+
 
         /*
         //Get scanner instance
