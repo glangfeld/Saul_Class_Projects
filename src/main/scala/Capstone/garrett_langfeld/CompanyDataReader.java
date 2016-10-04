@@ -11,12 +11,14 @@ public class CompanyDataReader
     //public String[] allCompanies;
     public ArrayList allCompanies;
     public ArrayList<ArrayList<ArrayList>> allData;
+    public ArrayList<Company> compData;
 
     //constructor
     public CompanyDataReader() throws IOException{
         //initializing allCompanies arrayList
         allCompanies = new ArrayList();
         allData = new ArrayList<ArrayList<ArrayList>>();
+        compData = new ArrayList<Company>();
 
         BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data.csv"));
         String line="";
@@ -68,26 +70,21 @@ public class CompanyDataReader
             }
         }
 
+        //filling compData arraylist
+        /*
+        for (int j = 0; j < allData.size(); j++){
+            String name = allCompanies.get(j).toString();
+            System.out.println(name);
+            ArrayList<ArrayList> data = allData.get(j);
+            //System.out.println(data);
+            Company comp = new Company(name, data);
+            compData.add(comp);
+        }
+        */
+
         System.out.println(allCompanies);
         System.out.println(allData);
-
-        /*
-        //Get scanner instance
-        Scanner scanner = new Scanner(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data.csv"));
-
-        //Set the delimiter used in file
-        scanner.useDelimiter(",");
-
-        //Get all tokens and store them in some data structure
-        //I am just printing them
-        while (scanner.hasNext())
-        {
-            System.out.print(scanner.next() + "|");
-        }
-
-        //Do not forget to close the scanner
-        scanner.close();
-        */
+        //System.out.println(compData);
 
     }
 
