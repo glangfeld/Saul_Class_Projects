@@ -29,7 +29,7 @@ public class companyData {
     //constructor
     public companyData(ArrayList A){
         if (A.size() > 0) {
-            System.out.println("Input array for companyData : " + A.get(0));
+            //System.out.println("Input array for companyData : " + A);
             quarter = A.get(0);
             rating = A.get(1);
             endDate = A.get(2);

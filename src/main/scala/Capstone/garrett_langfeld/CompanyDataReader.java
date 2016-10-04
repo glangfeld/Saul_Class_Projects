@@ -20,13 +20,13 @@ public class CompanyDataReader
         allData = new ArrayList<ArrayList<ArrayList>>();
         compData = new ArrayList<Company>();
 
-        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data3.csv"));
         String line="";
         //used to keep track of place in outer allData arraylist
         int comp_index = -1;
         while ((line = br.readLine()) != null) {
             //skipping first row with headings
-            if (line.substring(0,7).equals("Company")){
+            if (line.substring(0,7).equals("Company") || line.substring(0,7).equals(",,,,,,,")){
                 //skip this line
             }
             else {
@@ -71,7 +71,7 @@ public class CompanyDataReader
         }
 
         //filling compData arraylist
-        /*
+
         for (int j = 0; j < allData.size(); j++){
             String name = allCompanies.get(j).toString();
             System.out.println(name);
@@ -80,11 +80,11 @@ public class CompanyDataReader
             Company comp = new Company(name, data);
             compData.add(comp);
         }
-        */
+
 
         System.out.println(allCompanies);
         System.out.println(allData);
-        //System.out.println(compData);
+        //System.out.println(compData.get(0));
 
     }
 
