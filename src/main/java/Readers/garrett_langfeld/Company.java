@@ -1,4 +1,4 @@
-package Capstone.garrett_langfeld;
+package Readers.garrett_langfeld;
 
 import java.util.*;
 
@@ -8,11 +8,11 @@ import java.util.*;
 public class Company {
 
     public String name;
-    public ArrayList<companyData> data;
+    public ArrayList<Readers.garrett_langfeld.companyData> data;
 
     public Company(String S, ArrayList<ArrayList> A){
         name = S;
-        ArrayList<companyData> data = new ArrayList<companyData>();
+        ArrayList<Readers.garrett_langfeld.companyData> data = new ArrayList<Readers.garrett_langfeld.companyData>();
         //iterating through A
         for (int i = 0; i < A.size(); i++){
             companyData comp = new companyData(A.get(i));

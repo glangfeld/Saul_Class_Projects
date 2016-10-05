@@ -1,4 +1,4 @@
-package Capstone.garrett_langfeld;
+package Readers.garrett_langfeld;
 
 import java.io.*;
 import java.util.*;
@@ -11,7 +11,7 @@ public class CompanyDataReader
     //public String[] allCompanies;
     public ArrayList allCompanies;
     public ArrayList<ArrayList<ArrayList>> allData;
-    public ArrayList<Company> compData;
+    public ArrayList<Readers.garrett_langfeld.Company> compData;
 
     //constructor
     public CompanyDataReader() throws IOException{
@@ -84,7 +84,7 @@ public class CompanyDataReader
 
         System.out.println(allCompanies);
         System.out.println(allData);
-        //System.out.println(compData.get(0));
+        System.out.println((compData.get(0)).name);
 
     }
 
