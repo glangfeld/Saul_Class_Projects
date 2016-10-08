@@ -15,8 +15,8 @@ public class Company {
         ArrayList<Readers.garrett_langfeld.companyData> data = new ArrayList<Readers.garrett_langfeld.companyData>();
         //iterating through A
         for (int i = 0; i < A.size(); i++){
-            companyData comp = new companyData(A.get(i));
-            data.add(comp);
+            //companyData comp = new companyData(A.get(i));
+            //data.add(comp);
         }
     }
 

@@ -7,47 +7,47 @@ import java.util.ArrayList;
  */
 public class companyData {
 
-    public Object quarter;
-    public Object rating;
-    public Object endDate;
-    public Object ND_EBITDA;
-    public Object TD_EBIT;
-    public Object ND_EBIT;
-    public Object EBITDA_Interest;
-    public Object EBITDA_Cap_Int;
-    public Object EBITDA_Int;
-    public Object int_exp;
-    public Object CE_TA;
-    public Object LT_DE;
-    public Object LT_DC;
-    public Object LT_DTA;
-    public Object TDE;
-    public Object TDC;
-    public Object TDA;
+    public String name;
+    public String quarter;
+    public String rating;
+    public String endDate;
+    public float ND_EBITDA;
+    public float TD_EBIT;
+    public float ND_EBIT;
+    public float EBITDA_Interest;
+    public float EBITDA_Cap_Int;
+    public float EBIT_Int;
+    public float int_exp;
+    public float CE_TA;
+    public float LT_DE;
+    public float LT_DC;
+    public float LT_DTA;
+    public float TDE;
+    public float TDC;
+    public float TDA;
 
 
     //constructor
-    public companyData(ArrayList A){
-        if (A.size() > 0) {
+    public companyData(String name, String quarter, String rating, String endDate, float ND_EBITDA, float TD_EBIT, float ND_EBIT, float EBITDA_Interest, float EBITDA_Cap_Int, float EBIT_Int, float int_exp, float CE_TA, float LT_DE, float LT_DC, float LT_DTA, float TDE, float TDC, float TDA){
             //System.out.println("Input array for companyData : " + A);
-            quarter = A.get(0);
-            rating = A.get(1);
-            endDate = A.get(2);
-            ND_EBITDA = A.get(3);
-            TD_EBIT = A.get(4);
-            ND_EBIT = A.get(5);
-            EBITDA_Interest = A.get(6);
-            EBITDA_Cap_Int = A.get(7);
-            EBITDA_Int = A.get(8);
-            int_exp = A.get(9);
-            CE_TA = A.get(10);
-            LT_DE = A.get(11);
-            LT_DC = A.get(12);
-            LT_DTA = A.get(13);
-            TDE = A.get(14);
-            TDC = A.get(15);
-            TDA = A.get(16);
-        }
+        name = name;
+        quarter = quarter;
+        rating = rating;
+        endDate = endDate;
+        ND_EBITDA = ND_EBITDA;
+        TD_EBIT = TD_EBIT;
+        ND_EBIT = ND_EBIT;
+        EBITDA_Interest = EBITDA_Interest;
+        EBITDA_Cap_Int = EBITDA_Cap_Int;
+        EBIT_Int = EBIT_Int;
+        int_exp = int_exp;
+        CE_TA = CE_TA;
+        LT_DE = LT_DE;
+        LT_DC = LT_DC;
+        LT_DTA = LT_DTA;
+        TDE = TDE;
+        TDC = TDC;
+        TDA = TDA;
 
     }
 

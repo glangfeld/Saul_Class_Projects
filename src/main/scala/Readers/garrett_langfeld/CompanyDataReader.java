@@ -10,17 +10,18 @@ public class CompanyDataReader
 
     //public String[] allCompanies;
     public ArrayList allCompanies;
-    public ArrayList<ArrayList<ArrayList>> allData;
-    public ArrayList<Readers.garrett_langfeld.Company> compData;
+    public ArrayList<ArrayList<ArrayList<String>>> allData;
+    public ArrayList<companyData> compData;
 
     //constructor
     public CompanyDataReader() throws IOException{
         //initializing allCompanies arrayList
         allCompanies = new ArrayList();
-        allData = new ArrayList<ArrayList<ArrayList>>();
-        compData = new ArrayList<Company>();
+        allData = new ArrayList<ArrayList<ArrayList<String>>>();
+        compData = new ArrayList<companyData>();
 
-        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data3.csv"));
+
+        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data6.csv"));
         String line="";
         //used to keep track of place in outer allData arraylist
         int comp_index = -1;
@@ -35,58 +36,46 @@ public class CompanyDataReader
                 //System.out.println(line.substring(0, 7));
                 // use comma as separator
                 String csvSplitBy = ",";
-                if (line.charAt(0) != ',') {
-                    //getting company name
-                    String[] companyName = line.split(csvSplitBy);
-                    //System.out.println(companyName[0]);
-                    //System.out.println(line.split(csvSplitBy)[0]);
-                    allCompanies.add(companyName[0]);
-                    //incrementing comp_index
-                    comp_index++;
-                    //creating middle arrayList, then adding to allData
-                    ArrayList<ArrayList> middle = new ArrayList<ArrayList>();
-                    allData.add(middle);
+
+                ArrayList inner = new ArrayList<companyData>();
+                String[] row = line.split(csvSplitBy);
+                if (row.length > 0){
+                    String name = row[0];
+                    String quarter = row[1];
+                    String rating = row[2];
+                    String endDate = row[3];
+                    float ND_EBITDA = Float.parseFloat(row[4]);
+                    System.out.println(Float.parseFloat(row[5]));
+                    float TD_EBIT = Float.parseFloat(row[5]);
+                    float ND_EBIT = Float.parseFloat(row[6]);
+                    float EBITDA_Interest = Float.parseFloat(row[7]);
+                    float EBITDA_Cap_Int = Float.parseFloat(row[8]);
+                    float EBIT_Int = Float.parseFloat(row[9]);
+                    float int_exp = Float.parseFloat(row[10]);
+                    float CE_TA = Float.parseFloat(row[11]);
+                    float LT_DE = Float.parseFloat(row[12]);
+                    float LT_DC = Float.parseFloat(row[13]);
+                    float LT_DTA = Float.parseFloat(row[14]);
+                    float TDE = Float.parseFloat(row[15]);
+                    float TDC = Float.parseFloat(row[16]);
+                    float TDA = Float.parseFloat(row[17]);
+                    companyData comp = new companyData(name,quarter,rating, endDate, ND_EBITDA, TD_EBIT, ND_EBIT, EBITDA_Interest, EBITDA_Cap_Int, EBIT_Int, int_exp, CE_TA, LT_DE, LT_DC, LT_DTA, TDE, TDC, TDA);
+                    compData.add(comp);
                 }
-                //adding data to allData arraylist of arraylists of arraylists
-                else{
-                    ArrayList inner = new ArrayList();
-                    String[] row = line.split(csvSplitBy);
-                    if (row.length > 0){
-                        for (int i = 0; i < row.length; i++){
-                            if(row[i].length() > 0) {
-                                inner.add(row[i]);
-                            }
-                        }
-                    }
-                    //System.out.println(inner);
-                    allData.get(comp_index).add(inner);
-                }
-                String[] cols = line.split(csvSplitBy);
-                //System.out.println("Column 0 = " + cols[0] + " , Column 4= " + cols[4] + " , Column 5=" + cols[5]);
-                for (int i = 0; i < cols.length; i++) {
-                    cols = line.split(csvSplitBy);
-                    String f = cols[i];
-                }
+
             }
         }
 
-        //filling compData arraylist
 
-        for (int j = 0; j < allData.size(); j++){
-            String name = allCompanies.get(j).toString();
-            System.out.println(name);
-            ArrayList<ArrayList> data = allData.get(j);
-            //System.out.println(data);
-            Company comp = new Company(name, data);
-            compData.add(comp);
-        }
-
-
-        System.out.println(allCompanies);
-        System.out.println(allData);
-        System.out.println((compData.get(0)).name);
 
     }
+
+
+
+
+
+
+
 
     public static void main(String[] args) throws IOException
     {
@@ -94,23 +83,6 @@ public class CompanyDataReader
         CompanyDataReader c = new CompanyDataReader();
 
 
-        /*
-        //Get scanner instance
-        Scanner scanner = new Scanner(new File("Initial_Data.csv"));
-         
-        //Set the delimiter used in file
-        scanner.useDelimiter(",");
-         
-        //Get all tokens and store them in some data structure
-        //I am just printing them
-        while (scanner.hasNext()) 
-        {
-            System.out.print(scanner.next() + "|");
-        }
-         
-        //Do not forget to close the scanner  
-        scanner.close();
-    }
-    */
+
     }
 }
