@@ -14,9 +14,9 @@ object CompanyDataModel extends DataModel{
       a
   }
 
-  val rating = property(comp){
+  val num_rating = property(comp){
     x: companyData =>
-      val b = x.rating
+      val b = x.num_rating.toDouble
       b
   }
 

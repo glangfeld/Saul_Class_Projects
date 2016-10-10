@@ -13,7 +13,7 @@ import Readers.garrett_langfeld.companyData
 object CompanyClassifier {
   import CompanyDataModel._
   object firstCompanyClassifier extends Learnable[companyData](comp) {
-    def label = rating
+    def label = num_rating
     override lazy val classifier = new SupportVectorMachine()
   }
 
