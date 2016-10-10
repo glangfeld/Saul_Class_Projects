@@ -21,7 +21,7 @@ public class CompanyDataReader
         compData = new ArrayList<companyData>();
 
 
-        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data6.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data7.csv"));
         String line="";
         //used to keep track of place in outer allData arraylist
         int comp_index = -1;
@@ -45,7 +45,6 @@ public class CompanyDataReader
                     String rating = row[2];
                     String endDate = row[3];
                     float ND_EBITDA = Float.parseFloat(row[4]);
-                    System.out.println(Float.parseFloat(row[5]));
                     float TD_EBIT = Float.parseFloat(row[5]);
                     float ND_EBIT = Float.parseFloat(row[6]);
                     float EBITDA_Interest = Float.parseFloat(row[7]);
@@ -59,7 +58,9 @@ public class CompanyDataReader
                     float TDE = Float.parseFloat(row[15]);
                     float TDC = Float.parseFloat(row[16]);
                     float TDA = Float.parseFloat(row[17]);
-                    companyData comp = new companyData(name,quarter,rating, endDate, ND_EBITDA, TD_EBIT, ND_EBIT, EBITDA_Interest, EBITDA_Cap_Int, EBIT_Int, int_exp, CE_TA, LT_DE, LT_DC, LT_DTA, TDE, TDC, TDA);
+                    float num_rating = Float.parseFloat(row[18]);
+                    float rating_change = Float.parseFloat(row[19]);
+                    companyData comp = new companyData(name,quarter,rating, endDate, ND_EBITDA, TD_EBIT, ND_EBIT, EBITDA_Interest, EBITDA_Cap_Int, EBIT_Int, int_exp, CE_TA, LT_DE, LT_DC, LT_DTA, TDE, TDC, TDA, num_rating, rating_change);
                     compData.add(comp);
                 }
 

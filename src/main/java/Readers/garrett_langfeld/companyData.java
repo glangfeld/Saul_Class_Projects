@@ -25,10 +25,12 @@ public class companyData {
     public float TDE;
     public float TDC;
     public float TDA;
+    public float num_rating;
+    public float rating_change;
 
 
     //constructor
-    public companyData(String name, String quarter, String rating, String endDate, float ND_EBITDA, float TD_EBIT, float ND_EBIT, float EBITDA_Interest, float EBITDA_Cap_Int, float EBIT_Int, float int_exp, float CE_TA, float LT_DE, float LT_DC, float LT_DTA, float TDE, float TDC, float TDA){
+    public companyData(String name, String quarter, String rating, String endDate, float ND_EBITDA, float TD_EBIT, float ND_EBIT, float EBITDA_Interest, float EBITDA_Cap_Int, float EBIT_Int, float int_exp, float CE_TA, float LT_DE, float LT_DC, float LT_DTA, float TDE, float TDC, float TDA, float num_rating, float rating_change){
             //System.out.println("Input array for companyData : " + A);
         name = name;
         quarter = quarter;
@@ -48,6 +50,8 @@ public class companyData {
         TDE = TDE;
         TDC = TDC;
         TDA = TDA;
+        num_rating = num_rating;
+        rating_change = rating_change;
 
     }
 

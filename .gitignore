@@ -18,7 +18,7 @@ annotation-cache/
 *.swp
 /.idea/
 /project/target/
-/src/main/scala/Capstone/garrett_langfeld/company.scala
+/Capstone/garrett_langfeld/CompanyDataModel.scala
 =======
 /project/project
 /target
