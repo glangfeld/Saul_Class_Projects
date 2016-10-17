@@ -14,11 +14,20 @@ object CompanyDataModel extends DataModel{
       a
   }
 
+  val rating = property(comp){
+    x: companyData =>
+      val b = x.rating
+      b
+  }
+
+
+  /*
   val num_rating = property(comp){
     x: companyData =>
       val b = x.num_rating.toDouble
       b
   }
+  */
 
   val endDate = property(comp){
     x: companyData =>
@@ -37,6 +46,8 @@ object CompanyDataModel extends DataModel{
       val e = x.TD_EBIT.toDouble
       e
   }
+//write properties of ratings as a string
+  //use svm to predict rating
 
   var net_debt_ebit = property(comp){
     x: companyData =>

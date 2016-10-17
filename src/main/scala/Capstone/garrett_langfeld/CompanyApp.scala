@@ -13,15 +13,30 @@ import edu.illinois.cs.cogcomp.saul.util.Logging
 
 object CompanyApp extends Logging {
 
-  val trainData = new CompanyDataReader
-  val testData = trainData.compData
+  val reader = new CompanyDataReader
+  val trainData = reader.compData
+  val testData = reader.compData
 
+  object CompanyExperimentType extends Enumeration {
+    val SGD = Value
+  }
 
 
   def main(args: Array[String]): Unit = {
+    /** Choose the experiment you're interested in by changing the following line */
+    val testType = CompanyExperimentType.TrainAndTest
 
-    //testData.learn(20)
+    testType match {
+      case CompanyExperimentType.SGD => SGD()
+    }
+  }
 
+  /** A standard method for testing the Spam Classification problem. Simply training and testing the resulting model.*/
+  def SGD(): Unit = {
+    /** Defining the data and specifying it's location  */
+    CompanyDataModel populate trainData
+    //SpamClassifierWeka.learn(30)
+    //SpamClassifierWeka.test(testData)
   }
 
 }
