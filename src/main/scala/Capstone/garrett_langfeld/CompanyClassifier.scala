@@ -8,6 +8,7 @@ import edu.illinois.cs.cogcomp.lbjava.learn.SupportVectorMachine
 import edu.illinois.cs.cogcomp.saul.classifier.Learnable
 import edu.illinois.cs.cogcomp.lbjava.learn.StochasticGradientDescent
 import weka.classifiers.bayes.NaiveBayes
+import edu.illinois.cs.cogcomp.saul
 import Readers.garrett_langfeld.companyData
 
 
@@ -19,5 +20,13 @@ object CompanyClassifier {
     override lazy val classifier = new StochasticGradientDescent
 
   }
+
+  /*
+  object CompanyClassifierWeka extends Learnable[companyData](comp) {
+    def label = rating
+    //override lazy val classifier = new SaulWekaWrapper(new NaiveBayes())
+    //override def feature = using(wordFeature)
+  }
+  */
 
 }

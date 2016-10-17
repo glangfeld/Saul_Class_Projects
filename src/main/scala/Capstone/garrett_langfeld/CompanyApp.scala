@@ -11,6 +11,8 @@ import Readers.garrett_langfeld.companyData
 import Readers.garrett_langfeld.CompanyDataReader
 import edu.illinois.cs.cogcomp.saul.util.Logging
 
+import scala.collection.JavaConversions._
+
 object CompanyApp extends Logging {
 
   val reader = new CompanyDataReader
@@ -24,7 +26,9 @@ object CompanyApp extends Logging {
 
   def main(args: Array[String]): Unit = {
     /** Choose the experiment you're interested in by changing the following line */
-    val testType = CompanyExperimentType.TrainAndTest
+    val testType = CompanyExperimentType.SGD
+
+    //CompanyDataModel.comp.populate()
 
     testType match {
       case CompanyExperimentType.SGD => SGD()
@@ -34,7 +38,8 @@ object CompanyApp extends Logging {
   /** A standard method for testing the Spam Classification problem. Simply training and testing the resulting model.*/
   def SGD(): Unit = {
     /** Defining the data and specifying it's location  */
-    CompanyDataModel populate trainData
+    CompanyDataModel.comp populate(trainData)
+    CompanyClassifier.firstCompanyClassifier.crossValidation(3)
     //SpamClassifierWeka.learn(30)
     //SpamClassifierWeka.test(testData)
   }

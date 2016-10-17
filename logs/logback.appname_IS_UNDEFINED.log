@@ -1,2 +1,10 @@
-INFO  [2016-09-30 14:04:27,108] C.BadgeClassifiers$BadgeClassifier$: Learnable: Learn with data of size 200
-INFO  [2016-09-30 14:04:27,123] C.BadgeClassifiers$BadgeClassifier$: Training: 5 iterations remain.
+INFO  [2016-10-17 10:24:14,364] C.g.CompanyClassifier$firstCompanyClassifier$: Training on all folds except 3
+INFO  [2016-10-17 10:24:14,387] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 208
+INFO  [2016-10-17 10:24:14,388] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
+INFO  [2016-10-17 10:24:14,391] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
+INFO  [2016-10-17 10:24:14,393] C.g.CompanyClassifier$firstCompanyClassifier$: Testing on fold 3
+INFO  [2016-10-17 10:27:45,355] C.g.CompanyClassifier$firstCompanyClassifier$: Training on all folds except 3
+INFO  [2016-10-17 10:27:45,378] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 208
+INFO  [2016-10-17 10:27:45,379] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
+INFO  [2016-10-17 10:27:45,381] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
+INFO  [2016-10-17 10:27:45,383] C.g.CompanyClassifier$firstCompanyClassifier$: Testing on fold 3
