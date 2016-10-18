@@ -21,6 +21,13 @@ object CompanyClassifier {
 
   }
 
+  class DrugResponseRegressor(pathway: String) extends Learnable[companyData](comp) {
+    def label = rating
+    //override def feature = using(pathWayGExpression(pathway))
+    override def feature = using(netDebtEBITDA)
+    override lazy val classifier = new StochasticGradientDescent
+  }
+
   /*
   object CompanyClassifierWeka extends Learnable[companyData](comp) {
     def label = rating

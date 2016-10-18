@@ -43,6 +43,7 @@ object CompanyApp extends Logging {
 
     //ClassifierUtils.TestClassifiers(CompanyClassifier.firstCompanyClassifier)
 
+    //CompanyClassifier.firstCompanyClassifier.learn(3)
     CompanyClassifier.firstCompanyClassifier.testContinuous(trainData)
     //CompanyClassifier.firstCompanyClassifier.foreach(_testContinuous(trainData))
     //SpamClassifierWeka.learn(30)
