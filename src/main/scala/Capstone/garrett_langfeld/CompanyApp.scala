@@ -8,6 +8,7 @@ import edu.illinois.cs.cogcomp.lbjava.learn.SupportVectorMachine
 import edu.illinois.cs.cogcomp.saul.classifier.Learnable
 import weka.classifiers.bayes.NaiveBayes
 import Readers.garrett_langfeld.companyData
+import edu.illinois.cs.cogcomp.saul.classifier.ClassifierUtils
 import Readers.garrett_langfeld.CompanyDataReader
 import edu.illinois.cs.cogcomp.saul.util.Logging
 
@@ -39,7 +40,11 @@ object CompanyApp extends Logging {
   def SGD(): Unit = {
     /** Defining the data and specifying it's location  */
     CompanyDataModel.comp populate(trainData)
-    CompanyClassifier.firstCompanyClassifier.crossValidation(3)
+
+    //ClassifierUtils.TestClassifiers(CompanyClassifier.firstCompanyClassifier)
+
+    CompanyClassifier.firstCompanyClassifier.testContinuous(trainData)
+    //CompanyClassifier.firstCompanyClassifier.foreach(_testContinuous(trainData))
     //SpamClassifierWeka.learn(30)
     //SpamClassifierWeka.test(testData)
   }
