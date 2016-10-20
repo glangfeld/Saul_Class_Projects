@@ -82,7 +82,8 @@ public class CompanyDataReader
     {
 
         CompanyDataReader c = new CompanyDataReader();
-
+        System.out.println(c.compData.get(0).name);
+ int i =1;
 
 
     }

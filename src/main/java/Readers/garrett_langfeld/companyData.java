@@ -30,28 +30,28 @@ public class companyData {
 
 
     //constructor
-    public companyData(String name, String quarter, String rating, String endDate, float ND_EBITDA, float TD_EBIT, float ND_EBIT, float EBITDA_Interest, float EBITDA_Cap_Int, float EBIT_Int, float int_exp, float CE_TA, float LT_DE, float LT_DC, float LT_DTA, float TDE, float TDC, float TDA, float num_rating, float rating_change){
+    public companyData(String n, String q, String r, String ed, float NDEBITDA, float TDEBIT, float NDEBIT, float EBITDAInterest, float EBITDACapInt, float EBITInt, float intexp, float CETA, float LTDE, float LTDC, float LTDTA, float TotDE, float TotDC, float TotDA, float numrating, float ratingchange){
             //System.out.println("Input array for companyData : " + A);
-        name = name;
-        quarter = quarter;
-        rating = rating;
-        endDate = endDate;
-        ND_EBITDA = ND_EBITDA;
-        TD_EBIT = TD_EBIT;
-        ND_EBIT = ND_EBIT;
-        EBITDA_Interest = EBITDA_Interest;
-        EBITDA_Cap_Int = EBITDA_Cap_Int;
-        EBIT_Int = EBIT_Int;
-        int_exp = int_exp;
-        CE_TA = CE_TA;
-        LT_DE = LT_DE;
-        LT_DC = LT_DC;
-        LT_DTA = LT_DTA;
-        TDE = TDE;
-        TDC = TDC;
-        TDA = TDA;
-        num_rating = num_rating;
-        rating_change = rating_change;
+        name = n;
+        quarter = q;
+        rating = r;
+        endDate = ed;
+        ND_EBITDA = NDEBITDA;
+        TD_EBIT = TDEBIT;
+        ND_EBIT = NDEBIT;
+        EBITDA_Interest = EBITDAInterest;
+        EBITDA_Cap_Int = EBITDACapInt;
+        EBIT_Int = EBITInt;
+        int_exp = intexp;
+        CE_TA = CETA;
+        LT_DE = LTDE;
+        LT_DC = LTDC;
+        LT_DTA = LTDTA;
+        TDE = TotDE;
+        TDC = TotDC;
+        TDA = TotDA;
+        num_rating = numrating;
+        rating_change = ratingchange;
 
     }
 
