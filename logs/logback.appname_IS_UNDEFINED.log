@@ -1,15 +1,2 @@
-INFO  [2016-10-17 10:24:14,364] C.g.CompanyClassifier$firstCompanyClassifier$: Training on all folds except 3
-INFO  [2016-10-17 10:24:14,387] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 208
-INFO  [2016-10-17 10:24:14,388] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
-INFO  [2016-10-17 10:24:14,391] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
-INFO  [2016-10-17 10:24:14,393] C.g.CompanyClassifier$firstCompanyClassifier$: Testing on fold 3
-INFO  [2016-10-17 10:27:45,355] C.g.CompanyClassifier$firstCompanyClassifier$: Training on all folds except 3
-INFO  [2016-10-17 10:27:45,378] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 208
-INFO  [2016-10-17 10:27:45,379] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
-INFO  [2016-10-17 10:27:45,381] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
-INFO  [2016-10-17 10:27:45,383] C.g.CompanyClassifier$firstCompanyClassifier$: Testing on fold 3
-INFO  [2016-10-17 10:29:37,729] C.g.CompanyClassifier$firstCompanyClassifier$: Training on all folds except 3
-INFO  [2016-10-17 10:29:37,741] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 208
-INFO  [2016-10-17 10:29:37,742] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
-INFO  [2016-10-17 10:29:37,745] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 10 iterations remain.
-INFO  [2016-10-17 10:29:37,746] C.g.CompanyClassifier$firstCompanyClassifier$: Testing on fold 3
+INFO  [2016-10-20 17:46:23,132] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-20 17:46:23,149] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.

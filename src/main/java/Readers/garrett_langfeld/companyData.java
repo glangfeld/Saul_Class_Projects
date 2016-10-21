@@ -55,4 +55,28 @@ public class companyData {
 
     }
 
+    public void printCompany(){
+        System.out.println(name);
+        System.out.println(quarter);
+        System.out.println(rating);
+        System.out.println(endDate);
+        System.out.println(name);
+        System.out.println(ND_EBITDA);
+        System.out.println(TD_EBIT);
+        System.out.println(ND_EBIT);
+        System.out.println(EBITDA_Interest);
+        System.out.println(EBITDA_Cap_Int);
+        System.out.println(EBIT_Int);
+        System.out.println(int_exp);
+        System.out.println(CE_TA);
+        System.out.println(LT_DE);
+        System.out.println(LT_DC);
+        System.out.println(LT_DTA);
+        System.out.println(TDE);
+        System.out.println(TDC);
+        System.out.println(TDA);
+        System.out.println(num_rating);
+        System.out.println(rating_change);
+    }
+
 }
