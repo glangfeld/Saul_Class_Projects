@@ -16,17 +16,13 @@ object CompanyClassifier {
   import CompanyDataModel._
   object firstCompanyClassifier extends Learnable[companyData](comp) {
     def label = rating
-    override def feature = using(endDate)//(netDebtEBITDA)//, total_debt_ebit, net_debt_ebit, ebit_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(endDate)//(netDebtEBITDA)//, total_debt_ebit, net_debt_ebit, ebit_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebit_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     override lazy val classifier = new SupportVectorMachine()
 
   }
 
-  class DrugResponseRegressor(pathway: String) extends Learnable[companyData](comp) {
-    def label = rating
-    //override def feature = using(pathWayGExpression(pathway))
-    override def feature = using(netDebtEBITDA)
-    override lazy val classifier = new StochasticGradientDescent
-  }
+
 
   /*
   object CompanyClassifierWeka extends Learnable[companyData](comp) {
