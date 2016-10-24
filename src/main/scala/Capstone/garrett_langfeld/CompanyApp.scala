@@ -19,7 +19,6 @@ object CompanyApp extends App{
   val reader = new CompanyDataReader()
   val trainData = reader.compData
   val testData = reader.compData
-
     /** Defining the data and specifying it's location  */
     CompanyDataModel.comp populate(trainData)
 
