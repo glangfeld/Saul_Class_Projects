@@ -25,7 +25,7 @@ object CompanyApp extends App{
     //ClassifierUtils.TestClassifiers(CompanyClassifier.firstCompanyClassifier)
 
     CompanyClassifier.firstCompanyClassifier.learn(3)
- //   CompanyClassifier.firstCompanyClassifier.test(trainData)
+    CompanyClassifier.firstCompanyClassifier.test(testData)
     //CompanyClassifier.firstCompanyClassifier.foreach(_testContinuous(trainData))
     //SpamClassifierWeka.learn(30)
     //SpamClassifierWeka.test(testData)

@@ -4,7 +4,7 @@
 		module="usesaul_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160926191003"
+		publication="20161024160440"
 	>
 		<description>
 		useSaul
@@ -34,6 +34,6 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="edu.illinois.cs.cogcomp" name="saul_2.11" rev="0.5" conf="compile->default(compile)"/>
+		<dependency org="edu.illinois.cs.cogcomp" name="saul-examples_2.11" rev="0.5.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
