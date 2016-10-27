@@ -4,3 +4,23 @@ INFO  [2016-10-25 15:32:59,888] C.g.CompanyClassifier$firstCompanyClassifier$: L
 INFO  [2016-10-25 15:32:59,904] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
 INFO  [2016-10-25 15:58:22,465] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
 INFO  [2016-10-25 15:58:22,481] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:05:39,224] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:05:39,240] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:06:00,260] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:06:00,260] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:06:24,317] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:06:24,317] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:06:47,680] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:06:47,680] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:07:49,914] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:07:49,920] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:08:28,247] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:08:28,279] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:09:39,464] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:09:39,464] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:10:03,840] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:10:03,845] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:10:57,940] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:10:57,940] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.
+INFO  [2016-10-25 16:11:44,918] C.g.CompanyClassifier$firstCompanyClassifier$: Learnable: Learn with data of size 313
+INFO  [2016-10-25 16:11:44,934] C.g.CompanyClassifier$firstCompanyClassifier$: Training: 3 iterations remain.

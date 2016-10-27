@@ -26,6 +26,7 @@ object CompanyApp extends App{
 
     CompanyClassifier.firstCompanyClassifier.learn(3)
     CompanyClassifier.firstCompanyClassifier.test(testData)
+    println(CompanyClassifier.firstCompanyClassifier.classifier.discreteValue(testData.get(0)))
     //CompanyClassifier.firstCompanyClassifier.foreach(_testContinuous(trainData))
     //SpamClassifierWeka.learn(30)
     //SpamClassifierWeka.test(testData)
