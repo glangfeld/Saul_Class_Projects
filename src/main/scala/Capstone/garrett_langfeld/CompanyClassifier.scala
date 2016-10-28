@@ -22,6 +22,14 @@ object CompanyClassifier {
 
   }
 
+  object secondCompanyClassifier extends Learnable[companyData](comp) {
+    def label = rating
+    override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, tot_DA, LTD_eq)
+    override lazy val classifier = new SupportVectorMachine()
+
+  }
+
 
 
   /*

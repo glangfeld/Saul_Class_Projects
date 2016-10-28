@@ -24,9 +24,16 @@ object CompanyApp extends App{
 
     //ClassifierUtils.TestClassifiers(CompanyClassifier.firstCompanyClassifier)
 
+    /*
     CompanyClassifier.firstCompanyClassifier.learn(3)
     CompanyClassifier.firstCompanyClassifier.test(testData)
-    println(CompanyClassifier.firstCompanyClassifier.classifier.discreteValue(testData.get(0)))
+    println(CompanyClassifier.firstCompanyClassifier.classifier.discreteValue(testData.get(86)))
+    */
+
+    CompanyClassifier.secondCompanyClassifier.learn(3)
+    CompanyClassifier.secondCompanyClassifier.test(testData)
+    println(CompanyClassifier.secondCompanyClassifier.classifier.discreteValue(testData.get(86)))
+
     //CompanyClassifier.firstCompanyClassifier.foreach(_testContinuous(trainData))
     //SpamClassifierWeka.learn(30)
     //SpamClassifierWeka.test(testData)
