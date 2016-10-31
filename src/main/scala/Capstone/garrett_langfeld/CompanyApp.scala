@@ -31,14 +31,18 @@ object CompanyApp extends App{
     */
 
 
+    /*
     CompanyClassifier.secondCompanyClassifier.learn(3)
     CompanyClassifier.secondCompanyClassifier.test(testData)
     println(CompanyClassifier.secondCompanyClassifier.classifier.discreteValue(testData.get(86)))
-
+    */
 
     /*
     CompanyClassifier.CompanyClassifierWeka.learn(3)
     CompanyClassifier.CompanyClassifierWeka.test(testData)
     */
+
+    CompanyClassifier.CompanyClassifierBayesNetwork.learn(3)
+    CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
 
 }
