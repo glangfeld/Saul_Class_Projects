@@ -30,13 +30,15 @@ object CompanyApp extends App{
     println(CompanyClassifier.firstCompanyClassifier.classifier.discreteValue(testData.get(86)))
     */
 
+
     CompanyClassifier.secondCompanyClassifier.learn(3)
     CompanyClassifier.secondCompanyClassifier.test(testData)
     println(CompanyClassifier.secondCompanyClassifier.classifier.discreteValue(testData.get(86)))
 
-    //CompanyClassifier.firstCompanyClassifier.foreach(_testContinuous(trainData))
-    //SpamClassifierWeka.learn(30)
-    //SpamClassifierWeka.test(testData)
 
+    /*
+    CompanyClassifier.CompanyClassifierWeka.learn(3)
+    CompanyClassifier.CompanyClassifierWeka.test(testData)
+    */
 
 }
