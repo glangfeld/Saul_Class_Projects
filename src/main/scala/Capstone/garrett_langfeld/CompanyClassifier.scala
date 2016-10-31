@@ -9,6 +9,8 @@ import edu.illinois.cs.cogcomp.saul.classifier.Learnable
 import edu.illinois.cs.cogcomp.lbjava.learn.StochasticGradientDescent
 import weka.classifiers.bayes.NaiveBayes
 import weka.classifiers.bayes.BayesNet
+import weka.classifiers.trees.RandomForest
+import weka.classifiers.functions.MultilayerPerceptron
 import edu.illinois.cs.cogcomp.saul.learn.SaulWekaWrapper
 import edu.illinois.cs.cogcomp.saul
 import Readers.garrett_langfeld.companyData
@@ -41,6 +43,19 @@ object CompanyClassifier {
   object CompanyClassifierBayesNetwork extends Learnable(comp) {
     def label = rating
     override lazy val classifier = new SaulWekaWrapper(new BayesNet())
+    override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+  }
+
+  object CompanyClassifierRandomForest extends Learnable(comp) {
+    def label = rating
+    override lazy val classifier = new SaulWekaWrapper(new RandomForest())
+    override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+  }
+
+
+  object CompanyClassifierMLPerceptron extends Learnable(comp) {
+    def label = rating
+    override lazy val classifier = new SaulWekaWrapper(new MultilayerPerceptron())
     override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
   }
 

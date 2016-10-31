@@ -42,7 +42,19 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierWeka.test(testData)
     */
 
+    /*
     CompanyClassifier.CompanyClassifierBayesNetwork.learn(3)
     CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
+    */
+
+
+    CompanyClassifier.CompanyClassifierRandomForest.learn(3)
+    CompanyClassifier.CompanyClassifierRandomForest.test(testData)
+
+
+    /*
+    CompanyClassifier.CompanyClassifierMLPerceptron.learn(3)
+    CompanyClassifier.CompanyClassifierMLPerceptron.test(testData)
+    */
 
 }
