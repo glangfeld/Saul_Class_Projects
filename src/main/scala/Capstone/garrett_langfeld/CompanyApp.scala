@@ -17,8 +17,19 @@ import scala.collection.JavaConversions._
 object CompanyApp extends App{
 
   val reader = new CompanyDataReader()
+
   val trainData = reader.compData
   val testData = reader.compData
+
+
+  /*
+  val allData = reader.compData
+  //setting 70% of data for training
+  val trainSplit = math.ceil(allData.size()*0.7).toInt
+  val trainData = allData.subList(0, trainSplit)
+  val testData = allData.subList(trainSplit, allData.size() - 1)
+  */
+
     /** Defining the data and specifying it's location  */
     CompanyDataModel.comp populate(trainData)
 
@@ -51,6 +62,7 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierRandomForest.learn(3)
     CompanyClassifier.CompanyClassifierRandomForest.test(testData)
 
+    println(testData.size())
 
     /*
     CompanyClassifier.CompanyClassifierMLPerceptron.learn(3)
