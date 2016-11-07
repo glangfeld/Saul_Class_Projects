@@ -20,6 +20,18 @@ object CompanyDataModel extends DataModel{
       b
   }
 
+  val ratingGroup = property(comp){
+    x: companyData =>
+      val b = x.ratingGroup
+      b
+  }
+
+  val ratingLetter = property(comp){
+    x: companyData =>
+      val b = x.ratingLetter
+      b
+  }
+
 
   /*
   val num_rating = property(comp){

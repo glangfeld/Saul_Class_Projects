@@ -27,6 +27,8 @@ public class companyData {
     public float TDA;
     public float num_rating;
     public float rating_change;
+    public String ratingGroup;
+    public String ratingLetter;
 
 
     //constructor
@@ -52,7 +54,22 @@ public class companyData {
         TDA = TotDA;
         num_rating = numrating;
         rating_change = ratingchange;
-
+        if (num_rating < 11){
+            ratingGroup = "IG";
+        }
+        else{
+            ratingGroup = "SG";
+        }
+        //setting ratingLetter
+        if (num_rating < 8){
+            ratingLetter = "A";
+        }
+        else if (num_rating >= 8 && num_rating < 16){
+            ratingLetter = "B";
+        }
+        else{
+            ratingLetter = "C";
+        }
     }
 
     public void printCompany(){
