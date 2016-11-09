@@ -53,6 +53,8 @@ object CompanyClassifier {
     //def label = rating
     //def label = ratingGroup
     def label = ratingLetter
+    //def label = risk
+    //def label = rating6Groups
     override lazy val classifier = new SaulWekaWrapper(new RandomForest())
     //override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
@@ -63,6 +65,39 @@ object CompanyClassifier {
     //override def feature = using(netDebtEBITDA, total_debt_ebit, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     //override def feature = using(tot_DE, int_exp, ebit_int_exp, ebitda_capex_int, eq_tot_assets, tot_DA)
   }
+
+  object CompanyClassifierRandomForest2 extends Learnable(comp) {
+    //def label = rating
+    //def label = ratingGroup
+    //def label = ratingLetter
+    def label = rating6Groups
+    override lazy val classifier = new SaulWekaWrapper(new RandomForest())
+    //override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(tot_DE, int_exp, ebit_int_exp, ebitda_capex_int, eq_tot_assets, tot_DA)
+  }
+
+  object CompanyClassifierRandomForest3 extends Learnable(comp) {
+    //def label = rating
+    //def label = ratingGroup
+    //def label = ratingLetter
+    def label = risk
+    override lazy val classifier = new SaulWekaWrapper(new RandomForest())
+    //override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(tot_DE, int_exp, ebit_int_exp, ebitda_capex_int, eq_tot_assets, tot_DA)
+  }
+
 
 
   object CompanyClassifierMLPerceptron extends Learnable(comp) {

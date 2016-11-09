@@ -61,10 +61,18 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
     */
 
-
+    /*
     CompanyClassifier.CompanyClassifierRandomForest.learn(3)
     CompanyClassifier.CompanyClassifierRandomForest.test(testData)
+    */
 
+    /*
+    CompanyClassifier.CompanyClassifierRandomForest2.learn(3)
+    CompanyClassifier.CompanyClassifierRandomForest2.test(testData)
+    */
+
+    CompanyClassifier.CompanyClassifierRandomForest3.learn(3)
+    CompanyClassifier.CompanyClassifierRandomForest3.test(testData)
 
     //println(testData.size())
 

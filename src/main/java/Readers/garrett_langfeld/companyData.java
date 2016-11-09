@@ -29,6 +29,8 @@ public class companyData {
     public float rating_change;
     public String ratingGroup;
     public String ratingLetter;
+    public String rating6Groups;
+    public String risk;
 
 
     //constructor
@@ -69,6 +71,37 @@ public class companyData {
         }
         else{
             ratingLetter = "C";
+        }
+        //setting rating6Groups
+        if (num_rating < 5){
+            rating6Groups = "Aa";
+        }
+        else if (num_rating >= 5 && num_rating < 8){
+            rating6Groups = "A";
+        }
+        else if (num_rating >= 8 && num_rating < 11){
+            rating6Groups = "Baa";
+        }
+        else if (num_rating >= 11 && num_rating < 14){
+            rating6Groups = "Ba";
+        }
+        else if (num_rating >= 14 && num_rating < 17){
+            rating6Groups = "B";
+        }
+        else{
+            rating6Groups = "C";
+        }
+        if (num_rating < 5){
+            risk = "safe";
+        }
+        else if (num_rating >= 5 && num_rating < 11){
+            risk = "low";
+        }
+        else if (num_rating >= 11 && num_rating < 17){
+            risk = "speculative";
+        }
+        else{
+            risk = "highly_speculative";
         }
     }
 

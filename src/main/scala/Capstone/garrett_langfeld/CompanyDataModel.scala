@@ -33,6 +33,18 @@ object CompanyDataModel extends DataModel{
       b
   }
 
+  val rating6Groups = property(comp){
+    x: companyData =>
+      val b = x.rating6Groups
+      b
+  }
+
+  val risk = property(comp){
+    x: companyData =>
+      val b = x.risk
+      b
+  }
+
 
   /*
   val num_rating = property(comp){
