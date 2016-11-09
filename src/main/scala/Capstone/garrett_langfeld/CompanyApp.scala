@@ -28,6 +28,7 @@ object CompanyApp extends App{
   val allData = reader.compData
   //setting 70% of data for training
   val trainSplit = math.ceil(allData.size()*0.7).toInt
+  //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val trainData = allData.subList(0, trainSplit)
   val testData = allData.subList(trainSplit, allData.size() - 1)
 

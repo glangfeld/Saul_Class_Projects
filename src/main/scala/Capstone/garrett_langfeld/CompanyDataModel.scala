@@ -4,6 +4,7 @@ import edu.illinois.cs.cogcomp.saul.datamodel.DataModel
 
 import scala.collection.JavaConversions._
 import Readers.garrett_langfeld.companyData
+import CompanyClassifier._
 
 object CompanyDataModel extends DataModel{
   val comp = node[companyData]
@@ -122,6 +123,12 @@ object CompanyDataModel extends DataModel{
       q
   }
 
+  //creating property that gives the rating classification
+  /*
+  val prediction = property(comp){
+    x: => prediction(x)
+  }
+  */
 
 }
 
