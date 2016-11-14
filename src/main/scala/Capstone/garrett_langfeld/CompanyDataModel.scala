@@ -136,11 +136,11 @@ object CompanyDataModel extends DataModel{
   }
 
   //creating property that gives the rating classification
-  /*
+
   val prediction = property(comp){
-    x: => prediction(x)
+    x: companyData => CompanyClassifierRandomForest3.classifier.realValue(x)
   }
-  */
+
 
 }
 

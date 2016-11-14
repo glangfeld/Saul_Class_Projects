@@ -28,9 +28,11 @@ object CompanyClassifier {
 
   object secondCompanyClassifier extends Learnable[companyData](comp) {
     //def label = rating
-    def label = ratingLetter
+    //def label = ratingLetter
+    def label = risk
     override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     //override def feature = using(netDebtEBITDA, total_debt_ebit, tot_DA, LTD_eq)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     override lazy val classifier = new SupportVectorMachine()
 
   }
@@ -43,10 +45,11 @@ object CompanyClassifier {
 
   object CompanyClassifierBayesNetwork extends Learnable(comp) {
     //def label = rating
-    def label = ratingLetter
+    //def label = ratingLetter
+    def label = risk
     override lazy val classifier = new SaulWekaWrapper(new BayesNet())
-    //override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
-    override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
   }
 
   object CompanyClassifierRandomForest extends Learnable(comp) {
@@ -92,10 +95,10 @@ object CompanyClassifier {
     //override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
 
-    //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     //override def feature = using(netDebtEBITDA, total_debt_ebit, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
-    override def feature = using(tot_DE, int_exp, ebit_int_exp, ebitda_capex_int, eq_tot_assets, tot_DA)
+    //override def feature = using(tot_DE, int_exp, ebit_int_exp, ebitda_capex_int, eq_tot_assets, tot_DA)
   }
 
 

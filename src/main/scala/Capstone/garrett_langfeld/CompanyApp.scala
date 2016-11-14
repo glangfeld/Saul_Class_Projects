@@ -12,6 +12,7 @@ import edu.illinois.cs.cogcomp.saul.classifier.ClassifierUtils
 import Readers.garrett_langfeld.CompanyDataReader
 import edu.illinois.cs.cogcomp.saul.util.Logging
 import CompanyDataModel._
+import scala.collection.JavaConversions._
 
 import scala.collection.JavaConversions._
 
@@ -48,8 +49,9 @@ object CompanyApp extends App{
     /*
     CompanyClassifier.secondCompanyClassifier.learn(3)
     CompanyClassifier.secondCompanyClassifier.test(testData)
-    println(CompanyClassifier.secondCompanyClassifier.classifier.discreteValue(testData.get(86)))
     */
+    //println(CompanyClassifier.secondCompanyClassifier.classifier.discreteValue(testData.get(86)))
+
 
     /*
     CompanyClassifier.CompanyClassifierWeka.learn(3)
@@ -57,7 +59,7 @@ object CompanyApp extends App{
     */
 
     /*
-    CompanyClassifier.CompanyClassifierBayesNetwork.learn(3)
+    CompanyClassifier.CompanyClassifierBayesNetwork.learn(10)
     CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
     */
 
@@ -71,14 +73,26 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierRandomForest2.test(testData)
     */
 
-    CompanyClassifier.CompanyClassifierRandomForest3.learn(3)
+
+    CompanyClassifier.CompanyClassifierRandomForest3.learn(10)
     CompanyClassifier.CompanyClassifierRandomForest3.test(testData)
 
-    //println(testData.size())
+    //CompanyClassifier.CompanyClassifierRandomForest3.crossValidation(3)
 
     /*
     CompanyClassifier.CompanyClassifierMLPerceptron.learn(3)
     CompanyClassifier.CompanyClassifierMLPerceptron.test(testData)
     */
+
+
+    //seeing which values that are actually safe are classified as safe
+    val safe_class = testData.filter(x => risk(x) == "safe")
+    val not_safe = safe_class.filter(x => prediction(x) != "safe")
+    var i = 0;
+
+    for( i <- 0 to (not_safe.size - 1)){
+      println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+    }
+
 
 }
