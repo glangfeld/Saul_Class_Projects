@@ -91,7 +91,7 @@ object CompanyApp extends App{
     var i = 0;
 
     for( i <- 0 to (not_safe.size - 1)){
-      println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+      //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
     }
 
 
