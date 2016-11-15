@@ -77,6 +77,7 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierRandomForest3.learn(10)
     CompanyClassifier.CompanyClassifierRandomForest3.test(testData)
 
+
     //CompanyClassifier.CompanyClassifierRandomForest3.crossValidation(3)
 
     /*
@@ -84,6 +85,10 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierMLPerceptron.test(testData)
     */
 
+    /*
+    CompanyClassifier.CompanyClassifierAdaBoost.learn(10)
+    CompanyClassifier.CompanyClassifierAdaBoost.test(testData)
+    */
 
     //seeing which values that are actually safe are classified as safe
     val safe_class = testData.filter(x => risk(x) == "safe")
@@ -91,7 +96,7 @@ object CompanyApp extends App{
     var i = 0;
 
     for( i <- 0 to (not_safe.size - 1)){
-      //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+      println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
     }
 
 

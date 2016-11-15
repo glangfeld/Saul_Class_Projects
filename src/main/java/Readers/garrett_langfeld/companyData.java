@@ -91,6 +91,7 @@ public class companyData {
         else{
             rating6Groups = "C";
         }
+        
         if (num_rating < 5){
             risk = "safe";
         }
@@ -103,6 +104,21 @@ public class companyData {
         else{
             risk = "highly_speculative";
         }
+
+        /*
+        if (num_rating < 8){
+            risk = "investment grade";
+        }
+        else if (num_rating >= 8 && num_rating < 11){
+            risk = "high grade";
+        }
+        else if (num_rating >= 11 && num_rating < 14){
+            risk = "medium grade";
+        }
+        else{
+            risk = "low grade";
+        }
+        */
     }
 
     public void printCompany(){
