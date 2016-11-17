@@ -5,6 +5,7 @@ package Capstone.garrett_langfeld
   */
 
 import edu.illinois.cs.cogcomp.lbjava.learn.SupportVectorMachine
+import edu.illinois.cs.cogcomp.lbjava.learn.SparseNetworkLearner
 import edu.illinois.cs.cogcomp.saul.classifier.Learnable
 import edu.illinois.cs.cogcomp.lbjava.learn.StochasticGradientDescent
 import weka.classifiers.bayes.NaiveBayes
@@ -35,6 +36,14 @@ object CompanyClassifier {
     //override def feature = using(netDebtEBITDA, total_debt_ebit, tot_DA, LTD_eq)
     //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     override lazy val classifier = new SupportVectorMachine()
+
+  }
+
+  object CompanyClassifierSparseNetwork extends Learnable[companyData](comp) {
+    def label = risk
+    override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(netDebtEBITDA, total_debt_ebit, tot_DA, LTD_eq)
+    override lazy val classifier = new SparseNetworkLearner()
 
   }
 

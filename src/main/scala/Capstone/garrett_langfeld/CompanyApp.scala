@@ -78,6 +78,11 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierRandomForest3.test(testData)
 
 
+    /*
+    CompanyClassifier.CompanyClassifierSparseNetwork.learn(10)
+    CompanyClassifier.CompanyClassifierSparseNetwork.test(testData)
+    */
+
     //CompanyClassifier.CompanyClassifierRandomForest3.crossValidation(3)
 
     /*
