@@ -22,7 +22,7 @@ public class CompanyDataReader
 
 
         //BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data11.csv"));
-        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data16.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data_With_Sector2.csv"));
         String line="";
         //used to keep track of place in outer allData arraylist
         int comp_index = -1;
@@ -61,7 +61,9 @@ public class CompanyDataReader
                     float TDA = Float.parseFloat(row[17]);
                     float num_rating = Float.parseFloat(row[18]);
                     float rating_change = Float.parseFloat(row[19]);
-                    companyData comp = new companyData(name,quarter,rating, endDate, ND_EBITDA, TD_EBIT, ND_EBIT, EBITDA_Interest, EBITDA_Cap_Int, EBIT_Int, int_exp, CE_TA, LT_DE, LT_DC, LT_DTA, TDE, TDC, TDA, num_rating, rating_change);
+                    //float market_cap = Float.parseFloat(row[20]);
+                    String sector = row[21];
+                    companyData comp = new companyData(name,quarter,rating, endDate, ND_EBITDA, TD_EBIT, ND_EBIT, EBITDA_Interest, EBITDA_Cap_Int, EBIT_Int, int_exp, CE_TA, LT_DE, LT_DC, LT_DTA, TDE, TDC, TDA, num_rating, rating_change, sector);
                     compData.add(comp);
                 }
 

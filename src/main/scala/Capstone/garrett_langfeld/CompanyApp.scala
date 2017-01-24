@@ -45,6 +45,7 @@ object CompanyApp extends App{
     println(CompanyClassifier.firstCompanyClassifier.classifier.discreteValue(testData.get(86)))
     */
 
+    //CompanyClassifier.firstCompanyClassifier.crossValidation(10)
 
     /*
     CompanyClassifier.secondCompanyClassifier.learn(3)
@@ -62,7 +63,7 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierBayesNetwork.learn(10)
     CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
     */
-
+  
     /*
     CompanyClassifier.CompanyClassifierRandomForest.learn(3)
     CompanyClassifier.CompanyClassifierRandomForest.test(testData)
@@ -83,7 +84,7 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierSparseNetwork.test(testData)
     */
 
-    //CompanyClassifier.CompanyClassifierRandomForest3.crossValidation(3)
+    //CompanyClassifier.CompanyClassifierRandomForest3.crossValidation(10)
 
     /*
     CompanyClassifier.CompanyClassifierMLPerceptron.learn(3)
@@ -95,6 +96,7 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierAdaBoost.test(testData)
     */
 
+  /*
     //seeing which values that are actually safe are classified as safe
     val safe_class = testData.filter(x => risk(x) == "safe")
     val not_safe = safe_class.filter(x => prediction(x) != "safe")
@@ -115,7 +117,7 @@ object CompanyApp extends App{
       //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
       println(false_safe.get(i).name + ": " + false_safe.get(i).quarter + ": " + risk(false_safe.get(i)))
     }
-
+*/
 
 
 

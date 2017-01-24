@@ -31,10 +31,12 @@ public class companyData {
     public String ratingLetter;
     public String rating6Groups;
     public String risk;
+    //public float market_cap;
+    public String sector;
 
 
     //constructor
-    public companyData(String n, String q, String r, String ed, float NDEBITDA, float TDEBIT, float NDEBIT, float EBITDAInterest, float EBITDACapInt, float EBITInt, float intexp, float CETA, float LTDE, float LTDC, float LTDTA, float TotDE, float TotDC, float TotDA, float numrating, float ratingchange){
+    public companyData(String n, String q, String r, String ed, float NDEBITDA, float TDEBIT, float NDEBIT, float EBITDAInterest, float EBITDACapInt, float EBITInt, float intexp, float CETA, float LTDE, float LTDC, float LTDTA, float TotDE, float TotDC, float TotDA, float numrating, float ratingchange, String sect){
             //System.out.println("Input array for companyData : " + A);
         name = n;
         quarter = q;
@@ -104,6 +106,8 @@ public class companyData {
         else{
             risk = "highly_speculative";
         }
+        //market_cap = mc;
+        sector = sect;
 
         /*
         if (num_rating < 8){

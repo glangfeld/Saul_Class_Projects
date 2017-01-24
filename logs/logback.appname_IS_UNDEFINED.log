@@ -1,27 +1,6 @@
-INFO  [2016-11-28 16:23:23,371] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:23:23,418] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:23:23,424] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:27:23,888] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:27:23,892] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:27:23,903] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:28:55,515] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:28:55,515] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:28:55,515] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:30:08,098] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:30:08,102] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:30:08,115] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:37:35,433] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:37:35,447] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:37:35,459] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:39:18,385] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:39:18,401] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:39:18,417] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:39:49,686] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:39:49,693] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:39:49,710] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:44:40,493] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:44:40,496] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:44:40,502] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:45:04,724] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
-INFO  [2016-11-28 16:45:04,733] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
-INFO  [2016-11-28 16:45:04,742] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
+INFO  [2016-12-19 11:05:07,934] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
+INFO  [2016-12-19 11:05:07,951] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
+INFO  [2016-12-19 11:05:07,964] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
+INFO  [2016-12-19 11:16:28,923] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 921
+INFO  [2016-12-19 11:16:28,928] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
+INFO  [2016-12-19 11:16:28,940] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 10 iterations remain.
