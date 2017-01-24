@@ -26,12 +26,22 @@ object CompanyApp extends App{
 */
 
 
+  /*
   val allData = reader.compData
   //setting 70% of data for training
   val trainSplit = math.ceil(allData.size()*0.7).toInt
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val trainData = allData.subList(0, trainSplit)
   val testData = allData.subList(trainSplit, allData.size() - 1)
+  */
+
+  val allData = reader.compData
+  val techData = allData.filter(x => sector(x) == "Tech")
+  //setting 70% of data for training
+  val trainSplit = math.ceil(techData.length*0.7).toInt
+  //val trainSplit = math.ceil(allData.size()*0.5).toInt
+  val trainData = techData.subList(0, trainSplit)
+  val testData = techData.subList(trainSplit, techData.length - 1)
 
 
     /** Defining the data and specifying it's location  */
@@ -75,7 +85,8 @@ object CompanyApp extends App{
     */
 
 
-    CompanyClassifier.CompanyClassifierRandomForest3.learn(10)
+    //CompanyClassifier.CompanyClassifierRandomForest3.learn(10)
+  CompanyClassifier.CompanyClassifierRandomForest3.learn(3)
     CompanyClassifier.CompanyClassifierRandomForest3.test(testData)
 
 

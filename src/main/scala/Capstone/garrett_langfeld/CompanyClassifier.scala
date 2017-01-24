@@ -98,6 +98,7 @@ object CompanyClassifier {
   object CompanyClassifierRandomForest3 extends Learnable(comp) {
     def label = risk
     override lazy val classifier = new SaulWekaWrapper(new RandomForest())
+    //override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     //def label = rating
     //def label = ratingGroup

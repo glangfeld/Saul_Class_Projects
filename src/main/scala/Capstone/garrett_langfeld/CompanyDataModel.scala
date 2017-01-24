@@ -135,6 +135,12 @@ object CompanyDataModel extends DataModel{
       q
   }
 
+  val sector = property(comp){
+    x: companyData =>
+      val b = x.sector
+      b
+  }
+
   //creating property that gives the rating classification
 
   val prediction = property(comp){
