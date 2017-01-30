@@ -141,6 +141,12 @@ object CompanyDataModel extends DataModel{
       b
   }
 
+  val market_cap = property(comp){
+    x: companyData =>
+      val b = x.market_cap.toDouble
+      b
+  }
+
   //creating property that gives the rating classification
 
   val prediction = property(comp){

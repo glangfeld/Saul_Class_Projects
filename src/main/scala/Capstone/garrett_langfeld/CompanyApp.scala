@@ -26,15 +26,16 @@ object CompanyApp extends App{
 */
 
 
-  /*
+/*
   val allData = reader.compData
   //setting 70% of data for training
   val trainSplit = math.ceil(allData.size()*0.7).toInt
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val trainData = allData.subList(0, trainSplit)
   val testData = allData.subList(trainSplit, allData.size() - 1)
-  */
+*/
 
+  /*
   val allData = reader.compData
   val techData = allData.filter(x => sector(x) == "Tech")
   //setting 70% of data for training
@@ -42,7 +43,16 @@ object CompanyApp extends App{
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val trainData = techData.subList(0, trainSplit)
   val testData = techData.subList(trainSplit, techData.length - 1)
+*/
 
+  //filtering list to only include large cap stocks
+  val allData = reader.compData
+  val LCData = allData.filter(x => market_cap(x) < 100000)
+  //setting 70% of data for training
+  val trainSplit = math.ceil(LCData.length*0.7).toInt
+  //val trainSplit = math.ceil(allData.size()*0.5).toInt
+  val trainData = LCData.subList(0, trainSplit)
+  val testData = LCData.subList(trainSplit, LCData.length - 1)
 
     /** Defining the data and specifying it's location  */
     CompanyDataModel.comp populate(trainData)
@@ -85,7 +95,7 @@ object CompanyApp extends App{
     */
 
 
-    //CompanyClassifier.CompanyClassifierRandomForest3.learn(10)
+    //CompanyClassifier.CompanyClassifierRandomForest3.learn(5)
   CompanyClassifier.CompanyClassifierRandomForest3.learn(3)
     CompanyClassifier.CompanyClassifierRandomForest3.test(testData)
 
@@ -102,10 +112,10 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierMLPerceptron.test(testData)
     */
 
-    /*
+
     CompanyClassifier.CompanyClassifierAdaBoost.learn(10)
     CompanyClassifier.CompanyClassifierAdaBoost.test(testData)
-    */
+
 
   /*
     //seeing which values that are actually safe are classified as safe
