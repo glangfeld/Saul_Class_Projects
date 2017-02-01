@@ -26,14 +26,20 @@ object CompanyApp extends App{
 */
 
 
-/*
+
   val allData = reader.compData
   //setting 70% of data for training
   val trainSplit = math.ceil(allData.size()*0.7).toInt
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val trainData = allData.subList(0, trainSplit)
   val testData = allData.subList(trainSplit, allData.size() - 1)
-*/
+  //CompanyDataModel.comp populate(trainData)
+
+  /*
+  CompanyClassifier.CompanyClassifierAdaBoost.learn(10)
+  CompanyClassifier.CompanyClassifierAdaBoost.test(testData)
+  */
+
 
   /*
   val allData = reader.compData
@@ -45,19 +51,43 @@ object CompanyApp extends App{
   val testData = techData.subList(trainSplit, techData.length - 1)
 */
 
-  //filtering list to only include large cap stocks
-  val allData = reader.compData
-  val LCData = allData.filter(x => market_cap(x) < 100000)
+
+
+  //filtering list to only include smaller stocks
+  val SCData = allData.filter(x => market_cap(x) < 100000)
   //setting 70% of data for training
-  val trainSplit = math.ceil(LCData.length*0.7).toInt
+  val STrainSplit = math.ceil(SCData.length*0.7).toInt
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
-  val trainData = LCData.subList(0, trainSplit)
-  val testData = LCData.subList(trainSplit, LCData.length - 1)
+  val STrainData = SCData.subList(0, STrainSplit)
+  val STestData = SCData.subList(STrainSplit, SCData.length - 1)
 
     /** Defining the data and specifying it's location  */
-    CompanyDataModel.comp populate(trainData)
-  print(eq_tot_assets(trainData.get(3)))
+    CompanyDataModel.comp populate(STrainData)
+
+  //CompanyClassifier.CompanyClassifierAdaBoost.forget()
+  CompanyClassifier.CompanyClassifierAdaBoost.learn(10)
+  CompanyClassifier.CompanyClassifierAdaBoost.test(STestData)
+
+  //print(eq_tot_assets(STrainData.get(3)))
     //ClassifierUtils.TestClassifiers(CompanyClassifier.firstCompanyClassifier)
+
+
+  //filtering list to only include large cap stocks
+  val LCData = allData.filter(x => market_cap(x) > 100000)
+  //setting 70% of data for training
+  val LTrainSplit = math.ceil(LCData.length*0.7).toInt
+  //val trainSplit = math.ceil(allData.size()*0.5).toInt
+  val LTrainData = LCData.subList(0, LTrainSplit)
+  val LTestData = LCData.subList(LTrainSplit, LCData.length - 1)
+
+  /** Defining the data and specifying it's location  */
+  CompanyDataModel.comp populate(LTrainData)
+  /*
+  println ("large")
+  println(LCData.length)
+  println("small")
+  println(SCData.length)
+  */
 
     /*
     CompanyClassifier.firstCompanyClassifier.learn(3)
@@ -73,6 +103,10 @@ object CompanyApp extends App{
     */
     //println(CompanyClassifier.secondCompanyClassifier.classifier.discreteValue(testData.get(86)))
 
+  /*
+  CompanyClassifier.secondCompanyClassifier.learn(10)
+  CompanyClassifier.secondCompanyClassifier.test(LTestData)
+  */
 
     /*
     CompanyClassifier.CompanyClassifierWeka.learn(3)
@@ -83,6 +117,7 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierBayesNetwork.learn(10)
     CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
     */
+
   
     /*
     CompanyClassifier.CompanyClassifierRandomForest.learn(3)
@@ -95,9 +130,9 @@ object CompanyApp extends App{
     */
 
 
-    //CompanyClassifier.CompanyClassifierRandomForest3.learn(5)
-  CompanyClassifier.CompanyClassifierRandomForest3.learn(3)
-    CompanyClassifier.CompanyClassifierRandomForest3.test(testData)
+
+    CompanyClassifier.CompanyClassifierRandomForest3.learn(5)
+    CompanyClassifier.CompanyClassifierRandomForest3.test(LTestData)
 
 
     /*
@@ -112,9 +147,17 @@ object CompanyApp extends App{
     CompanyClassifier.CompanyClassifierMLPerceptron.test(testData)
     */
 
+    /*
+    CompanyClassifier.CompanyClassifierAdaBoost.forget()
+    CompanyClassifier.CompanyClassifierAdaBoost.learn(10)
+    CompanyClassifier.CompanyClassifierAdaBoost.test(LTestData)
+    */
 
+    /*
+    //CompanyClassifier.CompanyClassifierAdaBoost.forget()
     CompanyClassifier.CompanyClassifierAdaBoost.learn(10)
     CompanyClassifier.CompanyClassifierAdaBoost.test(testData)
+    */
 
 
   /*

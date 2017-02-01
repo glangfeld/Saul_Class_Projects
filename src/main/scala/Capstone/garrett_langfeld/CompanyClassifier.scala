@@ -99,12 +99,12 @@ object CompanyClassifier {
     def label = risk
     override lazy val classifier = new SaulWekaWrapper(new RandomForest())
     //override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
-    override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    //override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
     //def label = rating
     //def label = ratingGroup
     //def label = ratingLetter
     //override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
-    //override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(netDebtEBITDA, total_debt_ebit, net_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA, sector)
     //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
 
     //override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
@@ -131,7 +131,7 @@ object CompanyClassifier {
     def label = risk
     override lazy val classifier = new SaulWekaWrapper(new AdaBoostM1())
     //override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
-    override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA, sector)
     //override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
   }
 

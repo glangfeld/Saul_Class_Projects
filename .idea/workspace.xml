@@ -4,11 +4,8 @@
     <list default="true" id="2e8ba0a4-f19e-46cd-ab3f-b7c70677788a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" afterPath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" afterPath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Readers/garrett_langfeld/companyData.java" afterPath="$PROJECT_DIR$/src/main/java/Readers/garrett_langfeld/companyData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyApp.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel.scala" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyDataReader.java" afterPath="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyDataReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier.scala" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" />
@@ -64,7 +61,7 @@
       <file leaf-file-name="CompanyDataModel.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="3500">
               <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
               <folding />
             </state>
@@ -84,9 +81,11 @@
       <file leaf-file-name="CompanyDataReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyDataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="525">
               <caret line="24" column="216" selection-start-line="24" selection-start-column="216" selection-end-line="24" selection-end-column="216" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +93,7 @@
       <file leaf-file-name="companyData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Readers/garrett_langfeld/companyData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="2700">
               <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
               <folding />
             </state>
@@ -114,8 +113,8 @@
       <file leaf-file-name="CompanyApp.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+            <state relative-caret-position="290">
+              <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
               <folding>
                 <element signature="e#81#145#0" expanded="true" />
               </folding>
@@ -126,8 +125,8 @@
       <file leaf-file-name="CompanyClassifier.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2200">
-              <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+            <state relative-caret-position="152">
+              <caret line="106" column="215" selection-start-line="106" selection-start-column="215" selection-end-line="106" selection-end-column="215" />
               <folding />
             </state>
           </provider>
@@ -227,10 +226,10 @@
         <option value="$PROJECT_DIR$/data/garrett_langfeld/ML_Project_Initial_Data2.csv" />
         <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyStockReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/Readers/garrett_langfeld/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier.scala" />
         <option value="$PROJECT_DIR$/src/main/java/Readers/garrett_langfeld/companyData.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyDataReader.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyApp.scala" />
       </list>
     </option>
@@ -281,6 +280,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,8 +398,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1015,7 +1014,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1485793876661" />
+    <option name="lastUpdateTimestamp" value="1485891430288" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1122,12 +1121,13 @@
       <workItem from="1482169791002" duration="1331000" />
       <workItem from="1483426593722" duration="137000" />
       <workItem from="1485193930790" duration="3136000" />
-      <workItem from="1485793832494" duration="1545000" />
+      <workItem from="1485793832494" duration="1665000" />
+      <workItem from="1485891391617" duration="3320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163931000" />
+    <option name="totallyTimeSpent" value="167371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1924" height="1030" extended-state="0" />
@@ -1142,7 +1142,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44752714" sideWeight="0.5092291" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4402895" sideWeight="0.4907709" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4402895" sideWeight="0.4907709" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38841978" sideWeight="0.4668838" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1541,17 +1541,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Readers/garrett_langfeld/companyData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="2700">
           <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
           <folding />
         </state>
@@ -1559,24 +1551,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="525">
           <caret line="24" column="216" selection-start-line="24" selection-start-column="216" selection-end-line="24" selection-end-column="216" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="3500">
           <caret line="145" column="35" selection-start-line="145" selection-start-column="35" selection-end-line="145" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="106" column="215" selection-start-line="106" selection-start-column="215" selection-end-line="106" selection-end-column="215" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+        <state relative-caret-position="290">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
           <folding>
             <element signature="e#81#145#0" expanded="true" />
           </folding>
