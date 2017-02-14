@@ -153,6 +153,10 @@ object CompanyDataModel extends DataModel{
     x: companyData => CompanyClassifierRandomForest3.classifier.discreteValue(x)
   }
 
+  val SPrediction = property(comp){
+    x: companyData => CompanyClassifierAdaBoost.classifier.discreteValue(x)
+  }
+
 
 }
 
