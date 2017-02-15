@@ -69,7 +69,7 @@ public class dl4J_NN_company_classifier3 {
 
         final int numInputs = 16;
         int outputNum = 4;
-        int iterations = 10000;
+        int iterations = 5000;
         long seed = 6;
 
 
