@@ -47,8 +47,8 @@ public class dl4J_NN_company_classifier2 {
 
         //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
         int labelIndex = 14;     //5 values in each row of the iris.txt CSV: 4 input features followed by an integer label (class) index. Labels are the 5th value (index 4) in each row
-        int numClasses = 4;     //3 classes (types of iris flowers) in the iris data set. Classes have integer values 0, 1 or 2
-        int batchSize = 1000;    //Iris data set: 150 examples total. We are loading all of them into one DataSet (not recommended for large data sets)
+        int numClasses = 4;     //
+        int batchSize = 1288;    //
 
         DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader,batchSize,labelIndex,numClasses);
         DataSet allData = iterator.next();
