@@ -18,6 +18,7 @@ import Readers.garrett_langfeld.companyData
 import weka.classifiers.meta.AdaBoostM1
 
 
+
 object CompanyClassifier {
   import CompanyDataModel._
   object firstCompanyClassifier extends Learnable[companyData](comp) {
@@ -134,6 +135,7 @@ object CompanyClassifier {
     override def feature = using(netDebtEBITDA, total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA, sector)
     //override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
   }
+
 
 
 /*

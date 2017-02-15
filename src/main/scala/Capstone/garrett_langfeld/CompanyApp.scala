@@ -57,9 +57,11 @@ object CompanyApp extends App{
   val SCData = allData.filter(x => market_cap(x) < 100000)
   //setting 70% of data for training
   val STrainSplit = math.ceil(SCData.length*0.7).toInt
+  val SValSplit = STrainSplit + math.ceil(SCData.length*0.2).toInt
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val STrainData = SCData.subList(0, STrainSplit)
   val STestData = SCData.subList(STrainSplit, SCData.length - 1)
+  //val STestData = SCData.subList(STrainSplit, SValSplit)
 
     /** Defining the data and specifying it's location  */
     CompanyDataModel.comp populate(STrainData)
@@ -67,6 +69,20 @@ object CompanyApp extends App{
   //CompanyClassifier.CompanyClassifierAdaBoost.forget()
   CompanyClassifier.CompanyClassifierAdaBoost.learn(10)
   CompanyClassifier.CompanyClassifierAdaBoost.test(STestData)
+
+
+
+  //seeing which values that are actually safe are classified as safe
+  val high_spec = STestData.filter(x => risk(x) == "speculative")
+  val not_high_spec = high_spec.filter(x => SPrediction(x) != "speculative")
+  var i = 0;
+
+  for( i <- 0 to (not_high_spec.size - 1)){
+    //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+    println(not_high_spec.get(i).name + ": " + SPrediction(not_high_spec.get(i)));
+  }
+
+  println()
 
   //print(eq_tot_assets(STrainData.get(3)))
     //ClassifierUtils.TestClassifiers(CompanyClassifier.firstCompanyClassifier)
