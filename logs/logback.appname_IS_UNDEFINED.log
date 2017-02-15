@@ -1,28 +1,99 @@
-INFO  [2017-02-13 23:01:18,971] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-13 23:01:19,976] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-13 23:01:22,351] org.reflections.Reflections: Reflections took 1790 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-13 23:01:35,263] org.reflections.Reflections: Reflections took 10874 ms to scan 184 urls, producing 2335 keys and 18594 values 
-WARN  [2017-02-13 23:01:35,465] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-13 23:01:35,471] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-13 23:01:36,180] org.reflections.Reflections: Reflections took 544 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-13 23:19:24,788] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-13 23:19:25,542] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-13 23:19:27,483] org.reflections.Reflections: Reflections took 1499 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-13 23:19:37,460] org.reflections.Reflections: Reflections took 8121 ms to scan 184 urls, producing 2335 keys and 18594 values 
-WARN  [2017-02-13 23:19:37,629] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-13 23:19:37,629] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-13 23:19:38,168] org.reflections.Reflections: Reflections took 391 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-13 23:20:49,035] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-13 23:20:50,133] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-13 23:20:51,947] org.reflections.Reflections: Reflections took 1427 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-13 23:21:01,353] org.reflections.Reflections: Reflections took 8127 ms to scan 184 urls, producing 2335 keys and 18594 values 
-WARN  [2017-02-13 23:21:01,500] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-13 23:21:01,516] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-13 23:21:02,039] org.reflections.Reflections: Reflections took 400 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-13 23:38:12,129] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-13 23:38:12,838] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-13 23:38:14,793] org.reflections.Reflections: Reflections took 1239 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-13 23:38:25,497] org.reflections.Reflections: Reflections took 8675 ms to scan 184 urls, producing 2335 keys and 18594 values 
-WARN  [2017-02-13 23:38:25,659] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-13 23:38:25,659] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-13 23:38:26,326] org.reflections.Reflections: Reflections took 491 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-02-14 10:40:23,954] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-02-14 10:40:24,494] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-02-14 10:40:24,949] org.reflections.Reflections: Reflections took 330 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-02-14 10:40:25,654] org.reflections.Reflections: Reflections took 254 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-02-14 10:40:25,685] R.g.dl4J_NN_company_classifier2: Build model....
+INFO  [2017-02-14 10:40:30,345] org.reflections.Reflections: Reflections took 4317 ms to scan 272 urls, producing 3673 keys and 30440 values 
+WARN  [2017-02-14 10:40:30,408] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-02-14 10:40:30,408] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-02-14 10:40:30,701] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-02-14 10:40:30,746] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 3.052641503803047
+INFO  [2017-02-14 10:40:31,653] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 2.5193434394667698
+INFO  [2017-02-14 10:40:32,229] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 2.2393803087312603
+INFO  [2017-02-14 10:40:32,786] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 2.0767373228976362
+INFO  [2017-02-14 10:40:33,318] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.9702823499866358
+INFO  [2017-02-14 10:40:33,818] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 1.9008469382309054
+INFO  [2017-02-14 10:40:34,361] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 1.8521206090934486
+INFO  [2017-02-14 10:40:35,005] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 1.8161229764711866
+INFO  [2017-02-14 10:40:36,485] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 1.7855863571802963
+INFO  [2017-02-14 10:40:37,049] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 1.7612713525059245
+INFO  [2017-02-14 10:40:37,627] R.g.dl4J_NN_company_classifier2: 
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 0 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:        0
+ Precision:       0
+ Recall:          0
+ F1 Score:        0
+========================================================================
+INFO  [2017-02-14 18:45:15,927] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-02-14 18:45:16,185] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-02-14 18:45:16,915] org.reflections.Reflections: Reflections took 592 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-02-14 18:45:19,046] org.reflections.Reflections: Reflections took 402 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-02-14 18:45:19,132] R.g.dl4J_NN_company_classifier2: Build model....
+INFO  [2017-02-14 18:45:24,828] org.reflections.Reflections: Reflections took 5316 ms to scan 272 urls, producing 3673 keys and 30440 values 
+WARN  [2017-02-14 18:45:24,885] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-02-14 18:45:24,886] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-02-14 18:47:02,169] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-02-14 18:47:02,614] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-02-14 18:47:03,640] org.reflections.Reflections: Reflections took 792 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-02-14 18:47:04,926] org.reflections.Reflections: Reflections took 324 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-02-14 18:47:04,956] R.g.dl4J_NN_company_classifier2: Build model....
+INFO  [2017-02-14 18:47:10,405] org.reflections.Reflections: Reflections took 5117 ms to scan 272 urls, producing 3673 keys and 30440 values 
+WARN  [2017-02-14 18:47:10,478] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-02-14 18:47:10,478] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-02-14 19:14:24,369] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-02-14 19:14:24,632] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-02-14 19:14:25,333] org.reflections.Reflections: Reflections took 544 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-02-14 19:14:26,474] org.reflections.Reflections: Reflections took 253 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-02-14 19:14:26,497] R.g.dl4J_NN_company_classifier2: Build model....
+INFO  [2017-02-14 19:14:30,979] org.reflections.Reflections: Reflections took 4213 ms to scan 272 urls, producing 3673 keys and 30440 values 
+WARN  [2017-02-14 19:14:31,026] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-02-14 19:14:31,026] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-02-14 19:15:23,843] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-02-14 19:15:24,051] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-02-14 19:15:24,688] org.reflections.Reflections: Reflections took 484 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-02-14 19:15:25,767] org.reflections.Reflections: Reflections took 268 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-02-14 19:15:25,794] R.g.dl4J_NN_company_classifier2: Build model....
+INFO  [2017-02-14 19:15:29,894] org.reflections.Reflections: Reflections took 3828 ms to scan 272 urls, producing 3673 keys and 30440 values 
+WARN  [2017-02-14 19:15:29,941] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-02-14 19:15:29,941] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-02-14 19:15:30,063] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-02-14 19:15:51,069] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-02-14 19:15:51,486] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-02-14 19:15:52,120] org.reflections.Reflections: Reflections took 491 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-02-14 19:15:53,014] org.reflections.Reflections: Reflections took 263 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-02-14 19:15:53,038] R.g.dl4J_NN_company_classifier2: Build model....
+INFO  [2017-02-14 19:15:57,208] org.reflections.Reflections: Reflections took 3921 ms to scan 272 urls, producing 3673 keys and 30440 values 
+WARN  [2017-02-14 19:15:57,261] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-02-14 19:15:57,261] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-02-14 19:15:57,392] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-02-14 19:15:57,408] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.512281784566105
+INFO  [2017-02-14 19:15:57,846] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.7930502637211563
+INFO  [2017-02-14 19:15:58,141] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.6145495396629854
+INFO  [2017-02-14 19:15:58,409] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.48896693192480023
+INFO  [2017-02-14 19:15:58,662] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.43861987746136744
+INFO  [2017-02-14 19:15:58,929] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.40672765402517613
+INFO  [2017-02-14 19:15:59,193] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.3824582375098962
+INFO  [2017-02-14 19:15:59,446] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.36479489947849164
+INFO  [2017-02-14 19:15:59,693] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.35243018552663435
+INFO  [2017-02-14 19:15:59,946] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3429710478704826
+INFO  [2017-02-14 19:16:00,208] R.g.dl4J_NN_company_classifier2: 
+Examples labeled as 0 classified by model as 0: 45 times
+Examples labeled as 0 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 0: 7 times
+Examples labeled as 1 classified by model as 1: 187 times
+Examples labeled as 1 classified by model as 2: 15 times
+Examples labeled as 2 classified by model as 1: 13 times
+Examples labeled as 2 classified by model as 2: 67 times
+
+
+==========================Scores========================================
+ Accuracy:        0.8543
+ Precision:       0.8522
+ Recall:          0.876
+ F1 Score:        0.8639
+========================================================================

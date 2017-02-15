@@ -43,11 +43,11 @@ public class dl4J_NN_company_classifier2 {
         int numLinesToSkip = 1;
         String delimiter = ",";
         RecordReader recordReader = new CSVRecordReader(numLinesToSkip,delimiter);
-        recordReader.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data_With_Sector_Market_Cap6.csv")));
+        recordReader.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data_With_Sector_Market_Cap7.csv")));
 
         //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
         int labelIndex = 14;     //5 values in each row of the iris.txt CSV: 4 input features followed by an integer label (class) index. Labels are the 5th value (index 4) in each row
-        int numClasses = 21;     //3 classes (types of iris flowers) in the iris data set. Classes have integer values 0, 1 or 2
+        int numClasses = 4;     //3 classes (types of iris flowers) in the iris data set. Classes have integer values 0, 1 or 2
         int batchSize = 1000;    //Iris data set: 150 examples total. We are loading all of them into one DataSet (not recommended for large data sets)
 
         DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader,batchSize,labelIndex,numClasses);
@@ -66,7 +66,7 @@ public class dl4J_NN_company_classifier2 {
 
 
         final int numInputs = 16;
-        int outputNum = 21;
+        int outputNum = 4;
         int iterations = 1000;
         long seed = 6;
 
