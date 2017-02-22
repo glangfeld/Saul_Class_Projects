@@ -4,7 +4,7 @@
 		module="usesaul$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170215103229"
+		publication="20170221082213"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
