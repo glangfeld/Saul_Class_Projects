@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8ba0a4-f19e-46cd-ab3f-b7c70677788a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" afterPath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" afterPath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" />
@@ -59,16 +60,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dl4J_NN_company_classifier2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_company_classifier2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
-              <caret line="106" column="0" selection-start-line="36" selection-start-column="4" selection-end-line="106" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dl4J_NN_company_classifier3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_company_classifier3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,8 +87,18 @@
       <file leaf-file-name="dl4J_NN_1Q_ahead_classifier_company_number.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_classifier_company_number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="2025">
               <caret line="104" column="0" selection-start-line="34" selection-start-column="4" selection-end-line="104" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dl4J_NN_1Q_ahead_wo_rating_5_labels.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,14 +106,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dl4J_NN_1Q_ahead_wo_rating_5_labels.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels.java">
+      <file leaf-file-name="dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1104">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="200">
+              <caret line="104" column="107" selection-start-line="104" selection-start-column="107" selection-end-line="104" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecordReaderDataSetIterator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.7.2-sources.jar!/org/deeplearning4j/datasets/datavec/RecordReaderDataSetIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+              <folding>
+                <element signature="e#15286#15287#0" expanded="true" />
+                <element signature="e#15324#15325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-0.7.2-sources.jar!/org/nd4j/linalg/dataset/DataSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,11 +144,9 @@
       <file leaf-file-name="dl4J_NN_1Q_ahead_classifier_wo_rating.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_classifier_wo_rating.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
+            <state relative-caret-position="425">
               <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,91 +168,6 @@
               <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="e#81#145#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Initial_Data_With_Sector_Market_Cap7.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/garrett_langfeld/Initial_Data_With_Sector_Market_Cap7.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseLayer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.7.2-sources.jar!/org/deeplearning4j/nn/layers/BaseLayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7325">
-              <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#23473#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2440#2441#0" expanded="false" />
-                <element signature="e#2472#2473#0" expanded="false" />
-                <element signature="e#2641#2642#0" expanded="false" />
-                <element signature="e#2697#2698#0" expanded="false" />
-                <element signature="e#2731#2732#0" expanded="false" />
-                <element signature="e#2759#2760#0" expanded="false" />
-                <element signature="e#2926#2927#0" expanded="false" />
-                <element signature="e#2954#2955#0" expanded="false" />
-                <element signature="e#3007#3008#0" expanded="false" />
-                <element signature="e#3041#3042#0" expanded="false" />
-                <element signature="e#3115#3116#0" expanded="false" />
-                <element signature="e#3156#3157#0" expanded="false" />
-                <element signature="e#3429#3430#0" expanded="false" />
-                <element signature="e#3483#3484#0" expanded="false" />
-                <element signature="e#6491#6492#0" expanded="false" />
-                <element signature="e#6522#6523#0" expanded="false" />
-                <element signature="e#6852#6853#0" expanded="false" />
-                <element signature="e#6918#6919#0" expanded="false" />
-                <element signature="e#6987#6988#0" expanded="false" />
-                <element signature="e#7050#7051#0" expanded="false" />
-                <element signature="e#7359#7360#0" expanded="false" />
-                <element signature="e#7387#7388#0" expanded="false" />
-                <element signature="e#7435#7436#0" expanded="false" />
-                <element signature="e#7466#7467#0" expanded="false" />
-                <element signature="e#8195#8196#0" expanded="false" />
-                <element signature="e#8260#8261#0" expanded="false" />
-                <element signature="e#8646#8647#0" expanded="false" />
-                <element signature="e#8678#8679#0" expanded="false" />
-                <element signature="e#8862#8863#0" expanded="false" />
-                <element signature="e#8922#8923#0" expanded="false" />
-                <element signature="e#8982#8983#0" expanded="false" />
-                <element signature="e#9022#9023#0" expanded="false" />
-                <element signature="e#11241#11242#0" expanded="false" />
-                <element signature="e#11281#11282#0" expanded="false" />
-                <element signature="e#11523#11524#0" expanded="false" />
-                <element signature="e#11563#11564#0" expanded="false" />
-                <element signature="e#11650#11651#0" expanded="false" />
-                <element signature="e#11679#11680#0" expanded="false" />
-                <element signature="e#13913#13914#0" expanded="false" />
-                <element signature="e#13951#13952#0" expanded="false" />
-                <element signature="e#14349#14350#0" expanded="false" />
-                <element signature="e#14390#14391#0" expanded="false" />
-                <element signature="e#15911#15912#0" expanded="false" />
-                <element signature="e#15947#15948#0" expanded="false" />
-                <element signature="e#16247#16248#0" expanded="false" />
-                <element signature="e#16274#16275#0" expanded="false" />
-                <element signature="e#17761#17762#0" expanded="false" />
-                <element signature="e#17801#17802#0" expanded="false" />
-                <element signature="e#18153#18154#0" expanded="false" />
-                <element signature="e#18187#18188#0" expanded="false" />
-                <element signature="e#19114#19115#0" expanded="false" />
-                <element signature="e#19167#19168#0" expanded="false" />
-                <element signature="e#19212#19213#0" expanded="false" />
-                <element signature="e#19240#19241#0" expanded="false" />
-                <element signature="e#22801#22802#0" expanded="false" />
-                <element signature="e#22831#22832#0" expanded="false" />
-                <element signature="e#22956#22957#0" expanded="false" />
-                <element signature="e#22989#22990#0" expanded="false" />
-                <element signature="e#23344#23345#0" expanded="false" />
-                <element signature="e#23386#23387#0" expanded="false" />
-                <element signature="e#23437#23438#0" expanded="false" />
-                <element signature="e#23469#23470#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -303,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_classifier_company_number.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_classifier_wo_rating.java" />
         <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val.java" />
       </list>
     </option>
   </component>
@@ -355,19 +293,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="useSaul" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -474,6 +405,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,27 +444,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels">
-    <configuration default="false" name="dl4J_NN_company_classifier3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Readers.garrett_langfeld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Readers.garrett_langfeld.dl4J_NN_company_classifier3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="saul_class_projects" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val">
     <configuration default="false" name="dl4J_NN_1Q_ahead_classifier1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -599,6 +513,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Readers.garrett_langfeld.dl4J_NN_1Q_ahead_wo_rating_5_labels" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="saul_class_projects" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Readers.garrett_langfeld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Readers.garrett_langfeld.dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1079,24 +1013,24 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.dl4J_NN_company_classifier3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_company_number" />
-      <item index="3" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_wo_rating" />
-      <item index="4" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels" />
+      <item index="0" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_company_number" />
+      <item index="2" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_wo_rating" />
+      <item index="3" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels" />
+      <item index="4" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels" />
-        <item index="1" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_wo_rating" />
-        <item index="2" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_company_number" />
-        <item index="3" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.dl4J_NN_company_classifier3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val" />
+        <item index="1" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_wo_rating_5_labels" />
+        <item index="2" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_wo_rating" />
+        <item index="3" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier_company_number" />
+        <item index="4" class="java.lang.String" itemvalue="Application.dl4J_NN_1Q_ahead_classifier1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1488735207333" />
+    <option name="lastUpdateTimestamp" value="1489257254206" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1225,12 +1159,13 @@
       <workItem from="1488422580904" duration="2147000" />
       <workItem from="1488472179748" duration="1902000" />
       <workItem from="1488659836712" duration="649000" />
-      <workItem from="1488734961850" duration="6175000" />
+      <workItem from="1488734961850" duration="6358000" />
+      <workItem from="1489257199356" duration="8900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235575000" />
+    <option name="totallyTimeSpent" value="244658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1924" height="1030" extended-state="0" />
@@ -1245,8 +1180,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44752714" sideWeight="0.5092291" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43787697" sideWeight="0.4907709" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43787697" sideWeight="0.4907709" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39083233" sideWeight="0.4668838" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1341,13 +1276,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/garrett_langfeld/ML_Project_Initial_Data2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1544,20 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.7.2-sources.jar!/org/deeplearning4j/datasets/datavec/RecordReaderDataSetIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3650">
-          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-0.7.2-sources.jar!/org/nd4j/linalg/dataset/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5125">
-          <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/CompanyDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1600,136 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34350">
           <caret line="1486" column="0" selection-start-line="1486" selection-start-column="0" selection-end-line="1486" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#94577#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10698#10699#0" expanded="false" />
-            <element signature="e#10734#10735#0" expanded="false" />
-            <element signature="e#10792#10793#0" expanded="false" />
-            <element signature="e#10835#10836#0" expanded="false" />
-            <element signature="e#10905#10906#0" expanded="false" />
-            <element signature="e#10962#10963#0" expanded="false" />
-            <element signature="e#11007#11008#0" expanded="false" />
-            <element signature="e#11035#11036#0" expanded="false" />
-            <element signature="e#11150#11151#0" expanded="false" />
-            <element signature="e#11207#11208#0" expanded="false" />
-            <element signature="e#11765#11766#0" expanded="false" />
-            <element signature="e#11822#11823#0" expanded="false" />
-            <element signature="e#11885#11886#0" expanded="false" />
-            <element signature="e#11925#11926#0" expanded="false" />
-            <element signature="e#13202#13203#0" expanded="false" />
-            <element signature="e#13248#13249#0" expanded="false" />
-            <element signature="e#14082#14083#0" expanded="false" />
-            <element signature="e#14114#14115#0" expanded="false" />
-            <element signature="e#17722#17723#0" expanded="false" />
-            <element signature="e#17755#17756#0" expanded="false" />
-            <element signature="e#19451#19452#0" expanded="false" />
-            <element signature="e#19520#19521#0" expanded="false" />
-            <element signature="e#19728#19729#0" expanded="false" />
-            <element signature="e#19777#19778#0" expanded="false" />
-            <element signature="e#19839#19840#0" expanded="false" />
-            <element signature="e#19896#19897#0" expanded="false" />
-            <element signature="e#20184#20185#0" expanded="false" />
-            <element signature="e#20238#20239#0" expanded="false" />
-            <element signature="e#25162#25163#0" expanded="false" />
-            <element signature="e#25229#25230#0" expanded="false" />
-            <element signature="e#28224#28225#0" expanded="false" />
-            <element signature="e#28265#28266#0" expanded="false" />
-            <element signature="e#29504#29505#0" expanded="false" />
-            <element signature="e#29535#29536#0" expanded="false" />
-            <element signature="e#29568#29569#0" expanded="false" />
-            <element signature="e#29598#29599#0" expanded="false" />
-            <element signature="e#29668#29669#0" expanded="false" />
-            <element signature="e#29722#29723#0" expanded="false" />
-            <element signature="e#31335#31336#0" expanded="false" />
-            <element signature="e#31373#31374#0" expanded="false" />
-            <element signature="e#32493#32494#0" expanded="false" />
-            <element signature="e#32571#32572#0" expanded="false" />
-            <element signature="e#33983#33984#0" expanded="false" />
-            <element signature="e#34014#34015#0" expanded="false" />
-            <element signature="e#51513#51514#0" expanded="false" />
-            <element signature="e#51545#51546#0" expanded="false" />
-            <element signature="e#55498#55499#0" expanded="false" />
-            <element signature="e#55543#55544#0" expanded="false" />
-            <element signature="e#57654#57655#0" expanded="false" />
-            <element signature="e#57685#57686#0" expanded="false" />
-            <element signature="e#59519#59520#0" expanded="false" />
-            <element signature="e#59583#59584#0" expanded="false" />
-            <element signature="e#61233#61234#0" expanded="false" />
-            <element signature="e#61288#61289#0" expanded="false" />
-            <element signature="e#62397#62398#0" expanded="false" />
-            <element signature="e#62443#62444#0" expanded="false" />
-            <element signature="e#65467#65468#0" expanded="false" />
-            <element signature="e#65506#65507#0" expanded="false" />
-            <element signature="e#65877#65878#0" expanded="false" />
-            <element signature="e#65917#65918#0" expanded="false" />
-            <element signature="e#69735#69736#0" expanded="false" />
-            <element signature="e#69769#69770#0" expanded="false" />
-            <element signature="e#70125#70126#0" expanded="false" />
-            <element signature="e#70153#70154#0" expanded="false" />
-            <element signature="e#70196#70197#0" expanded="false" />
-            <element signature="e#70230#70231#0" expanded="false" />
-            <element signature="e#73041#73042#0" expanded="false" />
-            <element signature="e#73098#73099#0" expanded="false" />
-            <element signature="e#74716#74717#0" expanded="false" />
-            <element signature="e#74770#74771#0" expanded="false" />
-            <element signature="e#74874#74875#0" expanded="false" />
-            <element signature="e#74932#74933#0" expanded="false" />
-            <element signature="e#75221#75222#0" expanded="false" />
-            <element signature="e#75254#75255#0" expanded="false" />
-            <element signature="e#75818#75819#0" expanded="false" />
-            <element signature="e#75861#75862#0" expanded="false" />
-            <element signature="e#75896#75897#0" expanded="false" />
-            <element signature="e#75925#75926#0" expanded="false" />
-            <element signature="e#75959#75960#0" expanded="false" />
-            <element signature="e#75987#75988#0" expanded="false" />
-            <element signature="e#76078#76079#0" expanded="false" />
-            <element signature="e#76114#76115#0" expanded="false" />
-            <element signature="e#76266#76267#0" expanded="false" />
-            <element signature="e#76330#76331#0" expanded="false" />
-            <element signature="e#76415#76416#0" expanded="false" />
-            <element signature="e#76444#76445#0" expanded="false" />
-            <element signature="e#76480#76481#0" expanded="false" />
-            <element signature="e#76512#76513#0" expanded="false" />
-            <element signature="e#76553#76554#0" expanded="false" />
-            <element signature="e#76594#76595#0" expanded="false" />
-            <element signature="e#76636#76637#0" expanded="false" />
-            <element signature="e#76693#76694#0" expanded="false" />
-            <element signature="e#76738#76739#0" expanded="false" />
-            <element signature="e#76774#76775#0" expanded="false" />
-            <element signature="e#76807#76808#0" expanded="false" />
-            <element signature="e#76834#76835#0" expanded="false" />
-            <element signature="e#76876#76877#0" expanded="false" />
-            <element signature="e#76908#76909#0" expanded="false" />
-            <element signature="e#76945#76946#0" expanded="false" />
-            <element signature="e#76972#76973#0" expanded="false" />
-            <element signature="e#77026#77027#0" expanded="false" />
-            <element signature="e#77054#77055#0" expanded="false" />
-            <element signature="e#77157#77158#0" expanded="false" />
-            <element signature="e#77214#77215#0" expanded="false" />
-            <element signature="e#77254#77255#0" expanded="false" />
-            <element signature="e#77292#77293#0" expanded="false" />
-            <element signature="e#77366#77367#0" expanded="false" />
-            <element signature="e#77423#77424#0" expanded="false" />
-            <element signature="e#78563#78564#0" expanded="false" />
-            <element signature="e#78626#78627#0" expanded="false" />
-            <element signature="e#78826#78827#0" expanded="false" />
-            <element signature="e#78883#78884#0" expanded="false" />
-            <element signature="e#79254#79255#0" expanded="false" />
-            <element signature="e#79288#79289#0" expanded="false" />
-            <element signature="e#79330#79331#0" expanded="false" />
-            <element signature="e#79363#79364#0" expanded="false" />
-            <element signature="e#81020#81021#0" expanded="false" />
-            <element signature="e#81077#81078#0" expanded="false" />
-            <element signature="e#81157#81158#0" expanded="false" />
-            <element signature="e#81214#81215#0" expanded="false" />
-            <element signature="e#81447#81448#0" expanded="false" />
-            <element signature="e#81483#81484#0" expanded="false" />
-            <element signature="e#81549#81550#0" expanded="false" />
-            <element signature="e#81606#81607#0" expanded="false" />
-            <element signature="e#91577#91578#0" expanded="false" />
-            <element signature="e#91624#91625#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1737,72 +1521,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7325">
           <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23473#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2440#2441#0" expanded="false" />
-            <element signature="e#2472#2473#0" expanded="false" />
-            <element signature="e#2641#2642#0" expanded="false" />
-            <element signature="e#2697#2698#0" expanded="false" />
-            <element signature="e#2731#2732#0" expanded="false" />
-            <element signature="e#2759#2760#0" expanded="false" />
-            <element signature="e#2926#2927#0" expanded="false" />
-            <element signature="e#2954#2955#0" expanded="false" />
-            <element signature="e#3007#3008#0" expanded="false" />
-            <element signature="e#3041#3042#0" expanded="false" />
-            <element signature="e#3115#3116#0" expanded="false" />
-            <element signature="e#3156#3157#0" expanded="false" />
-            <element signature="e#3429#3430#0" expanded="false" />
-            <element signature="e#3483#3484#0" expanded="false" />
-            <element signature="e#6491#6492#0" expanded="false" />
-            <element signature="e#6522#6523#0" expanded="false" />
-            <element signature="e#6852#6853#0" expanded="false" />
-            <element signature="e#6918#6919#0" expanded="false" />
-            <element signature="e#6987#6988#0" expanded="false" />
-            <element signature="e#7050#7051#0" expanded="false" />
-            <element signature="e#7359#7360#0" expanded="false" />
-            <element signature="e#7387#7388#0" expanded="false" />
-            <element signature="e#7435#7436#0" expanded="false" />
-            <element signature="e#7466#7467#0" expanded="false" />
-            <element signature="e#8195#8196#0" expanded="false" />
-            <element signature="e#8260#8261#0" expanded="false" />
-            <element signature="e#8646#8647#0" expanded="false" />
-            <element signature="e#8678#8679#0" expanded="false" />
-            <element signature="e#8862#8863#0" expanded="false" />
-            <element signature="e#8922#8923#0" expanded="false" />
-            <element signature="e#8982#8983#0" expanded="false" />
-            <element signature="e#9022#9023#0" expanded="false" />
-            <element signature="e#11241#11242#0" expanded="false" />
-            <element signature="e#11281#11282#0" expanded="false" />
-            <element signature="e#11523#11524#0" expanded="false" />
-            <element signature="e#11563#11564#0" expanded="false" />
-            <element signature="e#11650#11651#0" expanded="false" />
-            <element signature="e#11679#11680#0" expanded="false" />
-            <element signature="e#13913#13914#0" expanded="false" />
-            <element signature="e#13951#13952#0" expanded="false" />
-            <element signature="e#14349#14350#0" expanded="false" />
-            <element signature="e#14390#14391#0" expanded="false" />
-            <element signature="e#15911#15912#0" expanded="false" />
-            <element signature="e#15947#15948#0" expanded="false" />
-            <element signature="e#16247#16248#0" expanded="false" />
-            <element signature="e#16274#16275#0" expanded="false" />
-            <element signature="e#17761#17762#0" expanded="false" />
-            <element signature="e#17801#17802#0" expanded="false" />
-            <element signature="e#18153#18154#0" expanded="false" />
-            <element signature="e#18187#18188#0" expanded="false" />
-            <element signature="e#19114#19115#0" expanded="false" />
-            <element signature="e#19167#19168#0" expanded="false" />
-            <element signature="e#19212#19213#0" expanded="false" />
-            <element signature="e#19240#19241#0" expanded="false" />
-            <element signature="e#22801#22802#0" expanded="false" />
-            <element signature="e#22831#22832#0" expanded="false" />
-            <element signature="e#22956#22957#0" expanded="false" />
-            <element signature="e#22989#22990#0" expanded="false" />
-            <element signature="e#23344#23345#0" expanded="false" />
-            <element signature="e#23386#23387#0" expanded="false" />
-            <element signature="e#23437#23438#0" expanded="false" />
-            <element signature="e#23469#23470#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1825,7 +1544,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2075">
           <caret line="106" column="0" selection-start-line="36" selection-start-column="4" selection-end-line="106" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1869,28 +1590,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_classifier_company_number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
+        <state relative-caret-position="2025">
           <caret line="104" column="0" selection-start-line="34" selection-start-column="4" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_classifier_wo_rating.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
+        <state relative-caret-position="425">
           <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels.java">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.nd4j/nd4j-api/srcs/nd4j-api-0.7.2-sources.jar!/org/nd4j/linalg/dataset/DataSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1104">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="143">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-core/srcs/deeplearning4j-core-0.7.2-sources.jar!/org/deeplearning4j/datasets/datavec/RecordReaderDataSetIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding>
+            <element signature="e#15286#15287#0" expanded="true" />
+            <element signature="e#15324#15325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="104" column="107" selection-start-line="104" selection-start-column="107" selection-end-line="104" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
