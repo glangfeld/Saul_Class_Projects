@@ -41,6 +41,7 @@ public class dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val {
     public static void main(String[] args) throws  Exception {
 
 
+        /*
         //First: get the dataset using the record reader. CSVRecordReader handles loading/parsing
         int numLinesToSkip = 1;
         String delimiter = ",";
@@ -57,22 +58,65 @@ public class dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val {
         DataSet allData = iterator.next();
 
         //DataSet allData = new DataSet(RecordReader.getLabels());
-        KFoldIterator KFIterator = new KFoldIterator(5, allData);
-        /*
+        //KFoldIterator KFIterator = new KFoldIterator(5, allData);
+
         allData.shuffle();
         SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.65);  //Use 65% of data for training
 
-            DataSet trainingData = KFIterator.next();
-            DataSet testData = KFIterator.testFold();
-        System.out.println(testData.numExamples());
+        DataSet trainingData = testAndTrain.getTrain();
+        DataSet testData = testAndTrain.getTest();
 
-            //We need to normalize our data. We'll use NormalizeStandardize (which gives us mean 0, unit variance):
+        */
+
+        /*
+            DataSet trainingData = iterator.next();
+            DataSet testData = iterator.testFold();
+        //System.out.println(testData.numExamples());
+        */
+
+        //First: get the dataset using the record reader. CSVRecordReader handles loading/parsing
+        int numLinesToSkip = 1;
+        String delimiter = ",";
+        RecordReader recordReader1 = new CSVRecordReader(numLinesToSkip,delimiter);
+        recordReader1.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/1Q_Ahead_CV/fold2_train.csv")));
+
+        //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
+        int labelIndex = 15;
+        int numClasses = 5;     //
+        //batch size for training fold
+        //int batchSize1 = 1253;
+        int batchSize1 = 1128;
+        //batch size for testing fold
+        int batchSize2 = 125;
+
+        DataSetIterator iterator1 = new RecordReaderDataSetIterator(recordReader1,batchSize1,labelIndex,numClasses);
+        DataSet trainingData = iterator1.next();
+
+        RecordReader recordReader2 = new CSVRecordReader(numLinesToSkip,delimiter);
+        recordReader2.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/1Q_Ahead_CV/fold2_test.csv")));
+
+        DataSetIterator iterator2 = new RecordReaderDataSetIterator(recordReader2,batchSize2,labelIndex,numClasses);
+        DataSet testData = iterator2.next();
+
+        //DataSet allData = iterator.next();
+
+        //DataSet allData = new DataSet(RecordReader.getLabels());
+        //KFoldIterator KFIterator = new KFoldIterator(5, allData);
+
+        //allData.shuffle();
+        //SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.65);  //Use 65% of data for training
+
+        //DataSet trainingData = testAndTrain.getTrain();
+        //DataSet testData = testAndTrain.getTest();
+
+
+        //We need to normalize our data. We'll use NormalizeStandardize (which gives us mean 0, unit variance):
             DataNormalization normalizer = new NormalizerStandardize();
             normalizer.fit(trainingData);           //Collect the statistics (mean/stdev) from the training data. This does not modify the input data
             normalizer.transform(trainingData);     //Apply normalization to the training data
             normalizer.transform(testData);         //Apply normalization to the test data. This is using statistics calculated from the *training* set
 
-            */
+
             final int numInputs = 17;
             int outputNum = 5;
             int iterations = 3000;
@@ -104,7 +148,7 @@ public class dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val {
             //model.setListeners(new ScoreIterationListener(100));
             model.setListeners(Collections.singletonList((IterationListener) new ScoreIterationListener(100)));
 
-            /*
+
             model.fit(trainingData);
 
             //evaluate the model on the test set
@@ -112,7 +156,7 @@ public class dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val {
             INDArray output = model.output(testData.getFeatureMatrix());
             eval.eval(testData.getLabels(), output);
             log.info(eval.stats());
-            */
+
 
         /*
         // Training
@@ -129,25 +173,32 @@ public class dl4J_NN_1Q_ahead_wo_rating_5_labels_cross_val {
             INDArray predict2 = model.output(next.getFeatureMatrix());
             eval.eval(next.getLabels(), predict2);
         }
-        */
 
-        // Training
+
+        //Training
+        /*
+        Evaluation eval = new Evaluation(5);
         while(KFIterator.hasNext()){
-            System.out.println(KFIterator.hasNext());
+            //System.out.println(KFIterator.hasNext());
             DataSet next = KFIterator.next();
             model.fit(next);
+            DataSet test = KFIterator.testFold();
+            INDArray predict2 = model.output(test.getFeatureMatrix());
+            eval.eval(test.getLabels(), predict2);
         }
 
+
         KFIterator.reset();
-        Evaluation eval = new Evaluation();
+        //Evaluation eval = new Evaluation(5);
         while(KFIterator.hasNext()){
             DataSet next = KFIterator.next();
-            INDArray predict2 = model.output(next.getFeatureMatrix());
-            eval.eval(next.getLabels(), predict2);
+            DataSet test = KFIterator.testFold();
+            INDArray predict2 = model.output(test.getFeatureMatrix());
+            eval.eval(test.getLabels(), predict2);
         }
 
         System.out.println(eval.stats());
-
+        */
 
     }
 
