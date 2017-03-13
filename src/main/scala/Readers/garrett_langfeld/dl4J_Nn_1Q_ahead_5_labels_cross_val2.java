@@ -26,6 +26,7 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import org.deeplearning4j.eval.meta.Prediction;
 
 
 /**
@@ -55,10 +56,21 @@ public class dl4J_Nn_1Q_ahead_5_labels_cross_val2 {
         allData.shuffle();
         //SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.65);  //Use 65% of data for training
 
+        //arrays to keep track of accuracy, recall, precision, f1
+        //double[] accuracy = new double[10];
+        //double[] precision = new double[10];
+        double sum_accuracy = 0;
+        double sum_precision = 0;
+        double sum_recall = 0;
+        double sum_f1 = 0;
+
+        //list to keep track of wrong predictions
+        ArrayList<Prediction> wrong = new ArrayList<Prediction>();
+
         //for loop for cross validation to run k=10 times
-        int h = 0;
         int i = batchSize - batchSize/10 - 1;
         int j = batchSize - 1;
+        //int k = 0;
         for(int k = 0; k < 10; k++) {
             DataSet trainingData1 = new DataSet();
             DataSet trainingData2 = new DataSet();
@@ -132,8 +144,38 @@ public class dl4J_Nn_1Q_ahead_5_labels_cross_val2 {
             INDArray output = model.output(testData.getFeatureMatrix());
             eval.eval(testData.getLabels(), output);
             log.info(eval.stats());
+            List<Prediction> errors = new ArrayList<Prediction>();
+            //List<Prediction> errors2 = eval.eval(testData.getLabels(), output).getPredictionErrors();
+            System.out.println(testData.get(2));
+            //errors.addAll(eval.getPredictionErrors());
+            System.out.println(wrong.size());
+            if (wrong.size() == 0){
+                //wrong = errors;
+            }
+            else {
+                //wrong.addAll(errors);
+            }
+            //wrong.addAll(errors);
+
+            //accuracy[k] = eval.accuracy();
+            //precision[k] = eval.precision();
+            sum_accuracy += eval.accuracy();
+            sum_precision += eval.precision();
+            sum_recall += eval.recall();
+            sum_f1 += eval.f1();
         }
+
+        System.out.println("Results");
+        System.out.println(sum_accuracy/(10));
+        System.out.println(sum_precision/10);
+        System.out.println(sum_recall/10);
+        System.out.println(sum_f1/10);
+        System.out.println("Wrong!");
+        //System.out.println(wrong.get(3));
+
     }
+
+
 
 
 

@@ -79,7 +79,7 @@ object CompanyApp extends App{
 
   for( i <- 0 to (not_high_spec.size - 1)){
     //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
-    println(not_high_spec.get(i).name + ": " + SPrediction(not_high_spec.get(i)));
+    //println(not_high_spec.get(i).name + ": " + SPrediction(not_high_spec.get(i)));
   }
 
   println()
@@ -119,20 +119,20 @@ object CompanyApp extends App{
     */
     //println(CompanyClassifier.secondCompanyClassifier.classifier.discreteValue(testData.get(86)))
 
-  /*
-  CompanyClassifier.secondCompanyClassifier.learn(10)
-  CompanyClassifier.secondCompanyClassifier.test(LTestData)
-  */
+
+  //CompanyClassifier.secondCompanyClassifier.learn(10)
+  //CompanyClassifier.secondCompanyClassifier.test(LTestData)
+
 
     /*
     CompanyClassifier.CompanyClassifierWeka.learn(3)
     CompanyClassifier.CompanyClassifierWeka.test(testData)
     */
 
-    /*
-    CompanyClassifier.CompanyClassifierBayesNetwork.learn(10)
-    CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
-    */
+
+    //CompanyClassifier.CompanyClassifierBayesNetwork.learn(10)
+    //CompanyClassifier.CompanyClassifierBayesNetwork.test(testData)
+
 
   
     /*
