@@ -31,10 +31,11 @@ import java.util.List;
 import org.deeplearning4j.eval.meta.Prediction;
 
 
+
 /**
- * Created by glang on 3/12/2017.
+ * Created by glang on 3/15/2017.
  */
-public class dl4J_Nn_1Q_ahead_5_labels_cross_val2 {
+public class dl4J_NN_1Q_Ahead_Big_Small {
 
     private static Logger log = LoggerFactory.getLogger(dl4J_NN_1Q_ahead_wo_rating_5_labels.class);
 
@@ -45,7 +46,7 @@ public class dl4J_Nn_1Q_ahead_5_labels_cross_val2 {
         int numLinesToSkip = 1;
         String delimiter = ",";
         RecordReader recordReader = new CSVRecordReader(numLinesToSkip,delimiter);
-        recordReader.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Data_for_NN_1Q_Ahead_wo_rating_5_labels.csv")));
+        recordReader.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Size-Adjusted/Small_Data.csv")));
 
         //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
         int labelIndex = 15;     //5 values in each row of the iris.txt CSV: 4 input features followed by an integer label (class) index. Labels are the 5th value (index 4) in each row
@@ -194,8 +195,6 @@ public class dl4J_Nn_1Q_ahead_5_labels_cross_val2 {
         //System.out.println(wrong.get(3));
 
     }
-
-
 
 
 

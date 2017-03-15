@@ -176,29 +176,52 @@ object CompanyApp extends App{
     */
 
 
+  //seeing which values that are actually safe are classified as safe
+  val safe_class = LTestData.filter(x => risk(x) == "safe")
+  val not_safe = safe_class.filter(x => prediction(x) != "safe")
+  var n = 0;
+
+  for( n <- 0 to (not_safe.size - 1)){
+    //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+    println(not_safe.get(n).name + ": " + not_safe.get(n).quarter + ": " + prediction(not_safe.get(n)));
+  }
+
+  println()
+  System.out.println("Predicted Safe but not safe");
+
+  //seeing which values predicted as safe are actually not safe
+  val predicted_safe = LTestData.filter(x => prediction(x) == "safe")
+  val false_safe = predicted_safe.filter(x => risk(x) != "safe")
+
+  for( n <- 0 to (false_safe.size - 1)){
+    //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+    println(false_safe.get(n).name + ": " + false_safe.get(n).quarter + ": " + risk(false_safe.get(n)))
+  }
+
+
   /*
-    //seeing which values that are actually safe are classified as safe
-    val safe_class = testData.filter(x => risk(x) == "safe")
-    val not_safe = safe_class.filter(x => prediction(x) != "safe")
-    var i = 0;
+  //seeing which values that are actually safe are classified as safe
+  val safe_class = testData.filter(x => risk(x) == "safe")
+  val not_safe = safe_class.filter(x => prediction(x) != "safe")
+  var n = 0;
 
-    for( i <- 0 to (not_safe.size - 1)){
-      //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
-      println(not_safe.get(i).name + ": " + prediction(not_safe.get(i)));
-    }
+  for( n <- 0 to (not_safe.size - 1)){
+    //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+    println(not_safe.get(i).name + ": " + prediction(not_safe.get(i)));
+  }
 
-    println()
+  println()
 
-    //seeing which values predicted as safe are actually not safe
-    val predicted_safe = testData.filter(x => prediction(x) == "safe")
-    val false_safe = predicted_safe.filter(x => risk(x) != "safe")
+  //seeing which values predicted as safe are actually not safe
+  val predicted_safe = testData.filter(x => prediction(x) == "safe")
+  val false_safe = predicted_safe.filter(x => risk(x) != "safe")
 
-    for( i <- 0 to (false_safe.size - 1)){
-      //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
-      println(false_safe.get(i).name + ": " + false_safe.get(i).quarter + ": " + risk(false_safe.get(i)))
-    }
-*/
+  for( n <- 0 to (false_safe.size - 1)){
+    //println(not_safe.get(i).name + ": " + not_safe.get(i).quarter);
+    println(false_safe.get(i).name + ": " + false_safe.get(i).quarter + ": " + risk(false_safe.get(i)))
+  }
 
+  */
 
 
 }
