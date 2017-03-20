@@ -52,7 +52,7 @@ public class dl4J_NN_1Q_Ahead_Big_Small {
         int labelIndex = 15;     //5 values in each row of the iris.txt CSV: 4 input features followed by an integer label (class) index. Labels are the 5th value (index 4) in each row
         int numClasses = 5;     //
         //int batchSize = 1253;    //
-        int batchSize = 1253;
+        int batchSize = 905;
 
         DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader,batchSize,labelIndex,numClasses);
         DataSet allData = iterator.next();
