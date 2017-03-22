@@ -46,7 +46,8 @@ public class dl4J_NN_1Q_Ahead_5_Labels_cv_more_data {
         int numLinesToSkip = 1;
         String delimiter = ",";
         RecordReader recordReader = new CSVRecordReader(numLinesToSkip,delimiter);
-        recordReader.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/More_Data_for_NN_1Q_Ahead_wo_rating_5_labels4.csv")));
+        //recordReader.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/More_Data_for_NN_1Q_Ahead_wo_rating_5_labels4.csv")));
+        recordReader.initialize(new FileSplit(new File("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/More_Data_for_NN_1Q_Ahead_wo_rating_5_labels_2_no_avg.csv")));
 
         //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
         int labelIndex = 15;     //5 values in each row of the iris.txt CSV: 4 input features followed by an integer label (class) index. Labels are the 5th value (index 4) in each row
@@ -66,6 +67,21 @@ public class dl4J_NN_1Q_Ahead_5_Labels_cv_more_data {
         double sum_precision = 0;
         double sum_recall = 0;
         double sum_f1 = 0;
+        double precision_0 = 0;
+        double recall_0 = 0;
+        double f1_0 = 0;
+        double precision_1 = 0;
+        double recall_1 = 0;
+        double f1_1 = 0;
+        double precision_2 = 0;
+        double recall_2 = 0;
+        double f1_2 = 0;
+        double precision_3 = 0;
+        double recall_3 = 0;
+        double f1_3 = 0;
+        double precision_4 = 0;
+        double recall_4 = 0;
+        double f1_4 = 0;
 
         //list to keep track of wrong predictions
         //ArrayList<Prediction> wrong = new ArrayList<Prediction>();
@@ -149,7 +165,7 @@ public class dl4J_NN_1Q_Ahead_5_Labels_cv_more_data {
             //eval.eval(testData.getLabels(), output);
             java.util.List<? extends java.io.Serializable> recordMetaData = new ArrayList<>(batchSize/10);
             eval.eval(testData.getLabels(), output, recordMetaData);
-            log.info(eval.stats());
+            //log.info(eval.stats());
             ArrayList<Prediction> errors = new ArrayList<Prediction>();
             //List<Prediction> errors2 = eval.eval(testData.getLabels(), output).getPredictionErrors();
             List<Prediction> errors2 = eval.getPredictionErrors();
@@ -180,9 +196,31 @@ public class dl4J_NN_1Q_Ahead_5_Labels_cv_more_data {
             sum_precision += eval.precision();
             sum_recall += eval.recall();
             sum_f1 += eval.f1();
+
+            precision_0 += eval.precision(0);
+            recall_0 += eval.recall(0);
+            f1_0 += eval.f1(0);
+
+            precision_1 += eval.precision(1);
+            recall_1 += eval.recall(1);
+            f1_1 += eval.f1(1);
+
+            precision_2 += eval.precision(2);
+            recall_2 += eval.recall(2);
+            f1_2 += eval.f1(2);
+
+            precision_3 += eval.precision(3);
+            recall_3 += eval.recall(3);
+            f1_3 += eval.f1(3);
+
+            precision_4 += eval.precision(4);
+            recall_4 += eval.recall(4);
+            f1_4 += eval.f1(4);
+
+
         }
 
-        System.out.println("Results");
+        System.out.println("Overall Results");
         System.out.println("Accuracy");
         System.out.println(sum_accuracy/(10));
         System.out.println("Precision");
@@ -191,6 +229,32 @@ public class dl4J_NN_1Q_Ahead_5_Labels_cv_more_data {
         System.out.println(sum_recall/10);
         System.out.println("F1");
         System.out.println(sum_f1/10);
+        System.out.println();
+        System.out.println("Label 0 Results");
+        System.out.println("Precision: " + precision_0/10);
+        System.out.println("Recall: " + recall_0/10);
+        System.out.println("F1: " + f1_0/10);
+        System.out.println();
+        System.out.println("Label 1 Results");
+        System.out.println("Precision: " + precision_1/10);
+        System.out.println("Recall: " + recall_1/10);
+        System.out.println("F1: " + f1_1/10);
+        System.out.println();
+        System.out.println("Label 2 Results");
+        System.out.println("Precision: " + precision_2/10);
+        System.out.println("Recall: " + recall_2/10);
+        System.out.println("F1: " + f1_2/10);
+        System.out.println();
+        System.out.println("Label 3 Results");
+        System.out.println("Precision: " + precision_3/10);
+        System.out.println("Recall: " + recall_3/10);
+        System.out.println("F1: " + f1_3/10);
+        System.out.println();
+        System.out.println("Label 4 Results");
+        System.out.println("Precision: " + precision_4/10);
+        System.out.println("Recall: " + recall_4/10);
+        System.out.println("F1: " + f1_4/10);
+        System.out.println();
         //System.out.println("Wrong!");
         //System.out.println(wrong.get(3));
 
