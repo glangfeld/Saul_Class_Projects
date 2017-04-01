@@ -5,9 +5,13 @@
 		revision="0.1-SNAPSHOT"
 		status="integration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		publication="20170215163437"
 =======
 		publication="20170331080948"
+>>>>>>> dl4J
+=======
+		publication="20170331232301"
 >>>>>>> dl4J
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>

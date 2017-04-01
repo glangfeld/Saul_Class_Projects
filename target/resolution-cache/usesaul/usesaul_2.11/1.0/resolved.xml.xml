@@ -5,9 +5,13 @@
 		revision="1.0"
 		status="integration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		publication="20170215163452"
 =======
 		publication="20170331080958"
+>>>>>>> dl4J
+=======
+		publication="20170331232313"
 >>>>>>> dl4J
 	>
 		<description>

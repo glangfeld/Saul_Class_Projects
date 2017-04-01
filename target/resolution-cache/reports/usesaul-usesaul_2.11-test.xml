@@ -8,9 +8,13 @@
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		date="20170215163452"/>
 =======
 		date="20170331080958"/>
+>>>>>>> dl4J
+=======
+		date="20170331232313"/>
 >>>>>>> dl4J
 	<dependencies>
 		<module organisation="org.codehaus.jackson" name="jackson-xc">
@@ -635,7 +639,11 @@
 				<metadata-artifact status="successful" details="" size="5474" time="854" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233723" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="195">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="5474" time="301" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="5474" time="322" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
@@ -651,7 +659,11 @@
 				<metadata-artifact status="successful" details="" size="4335" time="1019" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233711" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="177">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="4335" time="289" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="4335" time="349" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
@@ -667,7 +679,11 @@
 				<metadata-artifact status="successful" details="" size="1675" time="599" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233703" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="194">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="1675" time="722" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="1675" time="346" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -684,7 +700,11 @@
 				<metadata-artifact status="successful" details="" size="7324" time="611" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233538" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="241">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="7324" time="336" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="7324" time="338" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
@@ -697,7 +717,11 @@
 				<metadata-artifact status="successful" details="" size="3273" time="532" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233659" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="178">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="3273" time="292" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="3273" time="345" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -714,7 +738,11 @@
 				<metadata-artifact status="successful" details="" size="3534" time="580" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233526" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="193">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="3534" time="285" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="3534" time="370" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -731,7 +759,11 @@
 				<metadata-artifact status="successful" details="" size="3085" time="575" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233626" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="192">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="3085" time="268" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="3085" time="358" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -749,7 +781,11 @@
 				<metadata-artifact status="successful" details="" size="1961" time="613" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233604" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="191">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="1961" time="332" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="1961" time="326" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<artifacts>
@@ -765,7 +801,11 @@
 				<metadata-artifact status="successful" details="" size="5032" time="752" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233515" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="179">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="5032" time="347" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="5032" time="367" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -784,7 +824,11 @@
 				<metadata-artifact status="successful" details="" size="2956" time="703" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 =======
 			<revision name="2.2.0" status="release" pubdate="20131006233452" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="180">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="2956" time="287" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="2956" time="333" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-client" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
 				<caller organisation="org.apache.hadoop" name="hadoop-yarn-common" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.2.0"/>
@@ -1457,7 +1501,11 @@
 				<metadata-artifact status="successful" details="" size="1012" time="871" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.pom"/>
 =======
 			<revision name="3.1.1" status="release" pubdate="20150611030400" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="131">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="1012" time="311" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="1012" time="393" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.7.2"/>
 				<artifacts>
@@ -1473,7 +1521,11 @@
 				<metadata-artifact status="successful" details="" size="1158" time="778" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.pom"/>
 =======
 			<revision name="3.1.1" status="release" pubdate="20150611031000" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="130">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="1158" time="276" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="1158" time="345" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.7.2"/>
 				<artifacts>
@@ -1489,7 +1541,11 @@
 				<metadata-artifact status="successful" details="" size="1171" time="961" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.pom"/>
 =======
 			<revision name="3.1.1" status="release" pubdate="20150611031200" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="129">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="1171" time="277" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="1171" time="340" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.7.2"/>
 				<artifacts>
@@ -1505,7 +1561,11 @@
 				<metadata-artifact status="successful" details="" size="1180" time="1009" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.pom"/>
 =======
 			<revision name="3.1.1" status="release" pubdate="20150611030600" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="124">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="1180" time="337" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="1180" time="342" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="org.datavec" name="datavec-data-image" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.7.2"/>
 				<artifacts>
@@ -1521,7 +1581,11 @@
 				<metadata-artifact status="successful" details="" size="983" time="962" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.pom"/>
 =======
 			<revision name="3.1.1" status="release" pubdate="20150611030100" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="125">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="983" time="302" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="983" time="339" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="com.twelvemonkeys.imageio" name="imageio-psd" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
 				<caller organisation="com.twelvemonkeys.imageio" name="imageio-jpeg" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
@@ -2612,7 +2676,11 @@
 				<metadata-artifact status="successful" details="" size="549" time="1052" location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 =======
 			<revision name="4.0" status="release" pubdate="20150428133500" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+<<<<<<< HEAD
 				<metadata-artifact status="successful" details="" size="549" time="305" location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+>>>>>>> dl4J
+=======
+				<metadata-artifact status="successful" details="" size="549" time="351" location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="2.4.3"/>
 				<artifacts>

@@ -8,9 +8,13 @@
 		conf="scala-tool"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		date="20170215163519"/>
 =======
 		date="20170331081023"/>
+>>>>>>> dl4J
+=======
+		date="20170331232341"/>
 >>>>>>> dl4J
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-compiler">

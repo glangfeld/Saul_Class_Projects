@@ -8,9 +8,13 @@
 		conf="pom"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
 <<<<<<< HEAD
+<<<<<<< HEAD
 		date="20170215163452"/>
 =======
 		date="20170331080958"/>
+>>>>>>> dl4J
+=======
+		date="20170331232313"/>
 >>>>>>> dl4J
 	<dependencies>
 	</dependencies>
