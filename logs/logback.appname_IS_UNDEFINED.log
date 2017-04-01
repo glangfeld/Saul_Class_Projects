@@ -1,535 +1,1061 @@
-INFO  [2017-02-15 10:34:40,245] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 10:34:40,684] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 10:34:41,113] org.reflections.Reflections: Reflections took 310 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 10:34:42,012] org.reflections.Reflections: Reflections took 296 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 10:34:42,043] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 10:34:46,754] org.reflections.Reflections: Reflections took 4437 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 10:34:46,817] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 10:34:46,817] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 10:34:47,113] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 10:34:47,141] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.5229111605893435
-INFO  [2017-02-15 10:34:47,870] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.7211389532827293
-INFO  [2017-02-15 10:34:48,301] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5749031650254501
-INFO  [2017-02-15 10:34:48,718] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5071841389050585
-INFO  [2017-02-15 10:34:49,102] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.4706628623724982
-INFO  [2017-02-15 10:34:49,440] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.44877715865726175
-INFO  [2017-02-15 10:34:49,758] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.4330527065763202
-INFO  [2017-02-15 10:34:50,146] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.4213703409707972
-INFO  [2017-02-15 10:34:50,487] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.40625337021754276
-INFO  [2017-02-15 10:34:50,871] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3958009616607531
-INFO  [2017-02-15 10:34:51,259] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 0: 64 times
-Examples labeled as 0 classified by model as 1: 3 times
-Examples labeled as 1 classified by model as 0: 16 times
-Examples labeled as 1 classified by model as 1: 201 times
-Examples labeled as 1 classified by model as 2: 31 times
-Examples labeled as 2 classified by model as 1: 18 times
-Examples labeled as 2 classified by model as 2: 103 times
+INFO  [2017-03-20 00:00:31,455] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-20 00:00:32,718] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-20 00:00:34,871] org.reflections.Reflections: Reflections took 1496 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-20 00:03:36,484] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-20 00:03:36,970] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-20 00:03:37,796] org.reflections.Reflections: Reflections took 604 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-20 00:03:40,483] org.reflections.Reflections: Reflections took 865 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-20 00:03:40,582] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:03:55,165] org.reflections.Reflections: Reflections took 13792 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-20 00:03:55,296] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-20 00:03:55,296] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-20 00:03:55,928] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-03-20 00:03:55,997] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.819643838943427
+INFO  [2017-03-20 00:03:59,437] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.510140927116053
+INFO  [2017-03-20 00:04:02,200] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.4479216727655031
+INFO  [2017-03-20 00:04:04,944] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.4123079519611933
+INFO  [2017-03-20 00:04:07,610] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.3835383655685112
+INFO  [2017-03-20 00:04:10,352] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.3579636871539671
+INFO  [2017-03-20 00:04:12,995] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.3369881300194491
+INFO  [2017-03-20 00:04:15,737] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.3181427448052876
+INFO  [2017-03-20 00:04:18,424] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.30077312302646825
+INFO  [2017-03-20 00:04:21,314] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.28509152170306995
+INFO  [2017-03-20 00:04:24,122] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.2712533666216976
+INFO  [2017-03-20 00:04:27,053] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.258698859772048
+INFO  [2017-03-20 00:04:29,808] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.2466514419627167
+INFO  [2017-03-20 00:04:32,548] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.23449511284841112
+INFO  [2017-03-20 00:04:35,342] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.22206886468080275
+INFO  [2017-03-20 00:04:38,161] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.2096709397256795
+INFO  [2017-03-20 00:04:41,295] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.19766712450787982
+INFO  [2017-03-20 00:04:43,928] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.18637665093099684
+INFO  [2017-03-20 00:04:46,731] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.1759806168932694
+INFO  [2017-03-20 00:04:50,474] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.16668696691323961
+INFO  [2017-03-20 00:04:53,199] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.15844850466047378
+INFO  [2017-03-20 00:04:56,537] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.15108318899610668
+INFO  [2017-03-20 00:04:59,574] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.14443338214664875
+INFO  [2017-03-20 00:05:02,694] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.13834600504592645
+INFO  [2017-03-20 00:05:05,701] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.13269214988798025
+INFO  [2017-03-20 00:05:08,828] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.12740230625185178
+INFO  [2017-03-20 00:05:11,895] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.12239844708735406
+INFO  [2017-03-20 00:05:15,018] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.11756170959259969
+INFO  [2017-03-20 00:05:18,144] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.11275799266856723
+INFO  [2017-03-20 00:05:21,196] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.10809527486851052
+INFO  [2017-03-20 00:05:24,417] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 51 times
+Examples labeled as 0 classified by model as 1: 5 times
+Examples labeled as 1 classified by model as 0: 1 times
+Examples labeled as 1 classified by model as 1: 144 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 39 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 3 times
 
-
-==========================Scores========================================
- Accuracy:        0.816
- Precision:       0.8101
- Recall:          0.8632
- F1 Score:        0.8358
-========================================================================
-INFO  [2017-02-15 10:35:56,150] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 10:35:56,572] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 10:35:57,250] org.reflections.Reflections: Reflections took 524 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 10:35:58,282] org.reflections.Reflections: Reflections took 267 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 10:35:58,307] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 10:36:02,330] org.reflections.Reflections: Reflections took 3763 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 10:36:02,424] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 10:36:02,424] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 10:36:02,560] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 10:36:02,575] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.5230085834910758
-INFO  [2017-02-15 10:36:03,070] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.705604244227131
-INFO  [2017-02-15 10:36:03,425] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5468720998190386
-INFO  [2017-02-15 10:36:03,752] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.48627453973147744
-INFO  [2017-02-15 10:36:04,077] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.45824964208039604
-INFO  [2017-02-15 10:36:04,380] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.43315215914430116
-INFO  [2017-02-15 10:36:04,676] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.41844419353831946
-INFO  [2017-02-15 10:36:04,985] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.40481162341537386
-INFO  [2017-02-15 10:36:05,283] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.38712098768325776
-INFO  [2017-02-15 10:36:05,579] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3613183355242955
-INFO  [2017-02-15 10:36:05,896] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 0: 50 times
-Examples labeled as 0 classified by model as 1: 13 times
-Examples labeled as 1 classified by model as 0: 9 times
-Examples labeled as 1 classified by model as 1: 219 times
-Examples labeled as 1 classified by model as 2: 28 times
-Examples labeled as 2 classified by model as 1: 17 times
-Examples labeled as 2 classified by model as 2: 104 times
-
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
 
 ==========================Scores========================================
- Accuracy:        0.8271
- Precision:       0.8203
- Recall:          0.8362
- F1 Score:        0.8282
+ Accuracy:        0.9595
+ Precision:       0.9714
+ Recall:          0.8996
+ F1 Score:        0.9341
 ========================================================================
-INFO  [2017-02-15 10:38:13,564] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 10:38:14,051] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 10:38:14,722] org.reflections.Reflections: Reflections took 526 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 10:38:15,764] org.reflections.Reflections: Reflections took 270 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 10:38:15,790] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 10:38:20,282] org.reflections.Reflections: Reflections took 4225 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 10:38:20,329] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 10:38:20,330] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 10:38:20,507] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 10:38:20,522] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.5262468740750066
-INFO  [2017-02-15 10:38:21,047] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.7247936315950199
-INFO  [2017-02-15 10:38:21,389] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5677633127815295
-INFO  [2017-02-15 10:38:21,732] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5127267990635531
-INFO  [2017-02-15 10:38:22,034] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.48304505443715273
-INFO  [2017-02-15 10:38:22,328] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.4584710390535626
-INFO  [2017-02-15 10:38:22,636] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.4441497403587686
-INFO  [2017-02-15 10:38:22,940] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.4341784687663366
-INFO  [2017-02-15 10:38:23,230] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.4261156036245802
-INFO  [2017-02-15 10:38:23,526] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.4177193317960329
-INFO  [2017-02-15 10:38:23,852] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 0: 53 times
-Examples labeled as 0 classified by model as 1: 9 times
-Examples labeled as 1 classified by model as 0: 13 times
-Examples labeled as 1 classified by model as 1: 223 times
-Examples labeled as 1 classified by model as 2: 24 times
-Examples labeled as 2 classified by model as 1: 29 times
-Examples labeled as 2 classified by model as 2: 94 times
-
-
-==========================Scores========================================
- Accuracy:        0.8204
- Precision:       0.8061
- Recall:          0.8256
- F1 Score:        0.8157
-========================================================================
-INFO  [2017-02-15 10:39:18,603] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 10:39:18,852] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 10:39:19,502] org.reflections.Reflections: Reflections took 491 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 10:39:20,685] org.reflections.Reflections: Reflections took 244 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 10:39:20,707] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 10:39:24,874] org.reflections.Reflections: Reflections took 3913 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 10:39:24,914] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 10:39:24,914] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 10:39:25,036] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 10:39:25,052] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.5242893737949887
-INFO  [2017-02-15 10:39:25,576] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 1: 69 times
-Examples labeled as 1 classified by model as 1: 242 times
-Examples labeled as 1 classified by model as 2: 23 times
-Examples labeled as 2 classified by model as 1: 37 times
-Examples labeled as 2 classified by model as 2: 72 times
-
-Warning: class 0 was never predicted by the model. This class was excluded from the average precision
-
-==========================Scores========================================
- Accuracy:        0.6962
- Precision:       0.6972
- Recall:          0.5246
- F1 Score:        0.5987
-========================================================================
-INFO  [2017-02-15 10:39:43,768] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 10:39:44,112] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 10:39:44,824] org.reflections.Reflections: Reflections took 553 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 10:39:45,702] org.reflections.Reflections: Reflections took 267 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 10:39:45,731] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 10:39:50,039] org.reflections.Reflections: Reflections took 4044 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 10:39:50,097] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 10:39:50,097] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 10:39:50,316] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 10:39:50,330] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.5235760573094004
-INFO  [2017-02-15 10:39:50,939] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.70694847818685
-INFO  [2017-02-15 10:39:51,352] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5685479483634792
-INFO  [2017-02-15 10:39:51,745] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5093406699488071
-INFO  [2017-02-15 10:39:52,072] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.4772277722996469
-INFO  [2017-02-15 10:39:52,346] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.4497183811032807
-INFO  [2017-02-15 10:39:52,629] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.4299038225559012
-INFO  [2017-02-15 10:39:52,946] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.414620945295369
-INFO  [2017-02-15 10:39:53,246] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.38499763727621056
-INFO  [2017-02-15 10:39:53,558] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3701100641303327
-INFO  [2017-02-15 10:39:53,830] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.3582448530760026
-INFO  [2017-02-15 10:39:54,130] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.3483744343087901
-INFO  [2017-02-15 10:39:54,425] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.33985268961910126
-INFO  [2017-02-15 10:39:54,699] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.3319131443212439
-INFO  [2017-02-15 10:39:54,963] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.32501603901053905
-INFO  [2017-02-15 10:39:55,246] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.31967983773697173
-INFO  [2017-02-15 10:39:55,545] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.31540156441171485
-INFO  [2017-02-15 10:39:55,816] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.3117133947115393
-INFO  [2017-02-15 10:39:56,096] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.308396421849589
-INFO  [2017-02-15 10:39:56,370] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.3053799144537844
-INFO  [2017-02-15 10:39:56,651] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.30263928127890927
-INFO  [2017-02-15 10:39:56,917] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.3001505321005582
-INFO  [2017-02-15 10:39:57,217] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.29788515527272863
-INFO  [2017-02-15 10:39:57,482] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.2958158239779285
-INFO  [2017-02-15 10:39:57,790] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.29391969597319295
-INFO  [2017-02-15 10:39:58,066] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.2921792704427886
-INFO  [2017-02-15 10:39:58,334] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.29058167701200627
-INFO  [2017-02-15 10:39:58,617] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.2891173267224423
-INFO  [2017-02-15 10:39:58,901] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.28777805253093924
-INFO  [2017-02-15 10:39:59,183] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.2865563436666957
-INFO  [2017-02-15 10:39:59,447] o.d.o.l.ScoreIterationListener: Score at iteration 3000 is 0.28544421534734504
-INFO  [2017-02-15 10:39:59,732] o.d.o.l.ScoreIterationListener: Score at iteration 3100 is 0.2844325342711681
-INFO  [2017-02-15 10:40:00,001] o.d.o.l.ScoreIterationListener: Score at iteration 3200 is 0.28351147438379987
-INFO  [2017-02-15 10:40:00,337] o.d.o.l.ScoreIterationListener: Score at iteration 3300 is 0.2826709544030349
-INFO  [2017-02-15 10:40:00,617] o.d.o.l.ScoreIterationListener: Score at iteration 3400 is 0.2819006560566888
-INFO  [2017-02-15 10:40:00,899] o.d.o.l.ScoreIterationListener: Score at iteration 3500 is 0.2811914095858414
-INFO  [2017-02-15 10:40:01,173] o.d.o.l.ScoreIterationListener: Score at iteration 3600 is 0.2805345556792857
-INFO  [2017-02-15 10:40:01,452] o.d.o.l.ScoreIterationListener: Score at iteration 3700 is 0.27992292991342377
-INFO  [2017-02-15 10:40:01,718] o.d.o.l.ScoreIterationListener: Score at iteration 3800 is 0.2793503340665101
-INFO  [2017-02-15 10:40:02,002] o.d.o.l.ScoreIterationListener: Score at iteration 3900 is 0.27881182780538305
-INFO  [2017-02-15 10:40:02,301] o.d.o.l.ScoreIterationListener: Score at iteration 4000 is 0.27830303592978717
-INFO  [2017-02-15 10:40:02,571] o.d.o.l.ScoreIterationListener: Score at iteration 4100 is 0.2778206223626244
-INFO  [2017-02-15 10:40:02,849] o.d.o.l.ScoreIterationListener: Score at iteration 4200 is 0.2773618708490004
-INFO  [2017-02-15 10:40:03,127] o.d.o.l.ScoreIterationListener: Score at iteration 4300 is 0.2769243932738804
-INFO  [2017-02-15 10:40:03,433] o.d.o.l.ScoreIterationListener: Score at iteration 4400 is 0.27650622081578796
-INFO  [2017-02-15 10:40:03,733] o.d.o.l.ScoreIterationListener: Score at iteration 4500 is 0.27610558518164247
-INFO  [2017-02-15 10:40:04,050] o.d.o.l.ScoreIterationListener: Score at iteration 4600 is 0.27572128320820294
-INFO  [2017-02-15 10:40:04,365] o.d.o.l.ScoreIterationListener: Score at iteration 4700 is 0.275351747128585
-INFO  [2017-02-15 10:40:04,665] o.d.o.l.ScoreIterationListener: Score at iteration 4800 is 0.2749993833602523
-INFO  [2017-02-15 10:40:04,966] o.d.o.l.ScoreIterationListener: Score at iteration 4900 is 0.27547952424241956
-INFO  [2017-02-15 10:40:05,299] o.d.o.l.ScoreIterationListener: Score at iteration 5000 is 0.2751751215944868
-INFO  [2017-02-15 10:40:05,603] o.d.o.l.ScoreIterationListener: Score at iteration 5100 is 0.2749089293168926
-INFO  [2017-02-15 10:40:05,865] o.d.o.l.ScoreIterationListener: Score at iteration 5200 is 0.27465976371729983
-INFO  [2017-02-15 10:40:06,146] o.d.o.l.ScoreIterationListener: Score at iteration 5300 is 0.27442186399713264
-INFO  [2017-02-15 10:40:06,478] o.d.o.l.ScoreIterationListener: Score at iteration 5400 is 0.27419296959166
-INFO  [2017-02-15 10:40:06,771] o.d.o.l.ScoreIterationListener: Score at iteration 5500 is 0.27397165853557276
-INFO  [2017-02-15 10:40:07,066] o.d.o.l.ScoreIterationListener: Score at iteration 5600 is 0.2737571651646016
-INFO  [2017-02-15 10:40:07,368] o.d.o.l.ScoreIterationListener: Score at iteration 5700 is 0.27354872381168394
-INFO  [2017-02-15 10:40:07,669] o.d.o.l.ScoreIterationListener: Score at iteration 5800 is 0.2733460610318984
-INFO  [2017-02-15 10:40:07,966] o.d.o.l.ScoreIterationListener: Score at iteration 5900 is 0.27314868461827513
-INFO  [2017-02-15 10:40:08,269] o.d.o.l.ScoreIterationListener: Score at iteration 6000 is 0.27295593829022063
-INFO  [2017-02-15 10:40:08,553] o.d.o.l.ScoreIterationListener: Score at iteration 6100 is 0.27276743922509045
-INFO  [2017-02-15 10:40:08,819] o.d.o.l.ScoreIterationListener: Score at iteration 6200 is 0.27258242176667524
-INFO  [2017-02-15 10:40:09,104] o.d.o.l.ScoreIterationListener: Score at iteration 6300 is 0.27240006557134844
-INFO  [2017-02-15 10:40:09,383] o.d.o.l.ScoreIterationListener: Score at iteration 6400 is 0.272218620556163
-INFO  [2017-02-15 10:40:09,674] o.d.o.l.ScoreIterationListener: Score at iteration 6500 is 0.27203533398392377
-INFO  [2017-02-15 10:40:09,968] o.d.o.l.ScoreIterationListener: Score at iteration 6600 is 0.2718446456722826
-INFO  [2017-02-15 10:40:10,252] o.d.o.l.ScoreIterationListener: Score at iteration 6700 is 0.27163505240892416
-INFO  [2017-02-15 10:40:10,521] o.d.o.l.ScoreIterationListener: Score at iteration 6800 is 0.2713831284442279
-INFO  [2017-02-15 10:40:10,806] o.d.o.l.ScoreIterationListener: Score at iteration 6900 is 0.2710516295784966
-INFO  [2017-02-15 10:40:11,085] o.d.o.l.ScoreIterationListener: Score at iteration 7000 is 0.27062340143216657
-INFO  [2017-02-15 10:40:11,365] o.d.o.l.ScoreIterationListener: Score at iteration 7100 is 0.27013913419787877
-INFO  [2017-02-15 10:40:11,637] o.d.o.l.ScoreIterationListener: Score at iteration 7200 is 0.269658076302628
-INFO  [2017-02-15 10:40:11,906] o.d.o.l.ScoreIterationListener: Score at iteration 7300 is 0.2692134429377886
-INFO  [2017-02-15 10:40:12,179] o.d.o.l.ScoreIterationListener: Score at iteration 7400 is 0.26876386870567837
-INFO  [2017-02-15 10:40:12,485] o.d.o.l.ScoreIterationListener: Score at iteration 7500 is 0.26828404947117507
-INFO  [2017-02-15 10:40:12,771] o.d.o.l.ScoreIterationListener: Score at iteration 7600 is 0.2678121230597097
-INFO  [2017-02-15 10:40:13,037] o.d.o.l.ScoreIterationListener: Score at iteration 7700 is 0.2673654447782197
-INFO  [2017-02-15 10:40:13,408] o.d.o.l.ScoreIterationListener: Score at iteration 7800 is 0.26635690673065576
-INFO  [2017-02-15 10:40:13,682] o.d.o.l.ScoreIterationListener: Score at iteration 7900 is 0.2671638181715072
-INFO  [2017-02-15 10:40:13,971] o.d.o.l.ScoreIterationListener: Score at iteration 8000 is 0.26657432220091987
-INFO  [2017-02-15 10:40:14,288] o.d.o.l.ScoreIterationListener: Score at iteration 8100 is 0.26557468086763586
-INFO  [2017-02-15 10:40:14,555] o.d.o.l.ScoreIterationListener: Score at iteration 8200 is 0.26634170446582817
-INFO  [2017-02-15 10:40:14,824] o.d.o.l.ScoreIterationListener: Score at iteration 8300 is 0.2660445502788582
-INFO  [2017-02-15 10:40:15,108] o.d.o.l.ScoreIterationListener: Score at iteration 8400 is 0.2656058195999705
-INFO  [2017-02-15 10:40:15,409] o.d.o.l.ScoreIterationListener: Score at iteration 8500 is 0.2655426326720348
-INFO  [2017-02-15 10:40:16,606] o.d.o.l.ScoreIterationListener: Score at iteration 8600 is 0.2649404843263407
-INFO  [2017-02-15 10:40:16,962] o.d.o.l.ScoreIterationListener: Score at iteration 8700 is 0.2647763741961791
-INFO  [2017-02-15 10:40:17,341] o.d.o.l.ScoreIterationListener: Score at iteration 8800 is 0.265186410054475
-INFO  [2017-02-15 10:40:17,604] o.d.o.l.ScoreIterationListener: Score at iteration 8900 is 0.264270863423041
-INFO  [2017-02-15 10:40:17,873] o.d.o.l.ScoreIterationListener: Score at iteration 9000 is 0.2637137983824257
-INFO  [2017-02-15 10:40:18,148] o.d.o.l.ScoreIterationListener: Score at iteration 9100 is 0.2633061302054905
-INFO  [2017-02-15 10:40:18,435] o.d.o.l.ScoreIterationListener: Score at iteration 9200 is 0.26327187405076885
-INFO  [2017-02-15 10:40:18,705] o.d.o.l.ScoreIterationListener: Score at iteration 9300 is 0.2636817083789588
-INFO  [2017-02-15 10:40:18,973] o.d.o.l.ScoreIterationListener: Score at iteration 9400 is 0.26410220785295674
-INFO  [2017-02-15 10:40:19,262] o.d.o.l.ScoreIterationListener: Score at iteration 9500 is 0.26415099014341087
-INFO  [2017-02-15 10:40:19,521] o.d.o.l.ScoreIterationListener: Score at iteration 9600 is 0.26320877148225086
-INFO  [2017-02-15 10:40:19,801] o.d.o.l.ScoreIterationListener: Score at iteration 9700 is 0.26511599053317925
-INFO  [2017-02-15 10:40:20,074] o.d.o.l.ScoreIterationListener: Score at iteration 9800 is 0.26357991836933303
-INFO  [2017-02-15 10:40:20,359] o.d.o.l.ScoreIterationListener: Score at iteration 9900 is 0.2636818784887433
-INFO  [2017-02-15 10:40:20,664] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 0: 62 times
-Examples labeled as 0 classified by model as 1: 7 times
+INFO  [2017-03-20 00:05:24,433] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:05:24,625] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.820453409383111
+INFO  [2017-03-20 00:05:27,480] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.506485378159093
+INFO  [2017-03-20 00:05:30,342] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.4426073231671956
+INFO  [2017-03-20 00:05:33,250] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.40687323957986427
+INFO  [2017-03-20 00:05:36,124] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.3778665491169481
+INFO  [2017-03-20 00:05:39,036] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.35233870626770175
+INFO  [2017-03-20 00:05:41,693] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.3305308157026868
+INFO  [2017-03-20 00:05:45,376] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.31077485511354674
+INFO  [2017-03-20 00:05:48,217] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.2929091553481455
+INFO  [2017-03-20 00:05:51,157] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.2771706733788642
+INFO  [2017-03-20 00:05:53,897] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.26334134791457753
+INFO  [2017-03-20 00:05:56,801] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.25071298060994573
+INFO  [2017-03-20 00:05:59,500] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.23847100606992597
+INFO  [2017-03-20 00:06:02,206] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.22603421280180908
+INFO  [2017-03-20 00:06:04,974] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.21331141778617654
+INFO  [2017-03-20 00:06:07,777] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.2007648218707824
+INFO  [2017-03-20 00:06:10,580] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.18891552965025019
+INFO  [2017-03-20 00:06:13,670] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.1779525161850783
+INFO  [2017-03-20 00:06:16,595] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.16787233952374322
+INFO  [2017-03-20 00:06:19,315] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.1587189799394135
+INFO  [2017-03-20 00:06:22,050] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.15051863986324074
+INFO  [2017-03-20 00:06:24,822] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.14311234106225557
+INFO  [2017-03-20 00:06:27,600] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.13630219049607292
+INFO  [2017-03-20 00:06:30,461] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.12989734094628366
+INFO  [2017-03-20 00:06:33,403] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.12371777324349298
+INFO  [2017-03-20 00:06:37,192] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.11768081045556862
+INFO  [2017-03-20 00:06:40,220] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.11196708685621827
+INFO  [2017-03-20 00:06:43,363] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.10681053640857853
+INFO  [2017-03-20 00:06:46,182] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.10221998656350625
+INFO  [2017-03-20 00:06:48,952] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.09801412723314967
+INFO  [2017-03-20 00:06:51,793] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 47 times
+Examples labeled as 0 classified by model as 1: 1 times
 Examples labeled as 1 classified by model as 0: 3 times
-Examples labeled as 1 classified by model as 1: 216 times
-Examples labeled as 1 classified by model as 2: 26 times
-Examples labeled as 2 classified by model as 1: 20 times
-Examples labeled as 2 classified by model as 2: 109 times
+Examples labeled as 1 classified by model as 1: 150 times
+Examples labeled as 1 classified by model as 2: 5 times
+Examples labeled as 2 classified by model as 1: 6 times
+Examples labeled as 2 classified by model as 2: 33 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 1 times
 
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
 
 ==========================Scores========================================
- Accuracy:        0.8581
- Precision:       0.8756
- Recall:          0.8707
- F1 Score:        0.8732
+ Accuracy:        0.9352
+ Precision:       0.9354
+ Recall:          0.8187
+ F1 Score:        0.8731
 ========================================================================
-INFO  [2017-02-15 10:43:02,936] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 10:43:03,241] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 10:43:04,008] org.reflections.Reflections: Reflections took 523 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 10:43:05,346] org.reflections.Reflections: Reflections took 295 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 10:43:05,421] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 10:43:09,909] org.reflections.Reflections: Reflections took 4190 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 10:43:09,972] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 10:43:09,972] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 10:43:10,167] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 10:43:10,182] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6776275091422608
-INFO  [2017-02-15 10:43:10,741] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.4889205514586406
-INFO  [2017-02-15 10:43:11,172] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.4091148429499488
-INFO  [2017-02-15 10:43:11,616] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.37385797625464845
-INFO  [2017-02-15 10:43:12,027] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.34980247399409337
-INFO  [2017-02-15 10:43:12,442] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.32840735495381135
-INFO  [2017-02-15 10:43:12,858] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.3140789601142081
-INFO  [2017-02-15 10:43:13,295] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.3028723145436232
-INFO  [2017-02-15 10:43:13,726] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.29373430775186427
-INFO  [2017-02-15 10:43:14,160] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.2859817593152707
-INFO  [2017-02-15 10:43:14,665] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.27916305087412613
-INFO  [2017-02-15 10:43:15,091] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.27298276157112966
-INFO  [2017-02-15 10:43:15,511] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.2672376430931071
-INFO  [2017-02-15 10:43:16,022] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.26175875683282457
-INFO  [2017-02-15 10:43:16,540] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.25640516626697146
-INFO  [2017-02-15 10:43:17,032] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.25109315992287007
-INFO  [2017-02-15 10:43:17,477] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.24582027831577738
-INFO  [2017-02-15 10:43:17,901] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.24063269934285067
-INFO  [2017-02-15 10:43:18,314] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.23557521448137556
-INFO  [2017-02-15 10:43:18,746] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.2306778118595164
-INFO  [2017-02-15 10:43:19,162] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.22595538500424975
-INFO  [2017-02-15 10:43:19,594] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.22149254046720404
-INFO  [2017-02-15 10:43:20,015] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.2172953293648434
-INFO  [2017-02-15 10:43:20,431] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.21329378296650267
-INFO  [2017-02-15 10:43:20,863] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.209490490133369
-INFO  [2017-02-15 10:43:21,288] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.2059287295716712
-INFO  [2017-02-15 10:43:21,721] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.20254507757639703
-INFO  [2017-02-15 10:43:22,164] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.19926606595005086
-INFO  [2017-02-15 10:43:23,038] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.1960556355650799
-INFO  [2017-02-15 10:43:23,834] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.19291088829937603
-INFO  [2017-02-15 10:43:24,682] o.d.o.l.ScoreIterationListener: Score at iteration 3000 is 0.1897645727129757
-INFO  [2017-02-15 10:43:25,520] o.d.o.l.ScoreIterationListener: Score at iteration 3100 is 0.18662811957603903
-INFO  [2017-02-15 10:43:26,038] o.d.o.l.ScoreIterationListener: Score at iteration 3200 is 0.1836235806389447
-INFO  [2017-02-15 10:43:26,558] o.d.o.l.ScoreIterationListener: Score at iteration 3300 is 0.1807648103564861
-INFO  [2017-02-15 10:43:26,984] o.d.o.l.ScoreIterationListener: Score at iteration 3400 is 0.1779994330367537
-INFO  [2017-02-15 10:43:27,415] o.d.o.l.ScoreIterationListener: Score at iteration 3500 is 0.17528178213184348
-INFO  [2017-02-15 10:43:27,853] o.d.o.l.ScoreIterationListener: Score at iteration 3600 is 0.17257147800797676
-INFO  [2017-02-15 10:43:28,268] o.d.o.l.ScoreIterationListener: Score at iteration 3700 is 0.16982748480519388
-INFO  [2017-02-15 10:43:28,715] o.d.o.l.ScoreIterationListener: Score at iteration 3800 is 0.16700462846243114
-INFO  [2017-02-15 10:43:29,137] o.d.o.l.ScoreIterationListener: Score at iteration 3900 is 0.16405365142344652
-INFO  [2017-02-15 10:43:29,554] o.d.o.l.ScoreIterationListener: Score at iteration 4000 is 0.16096204856852456
-INFO  [2017-02-15 10:43:30,002] o.d.o.l.ScoreIterationListener: Score at iteration 4100 is 0.15781637841201882
-INFO  [2017-02-15 10:43:30,423] o.d.o.l.ScoreIterationListener: Score at iteration 4200 is 0.15468015595918763
-INFO  [2017-02-15 10:43:30,870] o.d.o.l.ScoreIterationListener: Score at iteration 4300 is 0.15159483680698438
-INFO  [2017-02-15 10:43:31,298] o.d.o.l.ScoreIterationListener: Score at iteration 4400 is 0.14857708283925808
-INFO  [2017-02-15 10:43:31,767] o.d.o.l.ScoreIterationListener: Score at iteration 4500 is 0.14562732178743765
-INFO  [2017-02-15 10:43:32,179] o.d.o.l.ScoreIterationListener: Score at iteration 4600 is 0.1427451337839683
-INFO  [2017-02-15 10:43:32,611] o.d.o.l.ScoreIterationListener: Score at iteration 4700 is 0.13993321643707324
-INFO  [2017-02-15 10:43:33,064] o.d.o.l.ScoreIterationListener: Score at iteration 4800 is 0.1371948690057969
-INFO  [2017-02-15 10:43:33,496] o.d.o.l.ScoreIterationListener: Score at iteration 4900 is 0.13453216023508435
-INFO  [2017-02-15 10:43:33,928] o.d.o.l.ScoreIterationListener: Score at iteration 5000 is 0.13194561844046845
-INFO  [2017-02-15 10:43:34,366] o.d.o.l.ScoreIterationListener: Score at iteration 5100 is 0.12943502452501113
-INFO  [2017-02-15 10:43:34,812] o.d.o.l.ScoreIterationListener: Score at iteration 5200 is 0.12851627659979825
-INFO  [2017-02-15 10:43:35,243] o.d.o.l.ScoreIterationListener: Score at iteration 5300 is 0.13419033035553546
-INFO  [2017-02-15 10:43:35,697] o.d.o.l.ScoreIterationListener: Score at iteration 5400 is 0.13136225629097056
-INFO  [2017-02-15 10:43:36,112] o.d.o.l.ScoreIterationListener: Score at iteration 5500 is 0.1292514813364969
-INFO  [2017-02-15 10:43:36,556] o.d.o.l.ScoreIterationListener: Score at iteration 5600 is 0.12739992243874604
-INFO  [2017-02-15 10:43:37,013] o.d.o.l.ScoreIterationListener: Score at iteration 5700 is 0.12566852755093025
-INFO  [2017-02-15 10:43:38,127] o.d.o.l.ScoreIterationListener: Score at iteration 5800 is 0.12401207621217887
-INFO  [2017-02-15 10:43:38,616] o.d.o.l.ScoreIterationListener: Score at iteration 5900 is 0.12241422484501154
-INFO  [2017-02-15 10:43:39,127] o.d.o.l.ScoreIterationListener: Score at iteration 6000 is 0.12086805497296438
-INFO  [2017-02-15 10:43:39,602] o.d.o.l.ScoreIterationListener: Score at iteration 6100 is 0.11936930976959206
-INFO  [2017-02-15 10:43:40,076] o.d.o.l.ScoreIterationListener: Score at iteration 6200 is 0.11791554634431517
-INFO  [2017-02-15 10:43:40,548] o.d.o.l.ScoreIterationListener: Score at iteration 6300 is 0.11650738452383592
-INFO  [2017-02-15 10:43:40,961] o.d.o.l.ScoreIterationListener: Score at iteration 6400 is 0.11514910842898451
-INFO  [2017-02-15 10:43:41,414] o.d.o.l.ScoreIterationListener: Score at iteration 6500 is 0.11384553997891626
-INFO  [2017-02-15 10:43:41,855] o.d.o.l.ScoreIterationListener: Score at iteration 6600 is 0.11259589524546788
-INFO  [2017-02-15 10:43:42,302] o.d.o.l.ScoreIterationListener: Score at iteration 6700 is 0.11139417643279757
-INFO  [2017-02-15 10:43:42,745] o.d.o.l.ScoreIterationListener: Score at iteration 6800 is 0.11023347423064783
-INFO  [2017-02-15 10:43:43,193] o.d.o.l.ScoreIterationListener: Score at iteration 6900 is 0.10910821015985825
-INFO  [2017-02-15 10:43:43,624] o.d.o.l.ScoreIterationListener: Score at iteration 7000 is 0.10801431887712137
-INFO  [2017-02-15 10:43:44,078] o.d.o.l.ScoreIterationListener: Score at iteration 7100 is 0.10694848250181813
-INFO  [2017-02-15 10:43:44,534] o.d.o.l.ScoreIterationListener: Score at iteration 7200 is 0.10590758368591165
-INFO  [2017-02-15 10:43:44,979] o.d.o.l.ScoreIterationListener: Score at iteration 7300 is 0.10488834102318613
-INFO  [2017-02-15 10:43:45,445] o.d.o.l.ScoreIterationListener: Score at iteration 7400 is 0.10388758249772749
-INFO  [2017-02-15 10:43:45,894] o.d.o.l.ScoreIterationListener: Score at iteration 7500 is 0.10290191732176582
-INFO  [2017-02-15 10:43:46,357] o.d.o.l.ScoreIterationListener: Score at iteration 7600 is 0.10192810056147375
-INFO  [2017-02-15 10:43:46,805] o.d.o.l.ScoreIterationListener: Score at iteration 7700 is 0.10096347064132317
-INFO  [2017-02-15 10:43:47,269] o.d.o.l.ScoreIterationListener: Score at iteration 7800 is 0.10000563944839151
-INFO  [2017-02-15 10:43:47,712] o.d.o.l.ScoreIterationListener: Score at iteration 7900 is 0.09905269284494136
-INFO  [2017-02-15 10:43:48,181] o.d.o.l.ScoreIterationListener: Score at iteration 8000 is 0.09810342767658416
-INFO  [2017-02-15 10:43:48,644] o.d.o.l.ScoreIterationListener: Score at iteration 8100 is 0.0971570053876117
-INFO  [2017-02-15 10:43:49,099] o.d.o.l.ScoreIterationListener: Score at iteration 8200 is 0.09621373592900105
-INFO  [2017-02-15 10:43:49,564] o.d.o.l.ScoreIterationListener: Score at iteration 8300 is 0.09527374695146407
-INFO  [2017-02-15 10:43:50,012] o.d.o.l.ScoreIterationListener: Score at iteration 8400 is 0.09433802292701707
-INFO  [2017-02-15 10:43:50,482] o.d.o.l.ScoreIterationListener: Score at iteration 8500 is 0.09340735690255114
-INFO  [2017-02-15 10:43:50,963] o.d.o.l.ScoreIterationListener: Score at iteration 8600 is 0.0924823687469535
-INFO  [2017-02-15 10:43:51,415] o.d.o.l.ScoreIterationListener: Score at iteration 8700 is 0.09156415230296852
-INFO  [2017-02-15 10:43:51,883] o.d.o.l.ScoreIterationListener: Score at iteration 8800 is 0.09065315425581591
-INFO  [2017-02-15 10:43:52,342] o.d.o.l.ScoreIterationListener: Score at iteration 8900 is 0.08975019499851332
-INFO  [2017-02-15 10:43:52,784] o.d.o.l.ScoreIterationListener: Score at iteration 9000 is 0.0888558761685096
-INFO  [2017-02-15 10:43:53,247] o.d.o.l.ScoreIterationListener: Score at iteration 9100 is 0.08797114577694
-INFO  [2017-02-15 10:43:53,700] o.d.o.l.ScoreIterationListener: Score at iteration 9200 is 0.08709655988769088
-INFO  [2017-02-15 10:43:54,163] o.d.o.l.ScoreIterationListener: Score at iteration 9300 is 0.08623296624507121
-INFO  [2017-02-15 10:43:54,601] o.d.o.l.ScoreIterationListener: Score at iteration 9400 is 0.08538103940023317
-INFO  [2017-02-15 10:43:55,069] o.d.o.l.ScoreIterationListener: Score at iteration 9500 is 0.08454158152254831
-INFO  [2017-02-15 10:43:55,521] o.d.o.l.ScoreIterationListener: Score at iteration 9600 is 0.0837153765409149
-INFO  [2017-02-15 10:43:56,063] o.d.o.l.ScoreIterationListener: Score at iteration 9700 is 0.0829035091842528
-INFO  [2017-02-15 10:43:56,613] o.d.o.l.ScoreIterationListener: Score at iteration 9800 is 0.0821067633794139
-INFO  [2017-02-15 10:43:57,168] o.d.o.l.ScoreIterationListener: Score at iteration 9900 is 0.08132636968337104
-INFO  [2017-02-15 10:43:57,764] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 0: 64 times
+INFO  [2017-03-20 00:06:51,808] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:06:51,919] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.7614510105785808
+INFO  [2017-03-20 00:06:54,420] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.6144866760441502
+INFO  [2017-03-20 00:06:56,906] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5161043405528055
+INFO  [2017-03-20 00:06:59,446] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.46522203475324814
+INFO  [2017-03-20 00:07:01,979] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.43489319242651897
+INFO  [2017-03-20 00:07:04,582] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.41250819931181687
+INFO  [2017-03-20 00:07:07,169] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.3925824726584927
+INFO  [2017-03-20 00:07:09,734] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.3739386513340534
+INFO  [2017-03-20 00:07:12,326] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.35451429533396767
+INFO  [2017-03-20 00:07:15,211] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.336249338149341
+INFO  [2017-03-20 00:07:18,455] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.32014172123108403
+INFO  [2017-03-20 00:07:21,559] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.30590393567976254
+INFO  [2017-03-20 00:07:24,527] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.2928839020891093
+INFO  [2017-03-20 00:07:29,223] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.2805168210725932
+INFO  [2017-03-20 00:07:32,079] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.26876762915070534
+INFO  [2017-03-20 00:07:34,753] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.257735648272219
+INFO  [2017-03-20 00:07:37,613] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.2471332345422049
+INFO  [2017-03-20 00:07:40,558] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.2374345502544975
+INFO  [2017-03-20 00:07:43,284] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.22827689324162637
+INFO  [2017-03-20 00:07:46,084] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.21952148014465972
+INFO  [2017-03-20 00:07:48,997] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.21119223330044545
+INFO  [2017-03-20 00:07:51,747] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.20318308533382137
+INFO  [2017-03-20 00:07:54,552] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.1953652757145603
+INFO  [2017-03-20 00:07:57,322] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.18766401988142914
+INFO  [2017-03-20 00:08:00,443] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.18009058318401375
+INFO  [2017-03-20 00:08:03,283] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.17271476710959557
+INFO  [2017-03-20 00:08:06,982] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.16560828452964974
+INFO  [2017-03-20 00:08:09,941] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.15882898898837502
+INFO  [2017-03-20 00:08:12,744] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.15243467934211669
+INFO  [2017-03-20 00:08:15,728] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.14647303644057508
+INFO  [2017-03-20 00:08:19,254] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 43 times
 Examples labeled as 0 classified by model as 1: 5 times
 Examples labeled as 1 classified by model as 0: 2 times
-Examples labeled as 1 classified by model as 1: 232 times
-Examples labeled as 1 classified by model as 2: 25 times
+Examples labeled as 1 classified by model as 1: 142 times
+Examples labeled as 1 classified by model as 2: 2 times
+Examples labeled as 2 classified by model as 1: 8 times
+Examples labeled as 2 classified by model as 2: 38 times
+Examples labeled as 3 classified by model as 2: 2 times
+Examples labeled as 3 classified by model as 3: 5 times
+
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
+
+==========================Scores========================================
+ Accuracy:        0.9231
+ Precision:       0.9441
+ Recall:          0.8522
+ F1 Score:        0.8958
+========================================================================
+INFO  [2017-03-20 00:08:19,262] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:08:19,418] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.7612077438350127
+INFO  [2017-03-20 00:08:22,250] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.6329879434083562
+INFO  [2017-03-20 00:08:24,737] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5412199558810733
+INFO  [2017-03-20 00:08:27,208] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.4902777351854958
+INFO  [2017-03-20 00:08:29,727] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.45899609343458087
+INFO  [2017-03-20 00:08:32,275] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.43716399808601464
+INFO  [2017-03-20 00:08:34,879] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.4185511702535843
+INFO  [2017-03-20 00:08:37,470] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.40051294873126636
+INFO  [2017-03-20 00:08:40,039] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.3815078914336331
+INFO  [2017-03-20 00:08:42,770] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.36272313867082207
+INFO  [2017-03-20 00:08:45,460] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.34534195047764077
+INFO  [2017-03-20 00:08:48,578] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.3295819209452747
+INFO  [2017-03-20 00:08:51,597] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.31484684399001595
+INFO  [2017-03-20 00:08:54,268] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.30070469524118604
+INFO  [2017-03-20 00:08:57,040] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.2872063791108986
+INFO  [2017-03-20 00:08:59,838] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.27432005377539614
+INFO  [2017-03-20 00:09:02,720] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.2620042097039726
+INFO  [2017-03-20 00:09:05,611] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.25034579771052673
+INFO  [2017-03-20 00:09:09,237] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.23942606089155166
+INFO  [2017-03-20 00:09:12,277] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.22908073676879978
+INFO  [2017-03-20 00:09:14,947] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.21941473209641252
+INFO  [2017-03-20 00:09:17,656] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.2103795324386068
+INFO  [2017-03-20 00:09:20,485] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.201750099737911
+INFO  [2017-03-20 00:09:23,312] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.1934039679897433
+INFO  [2017-03-20 00:09:26,045] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.18536634345577835
+INFO  [2017-03-20 00:09:28,817] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.1777346366818082
+INFO  [2017-03-20 00:09:31,667] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.1705655405755807
+INFO  [2017-03-20 00:09:34,792] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.1638774609721532
+INFO  [2017-03-20 00:09:37,625] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.1576577263331605
+INFO  [2017-03-20 00:09:40,476] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.15186194598626826
+INFO  [2017-03-20 00:09:43,332] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 47 times
+Examples labeled as 0 classified by model as 1: 6 times
+Examples labeled as 1 classified by model as 0: 1 times
+Examples labeled as 1 classified by model as 1: 141 times
+Examples labeled as 1 classified by model as 2: 8 times
 Examples labeled as 2 classified by model as 1: 3 times
-Examples labeled as 2 classified by model as 2: 101 times
+Examples labeled as 2 classified by model as 2: 35 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 3: 4 times
 
-
-==========================Scores========================================
- Accuracy:        0.8803
- Precision:       0.9105
- Recall:          0.9161
- F1 Score:        0.9133
-========================================================================
-INFO  [2017-02-15 10:46:51,410] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 10:46:51,751] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 10:46:52,418] org.reflections.Reflections: Reflections took 554 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 10:46:53,352] org.reflections.Reflections: Reflections took 258 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 10:46:53,379] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 10:46:57,813] org.reflections.Reflections: Reflections took 4180 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 10:46:57,860] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 10:46:57,860] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 10:46:58,033] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 10:46:58,059] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6485803167886168
-INFO  [2017-02-15 10:46:58,561] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.5344909779455509
-INFO  [2017-02-15 10:46:58,992] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.442171892292918
-INFO  [2017-02-15 10:46:59,432] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.3990594993535157
-INFO  [2017-02-15 10:46:59,846] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.37113314093091243
-INFO  [2017-02-15 10:47:00,287] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.35031025212229266
-INFO  [2017-02-15 10:47:00,696] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.33493916147730923
-INFO  [2017-02-15 10:47:01,130] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.3230532554205852
-INFO  [2017-02-15 10:47:01,565] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.313086370430549
-INFO  [2017-02-15 10:47:02,024] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.30424862729627344
-INFO  [2017-02-15 10:47:02,514] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.29602538797530126
-INFO  [2017-02-15 10:47:03,001] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.2881038236649514
-INFO  [2017-02-15 10:47:03,564] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.28036883068273727
-INFO  [2017-02-15 10:47:04,042] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.27283218715273283
-INFO  [2017-02-15 10:47:04,509] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.26554285980799397
-INFO  [2017-02-15 10:47:04,984] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.2586530161645606
-INFO  [2017-02-15 10:47:05,493] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.2522695394478971
-INFO  [2017-02-15 10:47:05,991] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.24638422476688449
-INFO  [2017-02-15 10:47:06,637] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.2409824137073013
-INFO  [2017-02-15 10:47:07,111] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.2360258946106511
-INFO  [2017-02-15 10:47:07,550] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.2314633486232051
-INFO  [2017-02-15 10:47:07,953] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.227240777358838
-INFO  [2017-02-15 10:47:08,367] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.2233091777417937
-INFO  [2017-02-15 10:47:08,770] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.2196260185804394
-INFO  [2017-02-15 10:47:09,188] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.2161520684678085
-INFO  [2017-02-15 10:47:09,630] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.21285137750142155
-INFO  [2017-02-15 10:47:10,054] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.20969258982731687
-INFO  [2017-02-15 10:47:10,489] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.2066570379011313
-INFO  [2017-02-15 10:47:10,924] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.20373520580340812
-INFO  [2017-02-15 10:47:11,325] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.20092122360727516
-INFO  [2017-02-15 10:47:11,741] o.d.o.l.ScoreIterationListener: Score at iteration 3000 is 0.19820340584474525
-INFO  [2017-02-15 10:47:12,165] o.d.o.l.ScoreIterationListener: Score at iteration 3100 is 0.19556044146195445
-INFO  [2017-02-15 10:47:12,605] o.d.o.l.ScoreIterationListener: Score at iteration 3200 is 0.19297249608810907
-INFO  [2017-02-15 10:47:13,042] o.d.o.l.ScoreIterationListener: Score at iteration 3300 is 0.19042294390286202
-INFO  [2017-02-15 10:47:13,489] o.d.o.l.ScoreIterationListener: Score at iteration 3400 is 0.18789834939431485
-INFO  [2017-02-15 10:47:13,926] o.d.o.l.ScoreIterationListener: Score at iteration 3500 is 0.18538804804853176
-INFO  [2017-02-15 10:47:14,358] o.d.o.l.ScoreIterationListener: Score at iteration 3600 is 0.18288403696301417
-INFO  [2017-02-15 10:47:14,830] o.d.o.l.ScoreIterationListener: Score at iteration 3700 is 0.18038071960888863
-INFO  [2017-02-15 10:47:15,259] o.d.o.l.ScoreIterationListener: Score at iteration 3800 is 0.17787450475287975
-INFO  [2017-02-15 10:47:15,688] o.d.o.l.ScoreIterationListener: Score at iteration 3900 is 0.17536417104194724
-INFO  [2017-02-15 10:47:16,217] o.d.o.l.ScoreIterationListener: Score at iteration 4000 is 0.17285026540879833
-INFO  [2017-02-15 10:47:16,749] o.d.o.l.ScoreIterationListener: Score at iteration 4100 is 0.17033477491846336
-INFO  [2017-02-15 10:47:17,306] o.d.o.l.ScoreIterationListener: Score at iteration 4200 is 0.1678206345678294
-INFO  [2017-02-15 10:47:17,789] o.d.o.l.ScoreIterationListener: Score at iteration 4300 is 0.16531066994299604
-INFO  [2017-02-15 10:47:18,230] o.d.o.l.ScoreIterationListener: Score at iteration 4400 is 0.16280708679989508
-INFO  [2017-02-15 10:47:18,680] o.d.o.l.ScoreIterationListener: Score at iteration 4500 is 0.16031165336896885
-INFO  [2017-02-15 10:47:19,147] o.d.o.l.ScoreIterationListener: Score at iteration 4600 is 0.15782571859828848
-INFO  [2017-02-15 10:47:19,595] o.d.o.l.ScoreIterationListener: Score at iteration 4700 is 0.15535077729876695
-INFO  [2017-02-15 10:47:20,048] o.d.o.l.ScoreIterationListener: Score at iteration 4800 is 0.15288851571145168
-INFO  [2017-02-15 10:47:20,464] o.d.o.l.ScoreIterationListener: Score at iteration 4900 is 0.150440693011687
-INFO  [2017-02-15 10:47:20,932] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 0: 61 times
-Examples labeled as 0 classified by model as 1: 4 times
-Examples labeled as 1 classified by model as 0: 4 times
-Examples labeled as 1 classified by model as 1: 226 times
-Examples labeled as 1 classified by model as 2: 17 times
-Examples labeled as 2 classified by model as 1: 4 times
-Examples labeled as 2 classified by model as 2: 126 times
-
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
 
 ==========================Scores========================================
- Accuracy:        0.9157
- Precision:       0.9271
- Recall:          0.9312
- F1 Score:        0.9292
+ Accuracy:        0.919
+ Precision:       0.8817
+ Recall:          0.8811
+ F1 Score:        0.8814
 ========================================================================
-INFO  [2017-02-15 14:39:59,621] C.g.CompanyClassifier$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 654
-INFO  [2017-02-15 14:39:59,630] C.g.CompanyClassifier$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-02-15 14:39:59,641] C.g.CompanyClassifier$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-02-15 14:40:00,756] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Learnable: Learn with data of size 902
-INFO  [2017-02-15 14:40:00,756] C.g.CompanyClassifier$CompanyClassifierRandomForest3$: Training: 5 iterations remain.
-INFO  [2017-02-15 14:41:31,841] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
-INFO  [2017-02-15 14:41:32,555] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
-INFO  [2017-02-15 14:41:33,118] org.reflections.Reflections: Reflections took 430 ms to scan 12 urls, producing 29 keys and 176 values 
-INFO  [2017-02-15 14:41:34,101] org.reflections.Reflections: Reflections took 284 ms to scan 12 urls, producing 368 keys and 1424 values 
-INFO  [2017-02-15 14:41:34,141] R.g.dl4J_NN_company_classifier2: Build model....
-INFO  [2017-02-15 14:41:38,543] org.reflections.Reflections: Reflections took 4140 ms to scan 272 urls, producing 3673 keys and 30440 values 
-WARN  [2017-02-15 14:41:38,635] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
-WARN  [2017-02-15 14:41:38,635] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
-INFO  [2017-02-15 14:41:38,898] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
-INFO  [2017-02-15 14:41:38,938] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6531712981114215
-INFO  [2017-02-15 14:41:39,696] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.5231114623524504
-INFO  [2017-02-15 14:41:40,213] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.4391875342482501
-INFO  [2017-02-15 14:41:40,650] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.39841141926495743
-INFO  [2017-02-15 14:41:41,102] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.3710311647801783
-INFO  [2017-02-15 14:41:41,513] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.3508862968911756
-INFO  [2017-02-15 14:41:42,051] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.33601413461971374
-INFO  [2017-02-15 14:41:42,466] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.32384486109808575
-INFO  [2017-02-15 14:41:42,914] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.31323332459497916
-INFO  [2017-02-15 14:41:43,362] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3035761224926047
-INFO  [2017-02-15 14:41:43,769] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.2940170325275938
-INFO  [2017-02-15 14:41:44,251] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.2853706971413094
-INFO  [2017-02-15 14:41:44,702] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.2769083069460598
-INFO  [2017-02-15 14:41:45,137] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.2684553985200975
-INFO  [2017-02-15 14:41:45,518] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.2601275887796264
-INFO  [2017-02-15 14:41:45,918] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.2523658162076288
-INFO  [2017-02-15 14:41:46,340] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.245283910091195
-INFO  [2017-02-15 14:41:46,737] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.23872344704296394
-INFO  [2017-02-15 14:41:47,190] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.2325556833427746
-INFO  [2017-02-15 14:41:47,607] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.22669777976416577
-INFO  [2017-02-15 14:41:48,019] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.22115418411499554
-INFO  [2017-02-15 14:41:48,462] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.2158842971718588
-INFO  [2017-02-15 14:41:48,872] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.21084070188379408
-INFO  [2017-02-15 14:41:49,320] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.20599814937725863
-INFO  [2017-02-15 14:41:49,734] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.20134342282190182
-INFO  [2017-02-15 14:41:50,189] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.19687634001126963
-INFO  [2017-02-15 14:41:50,604] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.19260546919262955
-INFO  [2017-02-15 14:41:51,031] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.1885412926895695
-INFO  [2017-02-15 14:41:51,482] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.18468980809626118
-INFO  [2017-02-15 14:41:51,898] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.18104948387318548
-INFO  [2017-02-15 14:41:52,373] o.d.o.l.ScoreIterationListener: Score at iteration 3000 is 0.1776110588668673
-INFO  [2017-02-15 14:41:52,791] o.d.o.l.ScoreIterationListener: Score at iteration 3100 is 0.17435993051551665
-INFO  [2017-02-15 14:41:53,260] o.d.o.l.ScoreIterationListener: Score at iteration 3200 is 0.17127845187646665
-INFO  [2017-02-15 14:41:53,676] o.d.o.l.ScoreIterationListener: Score at iteration 3300 is 0.16834883023167618
-INFO  [2017-02-15 14:41:54,138] o.d.o.l.ScoreIterationListener: Score at iteration 3400 is 0.16555396566122907
-INFO  [2017-02-15 14:41:54,560] o.d.o.l.ScoreIterationListener: Score at iteration 3500 is 0.16287836253408466
-INFO  [2017-02-15 14:41:55,000] o.d.o.l.ScoreIterationListener: Score at iteration 3600 is 0.16030772842763963
-INFO  [2017-02-15 14:41:55,491] o.d.o.l.ScoreIterationListener: Score at iteration 3700 is 0.15782939341377963
-INFO  [2017-02-15 14:41:55,938] o.d.o.l.ScoreIterationListener: Score at iteration 3800 is 0.1554318907588299
-INFO  [2017-02-15 14:41:56,389] o.d.o.l.ScoreIterationListener: Score at iteration 3900 is 0.15310528506696766
-INFO  [2017-02-15 14:41:56,823] o.d.o.l.ScoreIterationListener: Score at iteration 4000 is 0.15084193794577216
-INFO  [2017-02-15 14:41:57,260] o.d.o.l.ScoreIterationListener: Score at iteration 4100 is 0.14863590640454563
-INFO  [2017-02-15 14:41:57,692] o.d.o.l.ScoreIterationListener: Score at iteration 4200 is 0.14648307044793324
-INFO  [2017-02-15 14:41:58,124] o.d.o.l.ScoreIterationListener: Score at iteration 4300 is 0.1443804767746914
-INFO  [2017-02-15 14:41:58,561] o.d.o.l.ScoreIterationListener: Score at iteration 4400 is 0.14232641169471152
-INFO  [2017-02-15 14:41:59,000] o.d.o.l.ScoreIterationListener: Score at iteration 4500 is 0.14032084778050635
-INFO  [2017-02-15 14:41:59,456] o.d.o.l.ScoreIterationListener: Score at iteration 4600 is 0.1383667838003985
-INFO  [2017-02-15 14:41:59,877] o.d.o.l.ScoreIterationListener: Score at iteration 4700 is 0.1364718490041732
-INFO  [2017-02-15 14:42:00,335] o.d.o.l.ScoreIterationListener: Score at iteration 4800 is 0.13464552299684251
-INFO  [2017-02-15 14:42:00,777] o.d.o.l.ScoreIterationListener: Score at iteration 4900 is 0.13289469666909648
-INFO  [2017-02-15 14:42:01,261] R.g.dl4J_NN_company_classifier2: 
-Examples labeled as 0 classified by model as 0: 62 times
+INFO  [2017-03-20 00:09:43,332] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:09:43,449] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.7574667666607955
+INFO  [2017-03-20 00:09:46,074] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.6423119843361587
+INFO  [2017-03-20 00:09:48,686] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5524236069831961
+INFO  [2017-03-20 00:09:51,303] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5006459028601447
+INFO  [2017-03-20 00:09:53,929] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.4678373208159472
+INFO  [2017-03-20 00:09:56,781] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.44526171894724115
+INFO  [2017-03-20 00:10:00,635] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.42646756197460406
+INFO  [2017-03-20 00:10:03,675] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.40817053548698723
+INFO  [2017-03-20 00:10:06,513] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.3888853174783813
+INFO  [2017-03-20 00:10:09,116] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.369436552193277
+INFO  [2017-03-20 00:10:11,719] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.3501549746873968
+INFO  [2017-03-20 00:10:14,383] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.3324036735294174
+INFO  [2017-03-20 00:10:17,154] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.3160112022893234
+INFO  [2017-03-20 00:10:19,925] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.3007638697950009
+INFO  [2017-03-20 00:10:22,702] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.2862100709587019
+INFO  [2017-03-20 00:10:25,528] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.27205279628475265
+INFO  [2017-03-20 00:10:28,416] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.2586310301931497
+INFO  [2017-03-20 00:10:31,266] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.24613601570417998
+INFO  [2017-03-20 00:10:34,022] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.23456188098241318
+INFO  [2017-03-20 00:10:36,803] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.22385642483958842
+INFO  [2017-03-20 00:10:39,576] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.21388582031814615
+INFO  [2017-03-20 00:10:42,493] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.20459600969576078
+INFO  [2017-03-20 00:10:45,281] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.19600014211359637
+INFO  [2017-03-20 00:10:48,155] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.18807942896553728
+INFO  [2017-03-20 00:10:51,915] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.18076630813121508
+INFO  [2017-03-20 00:10:54,621] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.17399372273596622
+INFO  [2017-03-20 00:10:57,354] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.16771759626787786
+INFO  [2017-03-20 00:11:00,257] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.16191279085004975
+INFO  [2017-03-20 00:11:03,056] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.15655788259226372
+INFO  [2017-03-20 00:11:05,833] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.1516232686451203
+INFO  [2017-03-20 00:11:08,702] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 46 times
+Examples labeled as 0 classified by model as 1: 3 times
+Examples labeled as 1 classified by model as 1: 155 times
+Examples labeled as 1 classified by model as 2: 1 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 33 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+Examples labeled as 3 classified by model as 3: 3 times
+
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
+
+==========================Scores========================================
+ Accuracy:        0.9595
+ Precision:       0.9124
+ Recall:          0.8561
+ F1 Score:        0.8833
+========================================================================
+INFO  [2017-03-20 00:11:08,702] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:11:08,818] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.7554884083344533
+INFO  [2017-03-20 00:11:11,282] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.6448371183369097
+INFO  [2017-03-20 00:11:14,215] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5589755295149785
+INFO  [2017-03-20 00:11:16,970] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5083017546297267
+INFO  [2017-03-20 00:11:19,536] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.47521080043394337
+INFO  [2017-03-20 00:11:22,098] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.45291445906858546
+INFO  [2017-03-20 00:11:24,741] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.434973018099713
+INFO  [2017-03-20 00:11:27,344] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.4180750449250416
+INFO  [2017-03-20 00:11:30,031] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.40088844733073925
+INFO  [2017-03-20 00:11:32,885] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3835677121281686
+INFO  [2017-03-20 00:11:35,735] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.3659656991731195
+INFO  [2017-03-20 00:11:38,707] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.34834315189000986
+INFO  [2017-03-20 00:11:43,021] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.33163228156241104
+INFO  [2017-03-20 00:11:45,788] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.3163944463558635
+INFO  [2017-03-20 00:11:48,543] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.3027706135922025
+INFO  [2017-03-20 00:11:51,293] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.29032870384866494
+INFO  [2017-03-20 00:11:54,166] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.27858527037571157
+INFO  [2017-03-20 00:11:57,581] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.2672754187838048
+INFO  [2017-03-20 00:12:00,716] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.2563442043707043
+INFO  [2017-03-20 00:12:03,618] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.2458375061034628
+INFO  [2017-03-20 00:12:06,437] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.2359657380976029
+INFO  [2017-03-20 00:12:09,293] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.22676031889678372
+INFO  [2017-03-20 00:12:12,043] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.21829119960642396
+INFO  [2017-03-20 00:12:14,860] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.21041126744837063
+INFO  [2017-03-20 00:12:17,602] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.20295164477444438
+INFO  [2017-03-20 00:12:20,403] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.19581221755540082
+INFO  [2017-03-20 00:12:23,225] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.18897477073687605
+INFO  [2017-03-20 00:12:26,143] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.1824647832114136
+INFO  [2017-03-20 00:12:28,952] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.1762840707802288
+INFO  [2017-03-20 00:12:31,735] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.17039266690657645
+INFO  [2017-03-20 00:12:35,488] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 49 times
 Examples labeled as 0 classified by model as 1: 3 times
 Examples labeled as 1 classified by model as 0: 3 times
-Examples labeled as 1 classified by model as 1: 237 times
-Examples labeled as 1 classified by model as 2: 20 times
-Examples labeled as 2 classified by model as 1: 8 times
-Examples labeled as 2 classified by model as 2: 109 times
+Examples labeled as 1 classified by model as 1: 150 times
+Examples labeled as 1 classified by model as 2: 4 times
+Examples labeled as 2 classified by model as 1: 2 times
+Examples labeled as 2 classified by model as 2: 29 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 2: 3 times
+Examples labeled as 3 classified by model as 3: 3 times
 
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
 
 ==========================Scores========================================
- Accuracy:        0.9047
- Precision:       0.9117
- Recall:          0.9323
- F1 Score:        0.9219
+ Accuracy:        0.9352
+ Precision:       0.8664
+ Recall:          0.826
+ F1 Score:        0.8457
 ========================================================================
+INFO  [2017-03-20 00:12:35,488] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:12:35,604] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.752991510613536
+INFO  [2017-03-20 00:12:38,121] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.6532205885071727
+INFO  [2017-03-20 00:12:40,722] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5681004319765259
+INFO  [2017-03-20 00:12:43,442] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5144069088672417
+INFO  [2017-03-20 00:12:46,014] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.47856918713827923
+INFO  [2017-03-20 00:12:48,618] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.45397017363492165
+INFO  [2017-03-20 00:12:51,237] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.4338151695887817
+INFO  [2017-03-20 00:12:53,793] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.41425940247200554
+INFO  [2017-03-20 00:12:56,464] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.3935111197529996
+INFO  [2017-03-20 00:12:59,169] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3709298779621239
+INFO  [2017-03-20 00:13:01,904] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.3478102500824831
+INFO  [2017-03-20 00:13:05,540] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.32719781755789784
+INFO  [2017-03-20 00:13:08,483] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.3097275056747845
+INFO  [2017-03-20 00:13:11,117] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.294597281089412
+INFO  [2017-03-20 00:13:13,827] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.2810055762977358
+INFO  [2017-03-20 00:13:16,609] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.2684407072686749
+INFO  [2017-03-20 00:13:19,326] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.2565533680380519
+INFO  [2017-03-20 00:13:22,138] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.2455358404277943
+INFO  [2017-03-20 00:13:25,975] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.2352305801498372
+INFO  [2017-03-20 00:13:28,850] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.22555901990782082
+INFO  [2017-03-20 00:13:31,535] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.21647478945038423
+INFO  [2017-03-20 00:13:34,185] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.2079197210921474
+INFO  [2017-03-20 00:13:36,787] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.19982871070514974
+INFO  [2017-03-20 00:13:39,442] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.1921991912055889
+INFO  [2017-03-20 00:13:42,131] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.18502313368572482
+INFO  [2017-03-20 00:13:44,810] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.17831812483104512
+INFO  [2017-03-20 00:13:47,551] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.1721110772284425
+INFO  [2017-03-20 00:13:50,371] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.1664103607831757
+INFO  [2017-03-20 00:13:53,336] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.16117510771764418
+INFO  [2017-03-20 00:13:56,159] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.15634867950704145
+INFO  [2017-03-20 00:13:58,872] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 43 times
+Examples labeled as 0 classified by model as 1: 1 times
+Examples labeled as 1 classified by model as 0: 1 times
+Examples labeled as 1 classified by model as 1: 148 times
+Examples labeled as 1 classified by model as 2: 5 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 36 times
+Examples labeled as 2 classified by model as 3: 1 times
+Examples labeled as 3 classified by model as 1: 3 times
+Examples labeled as 3 classified by model as 2: 5 times
+Examples labeled as 3 classified by model as 3: 1 times
+
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
+
+==========================Scores========================================
+ Accuracy:        0.9231
+ Precision:       0.8037
+ Recall:          0.7374
+ F1 Score:        0.7691
+========================================================================
+INFO  [2017-03-20 00:13:58,872] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:13:58,972] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.750164176476232
+INFO  [2017-03-20 00:14:01,583] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.653767747190768
+INFO  [2017-03-20 00:14:04,130] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5706389469709728
+INFO  [2017-03-20 00:14:06,668] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5200060813761608
+INFO  [2017-03-20 00:14:09,245] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.4841959398229988
+INFO  [2017-03-20 00:14:12,460] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.45910176462310576
+INFO  [2017-03-20 00:14:15,619] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.43921291358241366
+INFO  [2017-03-20 00:14:18,200] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.42110847213483915
+INFO  [2017-03-20 00:14:20,792] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.40330511136431324
+INFO  [2017-03-20 00:14:23,436] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3853387745370729
+INFO  [2017-03-20 00:14:26,089] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.3678629879560118
+INFO  [2017-03-20 00:14:28,675] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.3513329600253163
+INFO  [2017-03-20 00:14:31,385] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.3360067027007364
+INFO  [2017-03-20 00:14:34,049] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.3217704466702369
+INFO  [2017-03-20 00:14:37,091] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.3084248374891431
+INFO  [2017-03-20 00:14:40,157] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.29576505936291103
+INFO  [2017-03-20 00:14:43,132] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.2837124633071509
+INFO  [2017-03-20 00:14:45,847] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.27232297796903576
+INFO  [2017-03-20 00:14:48,575] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.26167803830795244
+INFO  [2017-03-20 00:14:51,365] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.2517455840461582
+INFO  [2017-03-20 00:14:54,200] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.24241373151828027
+INFO  [2017-03-20 00:14:56,862] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.2335537202421859
+INFO  [2017-03-20 00:14:59,580] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.22507119871998502
+INFO  [2017-03-20 00:15:02,973] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.21695273124154996
+INFO  [2017-03-20 00:15:06,025] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.20924747358747273
+INFO  [2017-03-20 00:15:08,723] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.20194269962991448
+INFO  [2017-03-20 00:15:11,460] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.19499960324806273
+INFO  [2017-03-20 00:15:14,251] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.1884324393376065
+INFO  [2017-03-20 00:15:17,086] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.18223472191634454
+INFO  [2017-03-20 00:15:19,885] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.17639857229344896
+INFO  [2017-03-20 00:15:22,697] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 56 times
+Examples labeled as 0 classified by model as 1: 2 times
+Examples labeled as 1 classified by model as 0: 5 times
+Examples labeled as 1 classified by model as 1: 143 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 35 times
+Examples labeled as 3 classified by model as 1: 1 times
+Examples labeled as 3 classified by model as 2: 1 times
+
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
+
+==========================Scores========================================
+ Accuracy:        0.9474
+ Precision:       0.9479
+ Recall:          0.7073
+ F1 Score:        0.8101
+========================================================================
+INFO  [2017-03-20 00:15:22,697] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:15:22,797] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.7483161357184018
+INFO  [2017-03-20 00:15:25,300] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.6588888578205566
+INFO  [2017-03-20 00:15:27,887] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5755348171807103
+INFO  [2017-03-20 00:15:30,537] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5247662281600597
+INFO  [2017-03-20 00:15:33,073] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.48683244955927896
+INFO  [2017-03-20 00:15:35,682] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.4602810269502717
+INFO  [2017-03-20 00:15:38,370] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.4402568910012543
+INFO  [2017-03-20 00:15:40,932] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.4230210879086715
+INFO  [2017-03-20 00:15:43,602] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.4063051339352668
+INFO  [2017-03-20 00:15:46,284] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3890163796824921
+INFO  [2017-03-20 00:15:49,026] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.3713821716417928
+INFO  [2017-03-20 00:15:52,479] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.3532998563017497
+INFO  [2017-03-20 00:15:55,272] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.33569050408254764
+INFO  [2017-03-20 00:15:57,899] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.3192244624283051
+INFO  [2017-03-20 00:16:00,527] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.30388613692856936
+INFO  [2017-03-20 00:16:03,147] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.28970160682773843
+INFO  [2017-03-20 00:16:05,794] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.2767246152670455
+INFO  [2017-03-20 00:16:08,483] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.2648461453117366
+INFO  [2017-03-20 00:16:11,197] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.2538791592968351
+INFO  [2017-03-20 00:16:14,078] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.24366671403936538
+INFO  [2017-03-20 00:16:16,760] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.2340999843702329
+INFO  [2017-03-20 00:16:19,424] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.2251217450583827
+INFO  [2017-03-20 00:16:22,110] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.21662622941515003
+INFO  [2017-03-20 00:16:24,970] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.20854382742975833
+INFO  [2017-03-20 00:16:27,691] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.20090034594657188
+INFO  [2017-03-20 00:16:30,462] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.19370827863769388
+INFO  [2017-03-20 00:16:33,358] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.18692622517330135
+INFO  [2017-03-20 00:16:36,237] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.1805071323554021
+INFO  [2017-03-20 00:16:38,965] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.17442086487418157
+INFO  [2017-03-20 00:16:43,024] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.1686455347079861
+INFO  [2017-03-20 00:16:45,899] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 45 times
+Examples labeled as 0 classified by model as 1: 2 times
+Examples labeled as 1 classified by model as 0: 3 times
+Examples labeled as 1 classified by model as 1: 148 times
+Examples labeled as 1 classified by model as 2: 8 times
+Examples labeled as 2 classified by model as 1: 4 times
+Examples labeled as 2 classified by model as 2: 36 times
+Examples labeled as 3 classified by model as 1: 1 times
+
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
+
+==========================Scores========================================
+ Accuracy:        0.9271
+ Precision:       0.9035
+ Recall:          0.6971
+ F1 Score:        0.787
+========================================================================
+INFO  [2017-03-20 00:16:45,899] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: Build model....
+INFO  [2017-03-20 00:16:45,998] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.741408103000281
+INFO  [2017-03-20 00:16:48,462] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.660501876353346
+INFO  [2017-03-20 00:16:50,981] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.5823614598485571
+INFO  [2017-03-20 00:16:53,539] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.5328962060282523
+INFO  [2017-03-20 00:16:56,098] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.494201112166252
+INFO  [2017-03-20 00:16:58,710] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.46630549773069313
+INFO  [2017-03-20 00:17:01,310] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.4451120836020692
+INFO  [2017-03-20 00:17:03,935] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.4267001756567818
+INFO  [2017-03-20 00:17:06,633] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.40963934194212326
+INFO  [2017-03-20 00:17:09,309] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.3931941040148296
+INFO  [2017-03-20 00:17:12,015] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.3775316466113046
+INFO  [2017-03-20 00:17:14,624] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.3627821498522185
+INFO  [2017-03-20 00:17:17,363] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.34865114258720603
+INFO  [2017-03-20 00:17:20,004] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.334872173044555
+INFO  [2017-03-20 00:17:22,654] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.3214040596174731
+INFO  [2017-03-20 00:17:25,365] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.3082942922174425
+INFO  [2017-03-20 00:17:28,026] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.29575134593821223
+INFO  [2017-03-20 00:17:31,772] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.2840154832187133
+INFO  [2017-03-20 00:17:34,443] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.27321483676590735
+INFO  [2017-03-20 00:17:37,090] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.26331335908748016
+INFO  [2017-03-20 00:17:39,820] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.254181333629719
+INFO  [2017-03-20 00:17:42,567] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.24565605475480873
+INFO  [2017-03-20 00:17:45,357] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.23736391119765934
+INFO  [2017-03-20 00:17:48,169] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.22927155976750055
+INFO  [2017-03-20 00:17:50,878] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.22171340998600292
+INFO  [2017-03-20 00:17:53,534] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.2144554523337895
+INFO  [2017-03-20 00:17:56,300] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.20747035054346963
+INFO  [2017-03-20 00:17:59,053] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.20075043064413897
+INFO  [2017-03-20 00:18:01,875] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.19428896080869323
+INFO  [2017-03-20 00:18:04,703] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.18808521715979987
+INFO  [2017-03-20 00:18:07,437] R.g.dl4J_NN_1Q_Ahead_5_Labels_cv_more_data: 
+Examples labeled as 0 classified by model as 0: 46 times
+Examples labeled as 0 classified by model as 1: 1 times
+Examples labeled as 1 classified by model as 0: 5 times
+Examples labeled as 1 classified by model as 1: 144 times
+Examples labeled as 1 classified by model as 2: 5 times
+Examples labeled as 2 classified by model as 1: 3 times
+Examples labeled as 2 classified by model as 2: 38 times
+Examples labeled as 3 classified by model as 0: 1 times
+Examples labeled as 3 classified by model as 2: 4 times
+
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
+
+==========================Scores========================================
+ Accuracy:        0.9231
+ Precision:       0.8887
+ Recall:          0.7102
+ F1 Score:        0.7895
+========================================================================
+INFO  [2017-03-30 18:40:14,630] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 18:40:15,219] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 18:40:15,592] org.reflections.Reflections: Reflections took 266 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 18:40:16,316] org.reflections.Reflections: Reflections took 381 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-30 18:40:21,055] org.reflections.Reflections: Reflections took 4315 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-30 18:40:21,122] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-30 18:40:21,122] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-30 18:40:22,501] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-03-30 18:42:06,709] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 18:42:06,948] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 18:42:07,652] org.reflections.Reflections: Reflections took 477 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 18:42:09,082] org.reflections.Reflections: Reflections took 267 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-30 18:42:09,108] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 18:42:13,169] org.reflections.Reflections: Reflections took 3784 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-30 18:42:13,215] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-30 18:42:13,215] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-30 18:42:13,391] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-03-30 18:42:13,406] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.721239553423805
+INFO  [2017-03-30 18:42:14,557] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.5372639164360101
+INFO  [2017-03-30 18:42:15,542] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.4593499723843736
+INFO  [2017-03-30 18:42:16,459] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.42358967524179836
+INFO  [2017-03-30 18:42:17,422] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.39829106066350384
+INFO  [2017-03-30 18:42:18,394] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.3773676793364498
+INFO  [2017-03-30 18:42:19,345] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.3584864119065984
+INFO  [2017-03-30 18:42:20,326] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.34008908878422445
+INFO  [2017-03-30 18:42:21,362] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.3220446596053365
+INFO  [2017-03-30 18:42:22,372] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.30278542765045635
+INFO  [2017-03-30 18:42:23,411] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.284868509548687
+INFO  [2017-03-30 18:42:24,397] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.26809117187707576
+INFO  [2017-03-30 18:42:25,329] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.2526090855575952
+INFO  [2017-03-30 18:42:26,263] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.23859159719067485
+INFO  [2017-03-30 18:42:27,231] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.22623125562865937
+INFO  [2017-03-30 18:42:28,200] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.21551277389159967
+INFO  [2017-03-30 18:42:29,134] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.20618956796505736
+INFO  [2017-03-30 18:42:30,116] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.19629838640504096
+INFO  [2017-03-30 18:42:31,094] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.1888030654587217
+INFO  [2017-03-30 18:42:32,452] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.18238532881286487
+INFO  [2017-03-30 18:42:33,418] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.1767157478040432
+INFO  [2017-03-30 18:42:34,417] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.17163510154740388
+INFO  [2017-03-30 18:42:35,410] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.16702522321956031
+INFO  [2017-03-30 18:42:36,413] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.1627999649225813
+INFO  [2017-03-30 18:42:37,388] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.15889230005510335
+INFO  [2017-03-30 18:42:38,374] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.15522523881064787
+INFO  [2017-03-30 18:42:39,385] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.15177611161279245
+INFO  [2017-03-30 18:42:40,376] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.1485565195978232
+INFO  [2017-03-30 18:42:41,447] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.14550245249045654
+INFO  [2017-03-30 18:42:42,446] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.14258460762793254
+INFO  [2017-03-30 18:42:43,477] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 18:42:43,529] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.7249357657170037
+INFO  [2017-03-30 18:42:44,506] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 0.5382712412021712
+INFO  [2017-03-30 18:42:45,425] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 0.4634702625648425
+INFO  [2017-03-30 18:42:46,377] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 0.425911575678501
+INFO  [2017-03-30 18:42:47,346] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.39885693926670907
+INFO  [2017-03-30 18:42:48,266] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.37530198290266115
+INFO  [2017-03-30 18:42:49,222] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.35462996470914354
+INFO  [2017-03-30 18:42:50,544] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.33528575826439977
+INFO  [2017-03-30 18:42:51,520] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.31670942371482325
+INFO  [2017-03-30 18:42:52,495] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.2986356286515102
+INFO  [2017-03-30 18:42:53,427] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.2806129039917353
+INFO  [2017-03-30 18:42:54,395] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.26393634136925564
+INFO  [2017-03-30 18:42:55,380] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.2492590829008889
+INFO  [2017-03-30 18:42:56,365] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.23556270138147703
+INFO  [2017-03-30 18:42:57,334] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.22095598181821863
+INFO  [2017-03-30 18:42:58,319] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.20938528954548083
+INFO  [2017-03-30 18:42:59,319] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.19920510425586643
+INFO  [2017-03-30 18:43:00,336] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.19028950443831527
+INFO  [2017-03-30 18:43:01,320] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.1823669311635107
+INFO  [2017-03-30 18:43:02,299] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.17529023090633847
+INFO  [2017-03-30 18:43:03,284] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.16902541778930835
+INFO  [2017-03-30 18:43:04,566] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.16344633884512202
+INFO  [2017-03-30 18:43:05,589] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.15841378774909284
+INFO  [2017-03-30 18:47:09,603] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 18:47:09,926] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 18:47:10,499] org.reflections.Reflections: Reflections took 454 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 19:08:33,009] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 19:08:33,316] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 19:08:33,960] org.reflections.Reflections: Reflections took 487 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 19:08:35,799] org.reflections.Reflections: Reflections took 255 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-30 19:08:35,829] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:08:40,849] org.reflections.Reflections: Reflections took 4719 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-30 19:08:40,929] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-30 19:08:40,929] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-30 19:09:28,993] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 19:09:29,402] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 19:09:29,922] org.reflections.Reflections: Reflections took 397 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 19:09:31,641] org.reflections.Reflections: Reflections took 303 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-30 19:09:31,704] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:09:36,390] org.reflections.Reflections: Reflections took 4374 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-30 19:09:36,444] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-30 19:09:36,444] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-30 19:09:36,656] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-03-30 19:09:36,701] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.687760719472754
+INFO  [2017-03-30 19:09:39,247] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1563451625698105
+INFO  [2017-03-30 19:09:41,415] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0825275418719245
+INFO  [2017-03-30 19:09:43,736] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.032557915787429
+INFO  [2017-03-30 19:09:45,909] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.993709957620848
+INFO  [2017-03-30 19:09:48,003] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9626504037383878
+INFO  [2017-03-30 19:09:50,488] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9356241285234765
+INFO  [2017-03-30 19:09:52,648] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9108045415455646
+INFO  [2017-03-30 19:09:54,817] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.8874936659799278
+INFO  [2017-03-30 19:09:56,978] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8653833837206765
+INFO  [2017-03-30 19:10:00,017] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:10:00,085] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6845643702218647
+INFO  [2017-03-30 19:10:02,528] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1598198680075407
+INFO  [2017-03-30 19:10:04,639] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0877772141192945
+INFO  [2017-03-30 19:10:06,688] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0397032253663965
+INFO  [2017-03-30 19:10:08,723] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.001517953037975
+INFO  [2017-03-30 19:10:10,825] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9706680844987615
+INFO  [2017-03-30 19:10:13,229] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9435444041068312
+INFO  [2017-03-30 19:10:15,265] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9193199480600008
+INFO  [2017-03-30 19:10:17,343] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.8975204618146608
+INFO  [2017-03-30 19:10:19,426] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8780543692927674
+INFO  [2017-03-30 19:10:21,484] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:10:21,542] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6726997908432264
+INFO  [2017-03-30 19:10:23,822] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1698819742540922
+INFO  [2017-03-30 19:10:25,959] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1047549696705814
+INFO  [2017-03-30 19:10:28,302] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0603242426677029
+INFO  [2017-03-30 19:10:30,513] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.020124300181599
+INFO  [2017-03-30 19:10:32,777] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9855366897036314
+INFO  [2017-03-30 19:10:35,144] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9557608317143521
+INFO  [2017-03-30 19:10:37,330] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9296043853257046
+INFO  [2017-03-30 19:10:39,415] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9060134858953304
+INFO  [2017-03-30 19:10:41,507] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8849763925985233
+INFO  [2017-03-30 19:10:43,660] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:10:43,732] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.671823825897643
+INFO  [2017-03-30 19:10:46,059] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.173393866615064
+INFO  [2017-03-30 19:10:48,070] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.108932362693022
+INFO  [2017-03-30 19:10:50,097] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0629827857929048
+INFO  [2017-03-30 19:10:52,352] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0219828210793542
+INFO  [2017-03-30 19:10:54,593] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.988736036816096
+INFO  [2017-03-30 19:10:57,069] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.961035279857468
+INFO  [2017-03-30 19:10:59,223] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9364026249080547
+INFO  [2017-03-30 19:11:01,475] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.913982992811351
+INFO  [2017-03-30 19:11:03,632] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8934459191112708
+INFO  [2017-03-30 19:11:05,797] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:11:05,858] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6733609664158662
+INFO  [2017-03-30 19:11:08,156] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1705665068117739
+INFO  [2017-03-30 19:11:10,227] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.106556085278429
+INFO  [2017-03-30 19:11:12,362] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.062300723913967
+INFO  [2017-03-30 19:11:14,535] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0206386564488952
+INFO  [2017-03-30 19:11:16,680] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9873141995459067
+INFO  [2017-03-30 19:11:18,910] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9594820725143736
+INFO  [2017-03-30 19:11:20,955] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9345354518345531
+INFO  [2017-03-30 19:11:23,047] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9120113910953094
+INFO  [2017-03-30 19:11:25,234] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8921655856994183
+INFO  [2017-03-30 19:11:27,352] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:11:27,408] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6740263438519583
+INFO  [2017-03-30 19:11:29,663] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1646386669084974
+INFO  [2017-03-30 19:11:31,731] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0982161292498134
+INFO  [2017-03-30 19:11:33,778] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.051105355551148
+INFO  [2017-03-30 19:11:35,894] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.010922962424986
+INFO  [2017-03-30 19:11:37,977] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9801732584537183
+INFO  [2017-03-30 19:11:40,270] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.954066118800431
+INFO  [2017-03-30 19:11:42,405] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9307673069662049
+INFO  [2017-03-30 19:11:44,476] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9095835156509163
+INFO  [2017-03-30 19:11:46,581] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8905273502827593
+INFO  [2017-03-30 19:11:48,677] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:11:48,734] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6732171143847347
+INFO  [2017-03-30 19:11:50,991] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1745409754299418
+INFO  [2017-03-30 19:11:53,008] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1114552109485503
+INFO  [2017-03-30 19:11:55,047] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0652614314180788
+INFO  [2017-03-30 19:11:57,142] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.02330115590214
+INFO  [2017-03-30 19:11:59,205] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9908323344191552
+INFO  [2017-03-30 19:12:01,569] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9641484900037014
+INFO  [2017-03-30 19:12:03,632] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9410807197177583
+INFO  [2017-03-30 19:12:05,757] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9206737175299596
+INFO  [2017-03-30 19:12:07,869] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.9022043302712429
+INFO  [2017-03-30 19:12:09,974] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:12:10,040] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.674056251233001
+INFO  [2017-03-30 19:12:12,304] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.173990407555867
+INFO  [2017-03-30 19:12:14,362] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.11092355119391
+INFO  [2017-03-30 19:12:16,384] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0642888232976846
+INFO  [2017-03-30 19:12:18,459] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0224356954554539
+INFO  [2017-03-30 19:12:20,504] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9893513630848293
+INFO  [2017-03-30 19:12:22,803] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9628769322845135
+INFO  [2017-03-30 19:12:24,862] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9403112228025035
+INFO  [2017-03-30 19:12:26,957] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9204858694668977
+INFO  [2017-03-30 19:12:29,058] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.9026336614082776
+INFO  [2017-03-30 19:12:31,175] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:12:31,235] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6888626293651194
+INFO  [2017-03-30 19:12:33,517] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1846578247030466
+INFO  [2017-03-30 19:12:35,676] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1166688556082676
+INFO  [2017-03-30 19:12:37,927] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.072268405885039
+INFO  [2017-03-30 19:12:39,978] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0379775164074216
+INFO  [2017-03-30 19:12:42,049] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 1.009498422297538
+INFO  [2017-03-30 19:12:44,385] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9850877209396495
+INFO  [2017-03-30 19:12:46,494] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9632836583429616
+INFO  [2017-03-30 19:12:48,634] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.943019270272332
+INFO  [2017-03-30 19:12:50,773] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.9230607537841827
+INFO  [2017-03-30 19:12:52,966] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:12:53,025] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.673256661334874
+INFO  [2017-03-30 19:12:55,291] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.168235462010854
+INFO  [2017-03-30 19:12:57,306] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1016604216574257
+INFO  [2017-03-30 19:12:59,375] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0541043744056318
+INFO  [2017-03-30 19:13:01,449] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0127792604690553
+INFO  [2017-03-30 19:13:03,492] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9798543518880213
+INFO  [2017-03-30 19:13:05,854] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9522803310104537
+INFO  [2017-03-30 19:13:08,007] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9279408799851127
+INFO  [2017-03-30 19:13:10,060] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9065429805063346
+INFO  [2017-03-30 19:13:12,156] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8880536969551952
+INFO  [2017-03-30 19:14:39,846] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 19:14:40,128] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 19:14:40,561] org.reflections.Reflections: Reflections took 278 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 19:14:43,514] org.reflections.Reflections: Reflections took 484 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-30 19:14:43,588] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:14:48,436] org.reflections.Reflections: Reflections took 4513 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-30 19:14:48,489] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-30 19:14:48,489] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-30 19:14:48,632] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-03-30 19:14:48,668] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.687654944766946
+INFO  [2017-03-30 19:14:51,051] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1597788859524436
+INFO  [2017-03-30 19:14:53,125] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0865037312616161
+INFO  [2017-03-30 19:14:55,202] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0378022898789057
+INFO  [2017-03-30 19:14:57,233] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.9997413404360337
+INFO  [2017-03-30 19:14:59,254] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9686013440400755
+INFO  [2017-03-30 19:15:01,544] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9406460193816253
+INFO  [2017-03-30 19:15:03,522] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9151055962101219
+INFO  [2017-03-30 19:15:05,532] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.8920872083927885
+INFO  [2017-03-30 19:15:07,524] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8713088720679273
+INFO  [2017-03-30 19:15:09,541] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8522406630911029
+INFO  [2017-03-30 19:15:11,898] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8338863097379224
+INFO  [2017-03-30 19:15:13,890] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8169517594530307
+INFO  [2017-03-30 19:15:15,890] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8008115079696125
+INFO  [2017-03-30 19:15:17,915] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.7860861784272379
+INFO  [2017-03-30 19:15:19,922] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.7722506660070014
+INFO  [2017-03-30 19:15:22,212] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7592352779596956
+INFO  [2017-03-30 19:15:24,221] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7469751407529585
+INFO  [2017-03-30 19:15:26,220] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.7353881431051925
+INFO  [2017-03-30 19:15:28,253] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.7243847596048151
+INFO  [2017-03-30 19:15:30,356] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7143335334375466
+INFO  [2017-03-30 19:15:32,638] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7050977358367758
+INFO  [2017-03-30 19:15:34,717] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.6965012197178435
+INFO  [2017-03-30 19:15:36,750] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.6884060207482403
+INFO  [2017-03-30 19:15:38,789] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.6808330220322552
+INFO  [2017-03-30 19:15:40,943] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.6737802464554943
+INFO  [2017-03-30 19:15:43,329] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.6670097009795811
+INFO  [2017-03-30 19:15:45,413] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.6602794384552814
+INFO  [2017-03-30 19:15:47,428] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.6543247536854909
+INFO  [2017-03-30 19:15:49,451] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.6485824828150786
+INFO  [2017-03-30 19:15:51,539] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:15:51,716] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6873042323611964
+INFO  [2017-03-30 19:15:54,103] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1580073821613321
+INFO  [2017-03-30 19:15:56,249] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0837468865701698
+INFO  [2017-03-30 19:15:58,418] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0334498039980267
+INFO  [2017-03-30 19:16:00,443] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 0.9931047131686966
+INFO  [2017-03-30 19:16:02,516] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9607874684660606
+INFO  [2017-03-30 19:16:04,752] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9330495134013953
+INFO  [2017-03-30 19:16:06,930] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9087977454429538
+INFO  [2017-03-30 19:16:09,166] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.8870134599928008
+INFO  [2017-03-30 19:16:11,364] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8672122070137015
+INFO  [2017-03-30 19:16:13,382] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8489647785191333
+INFO  [2017-03-30 19:16:15,608] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8317737480319136
+INFO  [2017-03-30 19:16:17,600] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8151105458414202
+INFO  [2017-03-30 19:16:19,625] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.7995026293388202
+INFO  [2017-03-30 19:16:21,603] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.7852688456640002
+INFO  [2017-03-30 19:16:23,630] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.7716388943433274
+INFO  [2017-03-30 19:16:25,913] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7587364214393507
+INFO  [2017-03-30 19:16:28,096] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7463450927647864
+INFO  [2017-03-30 19:16:30,186] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.7343380491513384
+INFO  [2017-03-30 19:16:32,213] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.7231297302029038
+INFO  [2017-03-30 19:16:34,287] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7127402800462308
+INFO  [2017-03-30 19:16:36,519] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7032583702580891
+INFO  [2017-03-30 19:16:38,594] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.6945545463156776
+INFO  [2017-03-30 19:16:40,667] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.6865076956667072
+INFO  [2017-03-30 19:16:42,912] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.6790153052016452
+INFO  [2017-03-30 19:16:44,978] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.6719966126432219
+INFO  [2017-03-30 19:16:47,331] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.6653939659661474
+INFO  [2017-03-30 19:16:49,459] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.6591519994558069
+INFO  [2017-03-30 19:16:51,527] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.6532286327044097
+INFO  [2017-03-30 19:16:53,600] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.6475927225080299
+INFO  [2017-03-30 19:16:55,700] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:16:55,767] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6679366078673974
+INFO  [2017-03-30 19:16:57,945] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1644676255315394
+INFO  [2017-03-30 19:16:59,962] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0986069011082964
+INFO  [2017-03-30 19:17:01,988] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.052586633416371
+INFO  [2017-03-30 19:17:04,174] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0128391941092068
+INFO  [2017-03-30 19:17:06,307] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9811788599772209
+INFO  [2017-03-30 19:17:08,672] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9535492874233172
+INFO  [2017-03-30 19:17:10,813] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9287593100190485
+INFO  [2017-03-30 19:17:12,903] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9064697506002798
+INFO  [2017-03-30 19:17:14,943] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8863133783781217
+INFO  [2017-03-30 19:17:16,979] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8682206769661533
+INFO  [2017-03-30 19:17:19,224] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8521310280830539
+INFO  [2017-03-30 19:17:21,183] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8379317227290031
+INFO  [2017-03-30 19:17:23,200] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8253562514080985
+INFO  [2017-03-30 19:17:25,215] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8139953649842175
+INFO  [2017-03-30 19:17:27,275] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.8030758588680028
+INFO  [2017-03-30 19:17:29,591] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7927710601643656
+INFO  [2017-03-30 19:17:31,623] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7831514120544463
+INFO  [2017-03-30 19:17:33,636] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.7739023310099717
+INFO  [2017-03-30 19:17:35,696] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.765012756277
+INFO  [2017-03-30 19:17:37,757] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7564755817329278
+INFO  [2017-03-30 19:17:40,080] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7482942676912071
+INFO  [2017-03-30 19:17:42,174] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.7404596070910853
+INFO  [2017-03-30 19:17:44,241] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.7329940922357862
+INFO  [2017-03-30 19:17:46,311] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.7258966108484639
+INFO  [2017-03-30 19:17:48,369] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.7191714265745294
+INFO  [2017-03-30 19:17:50,683] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.7128184776163397
+INFO  [2017-03-30 19:17:52,732] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.7068099575373492
+INFO  [2017-03-30 19:17:54,799] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.7010772771149614
+INFO  [2017-03-30 19:17:56,955] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.695660601273636
+INFO  [2017-03-30 19:17:59,066] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:17:59,123] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6667269655300145
+INFO  [2017-03-30 19:18:01,280] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1669461072134848
+INFO  [2017-03-30 19:18:03,195] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1031281059675608
+INFO  [2017-03-30 19:18:05,395] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0575824012658273
+INFO  [2017-03-30 19:18:07,536] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0177005639869918
+INFO  [2017-03-30 19:18:09,621] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9853108978271014
+INFO  [2017-03-30 19:18:11,955] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9581519339664196
+INFO  [2017-03-30 19:18:13,967] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9339809895793545
+INFO  [2017-03-30 19:18:15,966] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9118480728621484
+INFO  [2017-03-30 19:18:18,089] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.891767457631984
+INFO  [2017-03-30 19:18:20,123] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.873706208409485
+INFO  [2017-03-30 19:18:22,433] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.857907106026653
+INFO  [2017-03-30 19:18:25,539] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8440015603131393
+INFO  [2017-03-30 19:18:28,461] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8315536896707885
+INFO  [2017-03-30 19:18:31,182] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8201530709803021
+INFO  [2017-03-30 19:18:33,507] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.8095076748839539
+INFO  [2017-03-30 19:18:35,975] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.799454617534417
+INFO  [2017-03-30 19:18:38,519] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7899003457797467
+INFO  [2017-03-30 19:18:41,260] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.7800846931736087
+INFO  [2017-03-30 19:18:43,548] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.7710371165528911
+INFO  [2017-03-30 19:18:45,758] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7625416521198903
+INFO  [2017-03-30 19:18:48,205] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7544249730394588
+INFO  [2017-03-30 19:18:50,316] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.746771425517608
+INFO  [2017-03-30 19:18:52,627] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.7395386819338567
+INFO  [2017-03-30 19:18:54,939] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.732673168526942
+INFO  [2017-03-30 19:18:57,337] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.7261414557710575
+INFO  [2017-03-30 19:19:00,243] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.7199165405183766
+INFO  [2017-03-30 19:19:02,382] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.713999596826101
+INFO  [2017-03-30 19:19:04,576] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.708364548434127
+INFO  [2017-03-30 19:19:06,785] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.7030096651771462
+INFO  [2017-03-30 19:19:08,902] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:19:08,957] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.660844603865246
+INFO  [2017-03-30 19:19:11,152] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1528697413317515
+INFO  [2017-03-30 19:19:13,037] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0880955688597302
+INFO  [2017-03-30 19:19:14,985] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.044113204255223
+INFO  [2017-03-30 19:19:16,983] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0071332470389203
+INFO  [2017-03-30 19:19:19,024] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.977010855216972
+INFO  [2017-03-30 19:19:21,213] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9506703882167582
+INFO  [2017-03-30 19:19:23,195] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9262174238393514
+INFO  [2017-03-30 19:19:25,263] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9036862566041154
+INFO  [2017-03-30 19:19:27,486] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.883075217758742
+INFO  [2017-03-30 19:19:29,641] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.864071082804437
+INFO  [2017-03-30 19:19:32,202] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8467039442980336
+INFO  [2017-03-30 19:19:34,623] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8311265520819571
+INFO  [2017-03-30 19:19:36,892] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8170189463489052
+INFO  [2017-03-30 19:19:39,095] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8047052266106506
+INFO  [2017-03-30 19:19:41,308] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.7934770699821997
+INFO  [2017-03-30 19:19:44,318] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7829878846638415
+INFO  [2017-03-30 19:19:46,570] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7731000598005244
+INFO  [2017-03-30 19:19:48,824] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.76357328605365
+INFO  [2017-03-30 19:19:51,267] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.7543592420860489
+INFO  [2017-03-30 19:19:53,549] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7454718929253945
+INFO  [2017-03-30 19:19:56,039] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.736944173723892
+INFO  [2017-03-30 19:19:58,271] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.7287937569535954
+INFO  [2017-03-30 19:20:00,757] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.7210032171663654
+INFO  [2017-03-30 19:20:03,359] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.7136005461088898
+INFO  [2017-03-30 19:20:05,724] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.7066071855708377
+INFO  [2017-03-30 19:20:08,432] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.6997064509785388
+INFO  [2017-03-30 19:20:10,665] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.6932595789943419
+INFO  [2017-03-30 19:20:12,979] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.6870637060972574
+INFO  [2017-03-30 19:20:15,264] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.6810894192855648
+INFO  [2017-03-30 19:20:17,521] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:20:17,577] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.67115857204577
+INFO  [2017-03-30 19:20:20,186] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1701685652111935
+INFO  [2017-03-30 19:20:22,083] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1053861131544287
+INFO  [2017-03-30 19:20:23,997] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0606008227068195
+INFO  [2017-03-30 19:20:25,992] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0189895482684923
+INFO  [2017-03-30 19:20:28,370] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9867539916168987
+INFO  [2017-03-30 19:20:30,816] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9589373124738342
+INFO  [2017-03-30 19:20:32,956] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9336458301784398
+INFO  [2017-03-30 19:20:35,474] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9108360429792787
+INFO  [2017-03-30 19:20:37,909] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8906331412507732
+INFO  [2017-03-30 19:20:40,256] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8730353325582229
+INFO  [2017-03-30 19:20:42,769] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8575714518142523
+INFO  [2017-03-30 19:20:45,058] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8435593759846373
+INFO  [2017-03-30 19:20:47,234] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8303649946334016
+INFO  [2017-03-30 19:20:49,332] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8179791009458659
+INFO  [2017-03-30 19:20:51,582] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.8067680605320023
+INFO  [2017-03-30 19:20:54,475] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7963839219051877
+INFO  [2017-03-30 19:20:57,434] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.786644521887969
+INFO  [2017-03-30 19:20:59,774] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.7774192319297549
+INFO  [2017-03-30 19:21:01,830] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.7685819343286935
+INFO  [2017-03-30 19:21:04,212] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7600540913382728
+INFO  [2017-03-30 19:21:06,708] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7518014083552179
+INFO  [2017-03-30 19:21:09,098] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.744007099006314
+INFO  [2017-03-30 19:21:11,349] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.7366253135250673
+INFO  [2017-03-30 19:21:13,646] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.729638502938965
+INFO  [2017-03-30 19:21:16,054] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.7230172541892953
+INFO  [2017-03-30 19:21:18,649] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.716720290148483
+INFO  [2017-03-30 19:21:21,037] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.710702626191594
+INFO  [2017-03-30 19:21:23,169] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.7049020995006134
+INFO  [2017-03-30 19:21:25,392] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.6992984423052594
+INFO  [2017-03-30 19:21:27,746] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:21:27,835] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6758782533764458
+INFO  [2017-03-30 19:21:30,297] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1709452915114609
+INFO  [2017-03-30 19:21:32,677] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1026343866532486
+INFO  [2017-03-30 19:21:34,700] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0588948662982793
+INFO  [2017-03-30 19:21:36,792] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0249895605200112
+INFO  [2017-03-30 19:21:39,115] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9962139890279869
+INFO  [2017-03-30 19:21:41,503] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9701112976870665
+INFO  [2017-03-30 19:21:44,140] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9451931620547018
+INFO  [2017-03-30 19:21:46,682] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9214071825345663
+INFO  [2017-03-30 19:21:48,829] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8990291989345034
+INFO  [2017-03-30 19:21:50,843] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8779143703156356
+INFO  [2017-03-30 19:21:53,050] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8585057457657502
+INFO  [2017-03-30 19:21:55,479] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.840802954150212
+INFO  [2017-03-30 19:21:57,580] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.824555304656379
+INFO  [2017-03-30 19:21:59,725] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8096879669471477
+INFO  [2017-03-30 19:22:01,862] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.7957588184702122
+INFO  [2017-03-30 19:22:04,061] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7828520819903612
+INFO  [2017-03-30 19:22:06,564] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7707265211403717
+INFO  [2017-03-30 19:22:09,113] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.758999333864069
+INFO  [2017-03-30 19:22:11,396] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.747831365064191
+INFO  [2017-03-30 19:22:13,523] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7376259316868052
+INFO  [2017-03-30 19:22:15,631] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7286095015544145
+INFO  [2017-03-30 19:22:18,216] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.7203937729181547
+INFO  [2017-03-30 19:22:20,432] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.7127594456042728
+INFO  [2017-03-30 19:22:22,791] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.7055516068848543
+INFO  [2017-03-30 19:22:25,297] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.6985902564785822
+INFO  [2017-03-30 19:22:27,444] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.6920869088462878
+INFO  [2017-03-30 19:22:30,577] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.6857201215222279
+INFO  [2017-03-30 19:22:34,169] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.6797638807559169
+INFO  [2017-03-30 19:22:36,484] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.674116970967676
+INFO  [2017-03-30 19:22:38,741] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:22:38,807] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.673401007702882
+INFO  [2017-03-30 19:22:41,136] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1663352301447258
+INFO  [2017-03-30 19:22:44,008] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.0998840206159934
+INFO  [2017-03-30 19:22:46,451] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.05215977475886
+INFO  [2017-03-30 19:22:48,893] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.010885391536089
+INFO  [2017-03-30 19:22:51,200] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9787321421167441
+INFO  [2017-03-30 19:22:53,370] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9508430427148817
+INFO  [2017-03-30 19:22:55,908] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9257419418792497
+INFO  [2017-03-30 19:22:57,842] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9036874393041253
+INFO  [2017-03-30 19:22:59,813] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8845993901468766
+INFO  [2017-03-30 19:23:01,904] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8677810881593334
+INFO  [2017-03-30 19:23:04,304] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8524875059228514
+INFO  [2017-03-30 19:23:06,811] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8380304648642054
+INFO  [2017-03-30 19:23:09,396] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8249227159451581
+INFO  [2017-03-30 19:23:11,683] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8130413545894764
+INFO  [2017-03-30 19:23:13,774] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.8022105204191805
+INFO  [2017-03-30 19:23:16,122] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7922641162334932
+INFO  [2017-03-30 19:23:18,325] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7830003290357871
+INFO  [2017-03-30 19:23:20,290] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.7742707960515801
+INFO  [2017-03-30 19:23:22,331] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.765970717941006
+INFO  [2017-03-30 19:23:24,450] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7580399710252737
+INFO  [2017-03-30 19:23:26,685] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.750457545988804
+INFO  [2017-03-30 19:23:29,303] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.7431512696400915
+INFO  [2017-03-30 19:23:31,677] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.736024560995852
+INFO  [2017-03-30 19:23:33,911] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.7294198100564907
+INFO  [2017-03-30 19:23:36,184] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.7231231543283281
+INFO  [2017-03-30 19:23:38,357] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.7171005463702076
+INFO  [2017-03-30 19:23:40,845] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.7113661365810519
+INFO  [2017-03-30 19:23:43,178] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.7059199249550299
+INFO  [2017-03-30 19:23:45,329] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.7007344757833391
+INFO  [2017-03-30 19:23:47,532] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:23:47,601] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.671097150688835
+INFO  [2017-03-30 19:23:49,720] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1675204028707884
+INFO  [2017-03-30 19:23:51,969] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.102803450561318
+INFO  [2017-03-30 19:23:53,995] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0582902927602102
+INFO  [2017-03-30 19:23:56,181] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.017930555878627
+INFO  [2017-03-30 19:23:58,464] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9849536179816969
+INFO  [2017-03-30 19:24:00,935] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9575914201052693
+INFO  [2017-03-30 19:24:03,547] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9330255625643442
+INFO  [2017-03-30 19:24:05,630] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.910417094145809
+INFO  [2017-03-30 19:24:07,685] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8896948302740126
+INFO  [2017-03-30 19:24:09,836] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8710468040429425
+INFO  [2017-03-30 19:24:11,908] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.854457134478448
+INFO  [2017-03-30 19:24:14,088] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.8395725557965652
+INFO  [2017-03-30 19:24:16,189] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8259182573368259
+INFO  [2017-03-30 19:24:18,331] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8130742382097766
+INFO  [2017-03-30 19:24:20,465] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.8011285522772599
+INFO  [2017-03-30 19:24:22,752] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7899631149181972
+INFO  [2017-03-30 19:24:25,811] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.7795121793721318
+INFO  [2017-03-30 19:24:28,005] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.769738608586675
+INFO  [2017-03-30 19:24:30,713] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.7606070574681275
+INFO  [2017-03-30 19:24:32,922] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7520687720327441
+INFO  [2017-03-30 19:24:35,093] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7440974906167708
+INFO  [2017-03-30 19:24:37,312] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.7366630586402007
+INFO  [2017-03-30 19:24:39,437] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.7297158569982521
+INFO  [2017-03-30 19:24:41,770] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.7232141141926401
+INFO  [2017-03-30 19:24:43,994] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.7170976446942712
+INFO  [2017-03-30 19:24:46,189] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.7112670250143219
+INFO  [2017-03-30 19:24:49,509] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.7057680431332435
+INFO  [2017-03-30 19:24:51,666] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.7004477636331367
+INFO  [2017-03-30 19:24:53,986] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.6954230353493379
+INFO  [2017-03-30 19:24:56,295] R.g.dl4J_NN_1Q_Ahead_Compustat_1: Build model....
+INFO  [2017-03-30 19:24:56,364] o.d.o.l.ScoreIterationListener: Score at iteration 0 is 1.6708089522896956
+INFO  [2017-03-30 19:24:58,642] o.d.o.l.ScoreIterationListener: Score at iteration 100 is 1.1721407221237061
+INFO  [2017-03-30 19:25:00,924] o.d.o.l.ScoreIterationListener: Score at iteration 200 is 1.1087647815211243
+INFO  [2017-03-30 19:25:03,202] o.d.o.l.ScoreIterationListener: Score at iteration 300 is 1.0662112977420581
+INFO  [2017-03-30 19:25:05,214] o.d.o.l.ScoreIterationListener: Score at iteration 400 is 1.0268728593277703
+INFO  [2017-03-30 19:25:07,196] o.d.o.l.ScoreIterationListener: Score at iteration 500 is 0.9946319874487983
+INFO  [2017-03-30 19:25:09,307] o.d.o.l.ScoreIterationListener: Score at iteration 600 is 0.9671316210294516
+INFO  [2017-03-30 19:25:11,601] o.d.o.l.ScoreIterationListener: Score at iteration 700 is 0.9421618272947441
+INFO  [2017-03-30 19:25:13,804] o.d.o.l.ScoreIterationListener: Score at iteration 800 is 0.9195540373620672
+INFO  [2017-03-30 19:25:15,870] o.d.o.l.ScoreIterationListener: Score at iteration 900 is 0.8990698570074922
+INFO  [2017-03-30 19:25:17,972] o.d.o.l.ScoreIterationListener: Score at iteration 1000 is 0.8804291823401271
+INFO  [2017-03-30 19:25:20,349] o.d.o.l.ScoreIterationListener: Score at iteration 1100 is 0.8633267601297542
+INFO  [2017-03-30 19:25:22,925] o.d.o.l.ScoreIterationListener: Score at iteration 1200 is 0.847413094117318
+INFO  [2017-03-30 19:25:25,082] o.d.o.l.ScoreIterationListener: Score at iteration 1300 is 0.8324620251122571
+INFO  [2017-03-30 19:25:27,709] o.d.o.l.ScoreIterationListener: Score at iteration 1400 is 0.8191870665848234
+INFO  [2017-03-30 19:25:29,910] o.d.o.l.ScoreIterationListener: Score at iteration 1500 is 0.80707256341638
+INFO  [2017-03-30 19:25:32,396] o.d.o.l.ScoreIterationListener: Score at iteration 1600 is 0.7958442823056463
+INFO  [2017-03-30 19:25:34,933] o.d.o.l.ScoreIterationListener: Score at iteration 1700 is 0.785305539095171
+INFO  [2017-03-30 19:25:37,140] o.d.o.l.ScoreIterationListener: Score at iteration 1800 is 0.7752587227531854
+INFO  [2017-03-30 19:25:39,382] o.d.o.l.ScoreIterationListener: Score at iteration 1900 is 0.7656788693324922
+INFO  [2017-03-30 19:25:41,442] o.d.o.l.ScoreIterationListener: Score at iteration 2000 is 0.7565607882964626
+INFO  [2017-03-30 19:25:43,606] o.d.o.l.ScoreIterationListener: Score at iteration 2100 is 0.7478252003418876
+INFO  [2017-03-30 19:25:45,999] o.d.o.l.ScoreIterationListener: Score at iteration 2200 is 0.739622383830808
+INFO  [2017-03-30 19:25:48,104] o.d.o.l.ScoreIterationListener: Score at iteration 2300 is 0.7319475189087595
+INFO  [2017-03-30 19:25:50,338] o.d.o.l.ScoreIterationListener: Score at iteration 2400 is 0.7246848689191888
+INFO  [2017-03-30 19:25:52,444] o.d.o.l.ScoreIterationListener: Score at iteration 2500 is 0.7177620753287174
+INFO  [2017-03-30 19:25:54,615] o.d.o.l.ScoreIterationListener: Score at iteration 2600 is 0.7113407861934886
+INFO  [2017-03-30 19:25:57,180] o.d.o.l.ScoreIterationListener: Score at iteration 2700 is 0.7052888281808299
+INFO  [2017-03-30 19:25:59,567] o.d.o.l.ScoreIterationListener: Score at iteration 2800 is 0.6995386625405541
+INFO  [2017-03-30 19:26:01,832] o.d.o.l.ScoreIterationListener: Score at iteration 2900 is 0.6932884750148885
+INFO  [2017-03-30 22:29:32,840] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 22:29:33,142] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 22:29:33,760] org.reflections.Reflections: Reflections took 492 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 22:29:34,497] org.reflections.Reflections: Reflections took 266 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-30 22:29:39,164] org.reflections.Reflections: Reflections took 4380 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-30 22:29:39,226] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-30 22:29:39,226] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-30 22:29:39,380] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4
+INFO  [2017-03-30 22:43:07,047] org.nd4j.linalg.factory.Nd4jBackend: Loaded [CpuBackend] backend
+INFO  [2017-03-30 22:43:07,443] org.nd4j.nativeblas.NativeOpsHolder: Number of threads used for NativeOps: 4
+INFO  [2017-03-30 22:43:08,187] org.reflections.Reflections: Reflections took 550 ms to scan 12 urls, producing 29 keys and 176 values 
+INFO  [2017-03-30 22:43:09,288] org.reflections.Reflections: Reflections took 250 ms to scan 12 urls, producing 368 keys and 1424 values 
+INFO  [2017-03-30 22:43:13,479] org.reflections.Reflections: Reflections took 3928 ms to scan 272 urls, producing 3673 keys and 30446 values 
+WARN  [2017-03-30 22:43:13,528] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets pretrain to false.
+WARN  [2017-03-30 22:43:13,528] o.d.nn.conf.MultiLayerConfiguration: Warning: new network default sets backprop to true.
+INFO  [2017-03-30 22:43:13,697] org.nd4j.nativeblas.Nd4jBlas: Number of threads used for BLAS: 4

@@ -82,9 +82,9 @@ public class dl4J_NN_company_classifier3 {
                 .learningRate(0.1)
                 .regularization(true).l2(1e-4)
                 .list()
-                .layer(0, new DenseLayer.Builder().nIn(numInputs).nOut(10)
+                .layer(0, new DenseLayer.Builder().nIn(numInputs).nOut(15)
                         .build())
-                .layer(1, new DenseLayer.Builder().nIn(10).nOut(10)
+                .layer(1, new DenseLayer.Builder().nIn(15).nOut(10)
                         .build())
                 .layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
                         .activation(Activation.SOFTMAX)
@@ -100,7 +100,7 @@ public class dl4J_NN_company_classifier3 {
         model.fit(trainingData);
 
         //evaluate the model on the test set
-        Evaluation eval = new Evaluation(3);
+        Evaluation eval = new Evaluation(4);
         INDArray output = model.output(testData.getFeatureMatrix());
         eval.eval(testData.getLabels(), output);
         log.info(eval.stats());

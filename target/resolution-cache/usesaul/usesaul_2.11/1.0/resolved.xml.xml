@@ -4,7 +4,11 @@
 		module="usesaul_2.11"
 		revision="1.0"
 		status="integration"
+<<<<<<< HEAD
 		publication="20170215163452"
+=======
+		publication="20170331080958"
+>>>>>>> dl4J
 	>
 		<description>
 		useSaul

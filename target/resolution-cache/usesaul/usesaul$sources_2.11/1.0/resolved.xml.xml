@@ -4,7 +4,11 @@
 		module="usesaul$sources_2.11"
 		revision="1.0"
 		status="integration"
+<<<<<<< HEAD
 		publication="20170215163519"
+=======
+		publication="20170331081023"
+>>>>>>> dl4J
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

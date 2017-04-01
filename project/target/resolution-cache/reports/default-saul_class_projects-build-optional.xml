@@ -9,7 +9,11 @@
 		extra-sbtVersion="0.13"
 		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+<<<<<<< HEAD
 		date="20170215163439"/>
+=======
+		date="20170331080948"/>
+>>>>>>> dl4J
 	<dependencies>
 	</dependencies>
 </ivy-report>
