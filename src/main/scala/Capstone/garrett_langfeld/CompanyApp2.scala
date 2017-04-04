@@ -12,8 +12,13 @@ import Readers.garrett_langfeld.CompanyDataReaderCompustat
 import edu.illinois.cs.cogcomp.saul.util.Logging
 import CompanyDataModel2._
 import scala.collection.JavaConversions._
-
+import java.util.ArrayList
+import edu.illinois.cs.cogcomp.lbjava.classify.{ Classifier, FeatureVector, TestDiscrete }
 import scala.collection.JavaConversions._
+
+
+import scala.collection.mutable.ListBuffer
+
 
 object CompanyApp2 extends App{
 
@@ -27,6 +32,129 @@ object CompanyApp2 extends App{
 
 
   val allData = reader.compData
+  val s = allData.size()
+
+  var i = allData.size() - allData.size()/10 - 1
+  var j = allData.size() - 1
+
+  //keeping track of tp, fp, fn, tn overall and for each label class
+
+  var tp0 = 0.toDouble
+  var tn0 = 0.toDouble
+  var fp0 = 0.toDouble
+  var fn0 = 0.toDouble
+
+  var tp1 = 0.toDouble
+  var tn1 = 0.toDouble
+  var fp1 = 0.toDouble
+  var fn1 = 0.toDouble
+
+  var tp2 = 0.toDouble
+  var tn2 = 0.toDouble
+  var fp2 = 0.toDouble
+  var fn2 = 0.toDouble
+
+  var tp3 = 0.toDouble
+  var tn3 = 0.toDouble
+  var fp3 = 0.toDouble
+  var fn3 = 0.toDouble
+
+  var tp4 = 0.toDouble
+  var tn4 = 0.toDouble
+  var fp4 = 0.toDouble
+  var fn4 = 0.toDouble
+
+  for (k <- 0 until 10){
+    var allDataCopy = new ArrayList[companyDataCompustat]()
+    val readerCopy = new CompanyDataReaderCompustat()
+    allDataCopy = readerCopy.compData
+    var trainData1 = allDataCopy.subList(0,0)
+    var trainData2 = allDataCopy.subList(0,0)
+    if (i > 1){
+      trainData1 = allDataCopy.subList(0, i)
+    }
+    println("i: " + i, " j: " + j)
+    //var testData = new ListBuffer[companyDataCompustat]()
+    //testData: java.util.List[companyDataCompustat] = ListBuffer(List(allDataCopy.subList(i + 1, j)):_*)
+    //testData =  allDataCopy.subList(i + 1, j)
+    if (j < allDataCopy.size() - 1){
+      trainData2 = allDataCopy.subList(j+1, s - 1)
+    }
+    var trainData = allDataCopy.subList(0,0)
+    if (j == s - 1){
+      trainData = trainData1
+    }
+    //else if (j == s/10){
+    else if (i == 1){
+      trainData = trainData2
+    }
+    else{
+      trainData.addAll(trainData1)
+      //trainData.addAll(trainData2)
+    }
+
+    var testData = new ArrayList[companyDataCompustat]()
+    for (e <- 0 until allDataCopy.size()){
+        if (!trainData.contains(allDataCopy.get(e))){
+            testData.add(allDataCopy.get(e))
+        }
+    }
+
+    println("i: "+ i + ", j:" + j)
+    i -= s/10
+    j -= s/10
+    println(trainData.get(0).Int_Cov)
+
+    CompanyDataModel2.comp populate(trainData)
+
+
+    CompanyClassifier2.CompanyClassifierAdaBoost.learn(10)
+    CompanyClassifier2.CompanyClassifierAdaBoost.test(testData)
+    //CompanyClassifier2.CompanyClassifierAdaBoost.test(allDataCopy)
+
+
+    val predicted_0 = testData.filter(x => AdaPrediction(x) == "0")
+    val actual_0 = testData.filter(x => rating(x) == "0")
+    val not_0 = testData.filter(x => rating(x) != "0")
+    tp0 += actual_0.filter(x => AdaPrediction(x) == "0").size
+    tn0 += not_0.filter(x => AdaPrediction(x) != "0").size
+    fp0 += predicted_0.filter(x => rating(x) != "0").size
+    fn0 += actual_0.filter(x => AdaPrediction(x) != "0").size
+
+    val predicted_1 = testData.filter(x => AdaPrediction(x) == "1")
+    val actual_1 = testData.filter(x => rating(x) == "1")
+    val not_1 = testData.filter(x => rating(x) != "1")
+    tp1 += actual_1.filter(x => AdaPrediction(x) == "1").size
+    tn1 += not_1.filter(x => AdaPrediction(x) != "1").size
+    fp1 += predicted_1.filter(x => rating(x) != "1").size
+    fn1 += actual_1.filter(x => AdaPrediction(x) != "1").size
+
+    val predicted_2 = testData.filter(x => AdaPrediction(x) == "2")
+    val actual_2 = testData.filter(x => rating(x) == "2")
+    val not_2 = testData.filter(x => rating(x) != "2")
+    tp2 += actual_1.filter(x => AdaPrediction(x) == "2").size
+    tn2 += not_2.filter(x => AdaPrediction(x) != "2").size
+    fp2 += predicted_2.filter(x => rating(x) != "2").size
+    fn2 += actual_2.filter(x => AdaPrediction(x) != "2").size
+
+    val predicted_3 = testData.filter(x => AdaPrediction(x) == "3")
+    val actual_3 = testData.filter(x => rating(x) == "3")
+    val not_3 = testData.filter(x => rating(x) != "3")
+    tp3 += actual_3.filter(x => AdaPrediction(x) == "3").size
+    tn3 += not_3.filter(x => AdaPrediction(x) != "3").size
+    fp3 += predicted_3.filter(x => rating(x) != "3").size
+    fn3 += actual_3.filter(x => AdaPrediction(x) != "3").size
+
+    val predicted_4 = testData.filter(x => AdaPrediction(x) == "4")
+    val actual_4 = testData.filter(x => rating(x) == "4")
+    val not_4 = testData.filter(x => rating(x) != "4")
+    tp4 += actual_4.filter(x => AdaPrediction(x) == "4").size
+    tn4 += not_4.filter(x => AdaPrediction(x) != "4").size
+    fp4 += predicted_4.filter(x => rating(x) != "4").size
+    fn4 += actual_4.filter(x => AdaPrediction(x) != "4").size
+
+    CompanyClassifier2.CompanyClassifierAdaBoost.forget()
+  }
 
 
 
@@ -35,11 +163,56 @@ object CompanyApp2 extends App{
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val trainData = allData.subList(0, trainSplit)
   val testData = allData.subList(trainSplit, allData.size() - 1)
-  CompanyDataModel2.comp populate(trainData)
 
+  val precision_0 = tp0/(tp0 + fp0)
+  val recall_0 = tp0/(tp0 + fn0)
+  val f1_0 = 2*(precision_0*recall_0)/(precision_0 + recall_0)
+  val acc_0 = (tp0 + tn0)/(tp0 + tn0 + fp0 + fn0)
 
-  CompanyClassifier2.CompanyClassifierAdaBoost.learn(10)
-  CompanyClassifier2.CompanyClassifierAdaBoost.test(testData)
+  val precision_1 = tp1/(tp1 + fp1)
+  val recall_1 = tp1/(tp1 + fn1)
+  val f1_1 = 2*(precision_1*recall_1)/(precision_1 + recall_1)
+  val acc_1 = (tp1 + tn1)/(tp1 + tn1 + fp1 + fn1)
+
+  val precision_2 = tp2/(tp2 + fp2)
+  val recall_2 = tp2/(tp2 + fn2)
+  val f1_2 = 2*(precision_2*recall_2)/(precision_2 + recall_2)
+  val acc_2 = (tp2 + tn2)/(tp2 + tn2 + fp2 + fn2)
+
+  val precision_3 = tp3/(tp3 + fp3)
+  val recall_3 = tp3/(tp3 + fn3)
+  val f1_3 = 2*(precision_3*recall_3)/(precision_3 + recall_3)
+  val acc_3 = (tp3 + tn3)/(tp3 + tn3 + fp3 + fn3)
+
+  val precision_4 = tp4/(tp4 + fp4)
+  val recall_4 = tp4/(tp4 + fn4)
+  val f1_4 = 2*(precision_4*recall_4)/(precision_4 + recall_4)
+  val acc_4 = (tp4 + tn4)/(tp4 + tn4 + fp4 + fn4)
+
+  val tp = 0.toDouble + tp0 + tp1 + tp2 + tp3 + tp4
+  val tn = 0.toDouble + tn0 + tn1 + tn2 + tp3 + tp4
+  val fp = 0.toDouble + fp0 + fp1 + fp2 + fp3 + fp4
+  val fn = 0.toDouble + fn0 + fn1 + fn2 + fn3 + fn4
+
+  val precision = tp/(tp + fp)
+  val recall = tp/(tp + fn)
+  val f1 = 2*(precision*recall)/(precision + recall)
+  val acc = (tp + tn)/(tp + tn + fp + fn)
+
+  println("Label  Precision Recall  F1  Accuracy")
+  println("0:     "+ precision_0 + " " + recall_0 + " " + f1_0 + " " + acc_0)
+  println("1:     "+ precision_1 + " " + recall_1 + " " + f1_1 + " " + acc_1)
+  println("2:     "+ precision_2 + " " + recall_2 + " " + f1_2 + " " + acc_2)
+  println("3:     "+ precision_3 + " " + recall_3 + " " + f1_3 + " " + acc_3)
+  println("4:     "+ precision_4 + " " + recall_4 + " " + f1_4 + " " + acc_4)
+  println("       "+ precision + " " + recall + " " + f1 + " " + acc)
+
+  /*
+  println("precision: " + precision_1)
+  println("recall: " + recall_1)
+  println("F1: " + f1_1)
+  println("Accuracy: " + acc_1)
+  */
 
 
 
