@@ -22,6 +22,29 @@ import scala.collection.mutable.ListBuffer
 
 object CompanyApp2 extends App{
 
+
+  //keeping track of tp, fp, fn for each label and overall
+  var tot_tp = 0.toDouble
+  var tot_tp0 = 0.toDouble
+  var tot_tp1 = 0.toDouble
+  var tot_tp2 = 0.toDouble
+  var tot_tp3 = 0.toDouble
+  var tot_tp4 = 0.toDouble
+
+  var tot_fp = 0.toDouble
+  var tot_fp0 = 0.toDouble
+  var tot_fp1 = 0.toDouble
+  var tot_fp2 = 0.toDouble
+  var tot_fp3 = 0.toDouble
+  var tot_fp4 = 0.toDouble
+
+  var tot_fn = 0.toDouble
+  var tot_fn0 = 0.toDouble
+  var tot_fn1 = 0.toDouble
+  var tot_fn2 = 0.toDouble
+  var tot_fn3 = 0.toDouble
+  var tot_fn4 = 0.toDouble
+
   val reader = new CompanyDataReaderCompustat()
 
   /*
@@ -30,11 +53,22 @@ object CompanyApp2 extends App{
 */
 
 
-
-  val allData = reader.compData
+def crossValidate(indust:Int=10) : Unit = {
+  var allData = reader.compData
+  //adding functionality to filter by industry if function has input indust
+  if (indust > -1 && indust < 8){
+    var sectorData = new ArrayList[companyDataCompustat]()
+    for (e <- 0 until allData.size()) {
+      if (allData.get(e).sector == indust) {
+        sectorData.add(allData.get(e))
+      }
+    }
+    allData = sectorData
+    //println("sector data index 1: " + allData.get(1).date)
+  }
   val s = allData.size()
-
-  var i = allData.size() - allData.size()/10 - 1
+  println("sector data size: " + s)
+  var i = allData.size() - allData.size() / 10 - 1
   var j = allData.size() - 1
 
   //keeping track of tp, fp, fn, tn overall and for each label class
@@ -64,48 +98,83 @@ object CompanyApp2 extends App{
   var fp4 = 0.toDouble
   var fn4 = 0.toDouble
 
-  for (k <- 0 until 10){
+  for (k <- 0 until 10) {
+
+    /*
     var allDataCopy = new ArrayList[companyDataCompustat]()
     val readerCopy = new CompanyDataReaderCompustat()
     allDataCopy = readerCopy.compData
-    var trainData1 = allDataCopy.subList(0,0)
-    var trainData2 = allDataCopy.subList(0,0)
-    if (i > 1){
+    var trainData1 = allDataCopy.subList(0, 0)
+    var trainData2 = allDataCopy.subList(0, 0)
+    if (i > 1) {
       trainData1 = allDataCopy.subList(0, i)
     }
     println("i: " + i, " j: " + j)
     //var testData = new ListBuffer[companyDataCompustat]()
     //testData: java.util.List[companyDataCompustat] = ListBuffer(List(allDataCopy.subList(i + 1, j)):_*)
     //testData =  allDataCopy.subList(i + 1, j)
-    if (j < allDataCopy.size() - 1){
-      trainData2 = allDataCopy.subList(j+1, s - 1)
+    if (j < allDataCopy.size() - 1) {
+      trainData2 = allDataCopy.subList(j + 1, s - 1)
     }
-    var trainData = allDataCopy.subList(0,0)
-    if (j == s - 1){
+    var trainData = allDataCopy.subList(0, 0)
+    if (j == s - 1) {
       trainData = trainData1
     }
     //else if (j == s/10){
-    else if (i == 1){
+    else if (i == 1) {
       trainData = trainData2
     }
-    else{
+    else {
       trainData.addAll(trainData1)
       //trainData.addAll(trainData2)
     }
 
     var testData = new ArrayList[companyDataCompustat]()
-    for (e <- 0 until allDataCopy.size()){
-        if (!trainData.contains(allDataCopy.get(e))){
-            testData.add(allDataCopy.get(e))
-        }
+    for (e <- 0 until allDataCopy.size()) {
+      if (!trainData.contains(allDataCopy.get(e))) {
+        testData.add(allDataCopy.get(e))
+      }
+    }
+    */
+
+    var trainData1 = allData.subList(0, 0)
+    var trainData2 = allData.subList(0, 0)
+    if (i > 1) {
+      trainData1 = allData.subList(0, i)
+    }
+    println("i: " + i, " j: " + j)
+    //var testData = new ListBuffer[companyDataCompustat]()
+    //testData: java.util.List[companyDataCompustat] = ListBuffer(List(allDataCopy.subList(i + 1, j)):_*)
+    //testData =  allDataCopy.subList(i + 1, j)
+    if (j < allData.size() - 1) {
+      trainData2 = allData.subList(j + 1, s - 1)
+    }
+    var trainData = allData.subList(0, 0)
+    if (j == s - 1) {
+      trainData = trainData1
+    }
+    //else if (j == s/10){
+    else if (i == 1) {
+      trainData = trainData2
+    }
+    else {
+      trainData.addAll(trainData1)
+      //trainData.addAll(trainData2)
     }
 
-    println("i: "+ i + ", j:" + j)
-    i -= s/10
-    j -= s/10
-    println(trainData.get(0).Int_Cov)
+    var testData = new ArrayList[companyDataCompustat]()
+    for (e <- 0 until allData.size()) {
+      if (!trainData.contains(allData.get(e))) {
+        testData.add(allData.get(e))
+      }
+    }
 
-    CompanyDataModel2.comp populate(trainData)
+    println("i: " + i + ", j:" + j)
+    i -= s / 10
+    j -= s / 10
+    //println(trainData.get(0).Int_Cov)
+
+    CompanyDataModel2.comp populate (trainData)
 
 
     CompanyClassifier2.CompanyClassifierAdaBoost.learn(10)
@@ -159,53 +228,122 @@ object CompanyApp2 extends App{
 
 
   //setting 70% of data for training
-  val trainSplit = math.ceil(allData.size()*0.7).toInt
+  val trainSplit = math.ceil(allData.size() * 0.7).toInt
   //val trainSplit = math.ceil(allData.size()*0.5).toInt
   val trainData = allData.subList(0, trainSplit)
   val testData = allData.subList(trainSplit, allData.size() - 1)
 
-  val precision_0 = tp0/(tp0 + fp0)
-  val recall_0 = tp0/(tp0 + fn0)
-  val f1_0 = 2*(precision_0*recall_0)/(precision_0 + recall_0)
-  val acc_0 = (tp0 + tn0)/(tp0 + tn0 + fp0 + fn0)
+  val precision_0 = tp0 / (tp0 + fp0)
+  val recall_0 = tp0 / (tp0 + fn0)
+  val f1_0 = 2 * (precision_0 * recall_0) / (precision_0 + recall_0)
+  val acc_0 = (tp0 + tn0) / (tp0 + tn0 + fp0 + fn0)
 
-  val precision_1 = tp1/(tp1 + fp1)
-  val recall_1 = tp1/(tp1 + fn1)
-  val f1_1 = 2*(precision_1*recall_1)/(precision_1 + recall_1)
-  val acc_1 = (tp1 + tn1)/(tp1 + tn1 + fp1 + fn1)
+  val precision_1 = tp1 / (tp1 + fp1)
+  val recall_1 = tp1 / (tp1 + fn1)
+  val f1_1 = 2 * (precision_1 * recall_1) / (precision_1 + recall_1)
+  val acc_1 = (tp1 + tn1) / (tp1 + tn1 + fp1 + fn1)
 
-  val precision_2 = tp2/(tp2 + fp2)
-  val recall_2 = tp2/(tp2 + fn2)
-  val f1_2 = 2*(precision_2*recall_2)/(precision_2 + recall_2)
-  val acc_2 = (tp2 + tn2)/(tp2 + tn2 + fp2 + fn2)
+  val precision_2 = tp2 / (tp2 + fp2)
+  val recall_2 = tp2 / (tp2 + fn2)
+  val f1_2 = 2 * (precision_2 * recall_2) / (precision_2 + recall_2)
+  val acc_2 = (tp2 + tn2) / (tp2 + tn2 + fp2 + fn2)
 
-  val precision_3 = tp3/(tp3 + fp3)
-  val recall_3 = tp3/(tp3 + fn3)
-  val f1_3 = 2*(precision_3*recall_3)/(precision_3 + recall_3)
-  val acc_3 = (tp3 + tn3)/(tp3 + tn3 + fp3 + fn3)
+  val precision_3 = tp3 / (tp3 + fp3)
+  val recall_3 = tp3 / (tp3 + fn3)
+  val f1_3 = 2 * (precision_3 * recall_3) / (precision_3 + recall_3)
+  val acc_3 = (tp3 + tn3) / (tp3 + tn3 + fp3 + fn3)
 
-  val precision_4 = tp4/(tp4 + fp4)
-  val recall_4 = tp4/(tp4 + fn4)
-  val f1_4 = 2*(precision_4*recall_4)/(precision_4 + recall_4)
-  val acc_4 = (tp4 + tn4)/(tp4 + tn4 + fp4 + fn4)
+  val precision_4 = tp4 / (tp4 + fp4)
+  val recall_4 = tp4 / (tp4 + fn4)
+  val f1_4 = 2 * (precision_4 * recall_4) / (precision_4 + recall_4)
+  val acc_4 = (tp4 + tn4) / (tp4 + tn4 + fp4 + fn4)
 
   val tp = 0.toDouble + tp0 + tp1 + tp2 + tp3 + tp4
   val tn = 0.toDouble + tn0 + tn1 + tn2 + tp3 + tp4
   val fp = 0.toDouble + fp0 + fp1 + fp2 + fp3 + fp4
   val fn = 0.toDouble + fn0 + fn1 + fn2 + fn3 + fn4
 
-  val precision = tp/(tp + fp)
-  val recall = tp/(tp + fn)
-  val f1 = 2*(precision*recall)/(precision + recall)
-  val acc = (tp + tn)/(tp + tn + fp + fn)
+  val precision = tp / (tp + fp)
+  val recall = tp / (tp + fn)
+  val f1 = 2 * (precision * recall) / (precision + recall)
+  val acc = (tp + tn) / (tp + tn + fp + fn)
 
+  println()
+  println()
+  println("Sector " + indust)
   println("Label  Precision Recall  F1  Accuracy")
-  println("0:     "+ precision_0 + " " + recall_0 + " " + f1_0 + " " + acc_0)
-  println("1:     "+ precision_1 + " " + recall_1 + " " + f1_1 + " " + acc_1)
-  println("2:     "+ precision_2 + " " + recall_2 + " " + f1_2 + " " + acc_2)
-  println("3:     "+ precision_3 + " " + recall_3 + " " + f1_3 + " " + acc_3)
-  println("4:     "+ precision_4 + " " + recall_4 + " " + f1_4 + " " + acc_4)
-  println("       "+ precision + " " + recall + " " + f1 + " " + acc)
+  println("0:     " + precision_0 + " " + recall_0 + " " + f1_0 + " " + acc_0)
+  println("1:     " + precision_1 + " " + recall_1 + " " + f1_1 + " " + acc_1)
+  println("2:     " + precision_2 + " " + recall_2 + " " + f1_2 + " " + acc_2)
+  println("3:     " + precision_3 + " " + recall_3 + " " + f1_3 + " " + acc_3)
+  println("4:     " + precision_4 + " " + recall_4 + " " + f1_4 + " " + acc_4)
+  println("       " + precision + " " + recall + " " + f1 + " " + acc)
+
+  tot_tp += tp
+  tot_tp0 += tp0
+  tot_tp1 += tp1
+  tot_tp2 += tp2
+  tot_tp3 += tp3
+  tot_tp4 += tp4
+
+  tot_fp += fp
+  tot_fp0 += fp0
+  tot_fp1 += fp1
+  tot_fp2 += fp2
+  tot_fp3 += fp3
+  tot_fp4 += fp4
+
+  tot_fn += fn
+  tot_fn0 += fn0
+  tot_fn1 += fn1
+  tot_fn2 += fn2
+  tot_fn3 += fn3
+  tot_fn4 += fn4
+
+}
+
+  var k :Int = 1
+  for (k <- 1 until 9){
+    crossValidate(k)
+  }
+
+
+  val precision_0 = tot_tp0 / (tot_tp0 + tot_fp0)
+  val recall_0 = tot_tp0 / (tot_tp0 + tot_fn0)
+  val f1_0 = 2 * (precision_0 * recall_0) / (precision_0 + recall_0)
+
+  val precision_1 = tot_tp1 / (tot_tp1 + tot_fp1)
+  val recall_1 = tot_tp1 / (tot_tp1 + tot_fn1)
+  val f1_1 = 2 * (precision_1 * recall_1) / (precision_1 + recall_1)
+
+  val precision_2 = tot_tp2 / (tot_tp2 + tot_fp2)
+  val recall_2 = tot_tp2 / (tot_tp2 + tot_fn2)
+  val f1_2 = 2 * (precision_2 * recall_2) / (precision_2 + recall_2)
+
+  val precision_3 = tot_tp3 / (tot_tp3 + tot_fp3)
+  val recall_3 = tot_tp3 / (tot_tp3 + tot_fn3)
+  val f1_3 = 2 * (precision_3 * recall_3) / (precision_3 + recall_3)
+
+  val precision_4 = tot_tp4 / (tot_tp4 + tot_fp4)
+  val recall_4 = tot_tp4 / (tot_tp4 + tot_fn4)
+  val f1_4 = 2 * (precision_4 * recall_4) / (precision_4 + recall_4)
+
+  //tot_tp = 0.toDouble + tot_tp0 + tot_tp1 + tot_tp2 + tot_tp3 + tot_tp4
+  //tot_fp = 0.toDouble + tot_fp0 + tot_fp1 + tot_fp2 + tot_fp3 + tot_fp4
+  //tot_fn = 0.toDouble + tot_fn0 + tot_fn1 + tot_fn2 + tot_fn3 + tot_fn4
+
+  val precision = tot_tp / (tot_tp + tot_fp)
+  val recall = tot_tp / (tot_tp + tot_fn)
+  val f1 = 2 * (precision * recall) / (precision + recall)
+  println()
+  println("Overall")
+  println("Label  Precision   Recall    F1  ")
+  println("0:     " + precision_0 + " " + recall_0 + " " + f1_0 + " ")
+  println("1:     " + precision_1 + " " + recall_1 + " " + f1_1 + " ")
+  println("2:     " + precision_2 + " " + recall_2 + " " + f1_2 + " ")
+  println("3:     " + precision_3 + " " + recall_3 + " " + f1_3 + " ")
+  println("4:     " + precision_4 + " " + recall_4 + " " + f1_4 + " ")
+  println("       " + precision + " " + recall + " " + f1 + " ")
 
   /*
   println("precision: " + precision_1)
