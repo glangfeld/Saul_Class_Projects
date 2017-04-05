@@ -302,9 +302,11 @@ def crossValidate(indust:Int=10) : Unit = {
 
 }
 
+  crossValidate()
+
   var k :Int = 1
   for (k <- 1 until 9){
-    crossValidate(k)
+    //crossValidate(k)
   }
 
 

@@ -24,7 +24,9 @@ public class CompanyDataReaderCompustat {
 
 
         //BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Initial_Data11.csv"));
-        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Compustat/Compustat_Data_NN_2.csv"));
+        //BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Compustat/Compustat_Data_NN_2.csv"));
+        //BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Compustat/Compustat_Data_2_Randomized.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("/Users/glang/OneDrive/Documents/Tulane/Senior Year First Semester/Capstone/Saul_Class_Projects/data/garrett_langfeld/Compustat/Compustat_Data_2_Randomized_Stand.csv"));
         String line="";
         //used to keep track of place in outer allData arraylist
         int comp_index = -1;

@@ -128,6 +128,10 @@ object CompanyDataModel2 extends DataModel{
     x: companyDataCompustat => CompanyClassifierAdaBoost.classifier.discreteValue(x)
   }
 
+  val SVMPrediction = property(comp){
+    x: companyDataCompustat => CompanyClassifierSVM.classifier.discreteValue(x)
+  }
+
 
 }
 

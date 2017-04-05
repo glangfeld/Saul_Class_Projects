@@ -138,6 +138,15 @@ object CompanyClassifier2 {
     //override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
   }
 
+  object CompanyClassifierSVM extends Learnable(comp) {
+    //def label = rating
+    def label = rating
+    override lazy val classifier = new SupportVectorMachine()
+    //override def feature = using(eq_tot_assets, LTD_eq, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+    override def feature = using(company, LTD_IC, TD_IC, R_CA, TD_TA, TD_EBITDA, LTD_TL, CF_TD, LTD_BE, sector, TD_A, TD_C, TD_E, Int_Cov, quick_ratio, current_ratio, cash_conv)
+    //override def feature = using(total_debt_ebit, ebitda_int_exp, ebitda_capex_int, ebit_int_exp, int_exp, LTD_cap, LTD_tot_assets, tot_DE, tot_DC, tot_DA)
+  }
+
 
 
   /*
