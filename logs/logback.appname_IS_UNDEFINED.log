@@ -1,96 +1,405 @@
-INFO  [2017-04-04 00:05:29,949] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:05:29,971] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:05:29,974] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:05:32,200] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:05:32,201] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:05:32,208] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:06:44,639] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:06:44,666] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:06:44,669] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:06:46,684] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:06:46,684] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:06:46,684] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:11:16,097] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:11:16,104] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:11:16,107] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:11:17,883] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:11:17,883] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:11:17,883] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:18:45,658] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:18:45,672] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:18:45,674] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:18:47,435] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:18:47,435] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:18:47,435] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:20:09,654] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:20:09,660] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:20:09,663] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:20:11,704] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 14928
-INFO  [2017-04-04 00:20:11,704] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:20:11,704] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:22:50,377] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:22:50,401] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:22:50,403] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:22:52,189] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 14928
-INFO  [2017-04-04 00:22:52,190] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:22:52,190] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:05,747] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:44:05,753] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:05,755] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:07,637] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 14928
-INFO  [2017-04-04 00:44:07,637] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:07,637] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:09,722] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 21075
-INFO  [2017-04-04 00:44:09,723] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:09,723] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:12,522] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 26344
-INFO  [2017-04-04 00:44:12,522] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:12,523] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:15,827] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 30735
-INFO  [2017-04-04 00:44:15,827] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:15,827] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:19,282] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 34248
-INFO  [2017-04-04 00:44:19,282] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:19,282] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:23,145] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 36883
-INFO  [2017-04-04 00:44:23,145] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:23,145] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:27,378] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 38640
-INFO  [2017-04-04 00:44:27,378] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:27,379] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:31,761] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 39519
-INFO  [2017-04-04 00:44:31,761] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:31,761] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:36,183] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 47420
-INFO  [2017-04-04 00:44:36,183] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:44:36,183] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:08,428] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 7903
-INFO  [2017-04-04 00:50:08,434] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:08,436] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:10,328] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 14928
-INFO  [2017-04-04 00:50:10,328] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:10,329] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:12,492] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 21075
-INFO  [2017-04-04 00:50:12,492] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:12,492] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:15,385] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 26344
-INFO  [2017-04-04 00:50:15,385] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:15,385] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:18,902] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 30735
-INFO  [2017-04-04 00:50:18,902] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:18,902] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:22,727] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 34248
-INFO  [2017-04-04 00:50:22,728] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:22,728] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:26,912] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 36883
-INFO  [2017-04-04 00:50:26,912] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:26,913] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:31,650] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 38640
-INFO  [2017-04-04 00:50:31,650] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:31,651] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:36,363] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 39519
-INFO  [2017-04-04 00:50:36,363] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:36,363] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:41,623] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Learnable: Learn with data of size 47420
-INFO  [2017-04-04 00:50:41,623] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
-INFO  [2017-04-04 00:50:41,623] C.g.CompanyClassifier2$CompanyClassifierAdaBoost$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:42,359] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:42,375] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:42,375] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:42,845] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:42,845] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:42,851] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:43,329] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:43,331] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:43,332] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:43,528] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:43,529] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:43,529] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:43,712] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:43,712] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:43,713] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,064] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:44,064] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,064] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,229] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:44,229] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,229] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,372] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:44,372] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,372] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,602] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:44,602] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,605] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,793] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:25:44,793] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:44,793] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,128] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:45,129] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,130] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,357] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:45,358] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,358] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,627] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:45,627] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,627] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,954] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:45,954] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:45,954] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:46,205] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:46,206] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:46,206] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:46,440] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:46,440] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:46,440] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:46,760] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:46,760] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:46,760] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:47,047] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:47,047] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:47,047] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:47,363] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:47,363] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:47,363] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:47,766] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:25:47,767] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:47,767] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:48,138] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:48,139] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:48,139] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:48,516] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:48,516] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:48,516] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:48,933] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:48,933] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:48,933] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:49,405] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:49,405] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:49,405] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:49,796] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:49,796] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:49,796] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:50,235] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:50,235] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:50,235] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:50,667] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:50,667] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:50,667] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:51,121] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:51,121] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:51,121] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:51,554] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:51,554] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:51,554] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:52,086] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:25:52,086] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:52,086] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:52,571] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:52,571] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:52,571] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:53,337] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:53,337] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:53,337] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:54,086] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:54,086] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:54,086] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:54,839] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:54,839] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:54,839] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:55,509] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:55,509] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:55,509] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:56,163] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:56,163] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:56,163] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:56,826] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:56,826] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:56,826] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:57,542] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:57,542] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:57,542] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:58,287] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:58,287] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:58,287] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:59,013] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:25:59,013] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:59,013] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:59,761] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:25:59,761] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:25:59,761] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:00,964] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:26:00,965] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:00,967] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:02,070] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:26:02,070] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:02,070] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:03,249] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:26:03,249] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:03,249] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:04,404] C.g.CompanyClassifier2$CompanyClassifierSVM$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:26:04,404] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:26:04,404] C.g.CompanyClassifier2$CompanyClassifierSVM$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:32:55,968] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:32:55,974] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:32:55,976] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:04,762] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:33:04,762] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:04,762] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:13,493] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:33:13,494] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:13,494] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:21,098] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:33:21,098] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:21,098] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:28,960] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:33:28,960] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:28,960] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:36,864] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:33:36,864] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:36,864] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:45,079] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:33:45,079] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:45,079] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:53,549] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:33:53,549] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:33:53,549] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:34:02,598] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:34:02,598] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:34:02,598] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:34:12,265] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7903
+INFO  [2017-04-07 23:34:12,266] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:34:12,266] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:36,304] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:36,310] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:36,313] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:37,629] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:37,629] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:37,629] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:38,341] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:38,341] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:38,342] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:39,209] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:39,210] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:39,212] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:39,750] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:39,750] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:39,750] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:40,204] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:40,204] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:40,204] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:40,704] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:40,704] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:40,704] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:41,174] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:41,174] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:41,174] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:41,754] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:41,754] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:41,754] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:42,324] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 744
+INFO  [2017-04-07 23:42:42,324] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:42,324] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:42,979] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:42,979] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:42,979] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:44,081] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:44,081] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:44,081] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:45,239] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:45,239] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:45,239] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:46,364] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:46,364] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:46,364] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:47,536] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:47,536] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:47,536] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:48,931] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:48,931] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:48,931] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:50,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:50,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:50,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:52,251] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:52,251] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:52,251] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:54,070] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:54,070] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:54,070] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:55,857] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 1963
+INFO  [2017-04-07 23:42:55,857] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:55,857] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:57,607] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:42:57,607] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:57,607] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:59,695] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:42:59,695] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:42:59,695] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:01,998] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:01,998] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:01,998] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:05,159] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:05,159] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:05,159] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:07,350] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:07,351] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:07,351] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:11,125] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:11,125] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:11,125] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:13,900] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:13,900] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:13,900] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:16,356] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:16,356] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:16,356] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:18,875] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:18,875] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:18,875] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:21,872] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 3131
+INFO  [2017-04-07 23:43:21,872] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:21,872] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:24,757] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:24,757] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:24,758] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:28,146] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:28,147] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:28,147] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:31,521] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:31,521] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:31,521] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:35,321] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:35,321] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:35,321] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:39,248] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:39,248] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:39,248] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:42,927] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:42,927] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:42,927] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:47,148] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:47,148] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:47,148] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:51,473] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:51,473] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:51,473] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:55,658] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:55,658] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:55,658] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:59,618] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 4304
+INFO  [2017-04-07 23:43:59,618] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:43:59,618] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:04,136] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:04,136] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:04,137] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:09,138] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:09,138] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:09,138] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:13,771] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:13,771] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:13,771] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:18,298] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:18,298] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:18,298] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:23,945] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:23,945] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:23,946] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:28,672] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:28,672] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:28,672] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:33,488] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:33,488] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:33,488] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:38,445] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:38,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:38,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:43,219] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:43,219] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:43,219] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:47,820] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 5493
+INFO  [2017-04-07 23:44:47,820] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:47,820] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:52,164] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:44:52,164] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:52,164] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:57,876] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:44:57,876] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:44:57,876] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:03,415] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:03,415] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:03,415] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:09,202] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:09,202] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:09,203] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:15,082] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:15,082] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:15,082] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:20,919] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:20,919] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:20,919] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:26,532] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:26,532] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:26,532] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:32,474] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:32,474] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:32,474] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:38,368] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:38,368] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:38,368] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:44,503] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 6506
+INFO  [2017-04-07 23:45:44,503] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:44,503] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:50,471] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:45:50,471] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:50,471] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:57,284] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:45:57,285] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:45:57,285] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:03,971] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:03,971] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:03,971] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:10,696] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:10,697] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:10,697] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:17,363] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:17,363] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:17,363] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:24,702] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:24,702] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:24,702] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:31,801] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:31,801] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:31,801] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:39,411] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:39,411] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:39,411] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:46,336] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:46,336] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:46,336] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:53,078] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7447
+INFO  [2017-04-07 23:46:53,078] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:53,078] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:59,822] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:46:59,822] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:46:59,822] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:07,050] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:47:07,050] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:07,051] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:14,305] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:47:14,305] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:14,305] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:21,786] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:47:21,786] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:21,786] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:29,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:47:29,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:29,446] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:37,222] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:47:37,222] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:37,222] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:45,328] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:47:45,328] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:45,328] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:53,976] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:47:53,977] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:47:53,977] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:48:03,029] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:48:03,029] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:48:03,029] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:48:12,973] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Learnable: Learn with data of size 7933
+INFO  [2017-04-07 23:48:12,974] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
+INFO  [2017-04-07 23:48:12,974] C.g.CompanyClassifier2$CompanyClassifierRandomForest$: Training: 10 iterations remain.
