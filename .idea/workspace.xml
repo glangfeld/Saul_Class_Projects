@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8ba0a4-f19e-46cd-ab3f-b7c70677788a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppRandomForest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/By_Industry/Compustat_Data_NN_2_By_Industry.xlsx" afterPath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/By_Industry/Compustat_Data_NN_2_By_Industry.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/Compustat_Data_NN_1.xlsx" afterPath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/Compustat_Data_NN_1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/TestJavaUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/Compustat_Data_NN_2.xlsx" afterPath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/Compustat_Data_NN_2.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/Compustat_Data_NN_Part2.xlsx" afterPath="$PROJECT_DIR$/data/garrett_langfeld/Compustat/Compustat_Data_NN_Part2.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" afterPath="$PROJECT_DIR$/.idea/modules/saul_class_projects.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" afterPath="$PROJECT_DIR$/logs/logback.appname_IS_UNDEFINED.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier2.scala" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier2.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel2.scala" afterPath="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel2.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-compile.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/usesaul-usesaul$sources_2.11-docs.xml" />
@@ -69,19 +63,17 @@
       <file leaf-file-name="CompanyAppSVM.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppSVM.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="13375">
               <caret line="549" column="1" selection-start-line="22" selection-start-column="0" selection-end-line="549" selection-end-column="1" />
-              <folding>
-                <element signature="e#79#143#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyAppRandomForest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CompanyAppRandomForest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppRandomForest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="7650">
               <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
               <folding>
                 <element signature="e#79#143#0" expanded="true" />
@@ -90,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyDataModel2.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CompanyDataModel2.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="467">
               <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
               <folding>
                 <element signature="e#80#135#0" expanded="true" />
@@ -105,10 +97,22 @@
       <file leaf-file-name="CompanyClassifier2.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="325">
               <caret line="151" column="74" selection-start-line="151" selection-start-column="74" selection-end-line="151" selection-end-column="74" />
               <folding>
                 <element signature="e#80#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestJavaUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/TestJavaUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="632">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +124,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Worksheet" />
-        <option value="Class" />
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/past_research.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/capstone_past_research.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/company.scala" />
@@ -188,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppRandomForest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/JavaScriptJavaSample.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/TestJavaUI.java" />
       </list>
     </option>
   </component>
@@ -241,7 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,58 +285,6 @@
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="useSaul" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Saul_Class_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Capstone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="garrett_langfeld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -355,10 +307,66 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="useSaul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Saul_Class_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Capstone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="useSaul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Saul_Class_Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Readers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -396,47 +404,7 @@
       <recent name="$PROJECT_DIR$/data/badges" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompanyAppRandomForest">
-    <configuration default="false" name="CompanyDataReaderCompustat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Readers.garrett_langfeld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Readers.garrett_langfeld.CompanyDataReaderCompustat" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="saul_class_projects" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CompanyApp" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Capstone.garrett_langfeld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Capstone.garrett_langfeld.CompanyApp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="saul_class_projects" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Applet.TestJavaUI">
     <configuration default="false" name="CompanyApp2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -495,6 +463,36 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="saul_class_projects" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestJavaUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Readers.garrett_langfeld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Readers.garrett_langfeld.TestJavaUI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="saul_class_projects" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestJavaUI" type="Applet" factoryName="Applet" temporary="true">
+      <module name="saul_class_projects" />
+      <option name="HTML_USED" value="false" />
+      <option name="MAIN_CLASS_NAME" value="Readers.garrett_langfeld.TestJavaUI" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -965,24 +963,24 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CompanyDataReaderCompustat" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CompanyApp" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CompanyApp2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CompanyAppSVM" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CompanyAppRandomForest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CompanyApp2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CompanyAppSVM" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CompanyAppRandomForest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestJavaUI" />
+      <item index="4" class="java.lang.String" itemvalue="Applet.TestJavaUI" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CompanyAppRandomForest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CompanyAppSVM" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CompanyApp2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CompanyDataReaderCompustat" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CompanyApp" />
+        <item index="0" class="java.lang.String" itemvalue="Applet.TestJavaUI" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestJavaUI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CompanyAppRandomForest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CompanyAppSVM" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CompanyApp2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1491622836153" />
+    <option name="lastUpdateTimestamp" value="1491711603743" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1131,12 +1129,13 @@
       <workItem from="1491188306867" duration="597000" />
       <workItem from="1491246827870" duration="13316000" />
       <workItem from="1491319909532" duration="13112000" />
-      <workItem from="1491622761616" duration="2800000" />
+      <workItem from="1491622761616" duration="2837000" />
+      <workItem from="1491711532981" duration="2413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362387000" />
+    <option name="totallyTimeSpent" value="364837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1151,9 +1150,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43787697" sideWeight="0.51146287" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42806184" sideWeight="0.48853713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42806184" sideWeight="0.48853713" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39001188" sideWeight="0.4668838" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39001188" sideWeight="0.4668838" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23675676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1241,20 +1240,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.7.2-sources.jar!/org/deeplearning4j/optimize/solvers/BaseOptimizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2650">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.7.2-sources.jar!/org/deeplearning4j/nn/multilayer/MultiLayerNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34350">
-          <caret line="1486" column="0" selection-start-line="1486" selection-start-column="0" selection-end-line="1486" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.deeplearning4j/deeplearning4j-nn/srcs/deeplearning4j-nn-0.7.2-sources.jar!/org/deeplearning4j/nn/layers/BaseLayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7325">
@@ -1542,37 +1527,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/.idea/CompanyAppRandomForest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/.idea/CompanyAppRandomForest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppSVM.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="13375">
+          <caret line="549" column="1" selection-start-line="22" selection-start-column="0" selection-end-line="549" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppSVM.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppRandomForest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="549" column="1" selection-start-line="22" selection-start-column="0" selection-end-line="549" selection-end-column="1" />
+        <state relative-caret-position="7650">
+          <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
           <folding>
             <element signature="e#79#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/JavaScriptJavaSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
+        <state relative-caret-position="975">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Readers/garrett_langfeld/TestJavaUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#80#135#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyClassifier2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="325">
           <caret line="151" column="74" selection-start-line="151" selection-start-column="74" selection-end-line="151" selection-end-column="74" />
           <folding>
             <element signature="e#80#144#0" expanded="true" />
@@ -1580,12 +1574,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyAppRandomForest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Capstone/garrett_langfeld/CompanyDataModel2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
+        <state relative-caret-position="467">
+          <caret line="135" column="60" selection-start-line="135" selection-start-column="60" selection-end-line="135" selection-end-column="60" />
           <folding>
-            <element signature="e#79#143#0" expanded="true" />
+            <element signature="e#80#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
