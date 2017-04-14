@@ -23,7 +23,7 @@ import java.util.List;
 
 import scala.collection.mutable.ListBuffer
 
-object CompanyAppSVM extends App{
+object CompanyAppRandomForest2 extends App{
 
 
   //keeping track of tp, fp, fn for each label and overall
@@ -207,18 +207,18 @@ object CompanyAppSVM extends App{
       CompanyDataModel2.comp populate (trainData)
 
 
-      CompanyClassifier2.CompanyClassifierSVM.learn(10)
-      CompanyClassifier2.CompanyClassifierSVM.test(testData)
-      //CompanyClassifier2.CompanyClassifierSVMBoost.test(allDataCopy)
+      CompanyClassifier2.CompanyClassifierRandomForest.learn(10)
+      CompanyClassifier2.CompanyClassifierRandomForest.test(testData)
+      //CompanyClassifier2.CompanyClassifierRFBoost.test(allDataCopy)
 
 
-      val predicted_0 = testData.filter(x => SVMPrediction(x) == "0")
+      val predicted_0 = testData.filter(x => RFPrediction(x) == "0")
       val actual_0 = testData.filter(x => rating(x) == "0")
       val not_0 = testData.filter(x => rating(x) != "0")
-      tp0 += actual_0.filter(x => SVMPrediction(x) == "0").size
-      tn0 += not_0.filter(x => SVMPrediction(x) != "0").size
+      tp0 += actual_0.filter(x => RFPrediction(x) == "0").size
+      tn0 += not_0.filter(x => RFPrediction(x) != "0").size
       fp0 += predicted_0.filter(x => rating(x) != "0").size
-      fn0 += actual_0.filter(x => SVMPrediction(x) != "0").size
+      fn0 += actual_0.filter(x => RFPrediction(x) != "0").size
       pred0 += predicted_0.size;
       act0 += actual_0.size;
       println("TestData Size")
@@ -228,47 +228,47 @@ object CompanyAppSVM extends App{
       println("Actual")
       println(act0)
 
-      val predicted_1 = testData.filter(x => SVMPrediction(x) == "1")
+      val predicted_1 = testData.filter(x => RFPrediction(x) == "1")
       val actual_1 = testData.filter(x => rating(x) == "1")
       val not_1 = testData.filter(x => rating(x) != "1")
-      tp1 += actual_1.filter(x => SVMPrediction(x) == "1").size
-      tn1 += not_1.filter(x => SVMPrediction(x) != "1").size
+      tp1 += actual_1.filter(x => RFPrediction(x) == "1").size
+      tn1 += not_1.filter(x => RFPrediction(x) != "1").size
       fp1 += predicted_1.filter(x => rating(x) != "1").size
-      fn1 += actual_1.filter(x => SVMPrediction(x) != "1").size
+      fn1 += actual_1.filter(x => RFPrediction(x) != "1").size
       pred1 += predicted_1.size;
       act1 += actual_1.size;
 
-      val predicted_2 = testData.filter(x => SVMPrediction(x) == "2")
+      val predicted_2 = testData.filter(x => RFPrediction(x) == "2")
       val actual_2 = testData.filter(x => rating(x) == "2")
       val not_2 = testData.filter(x => rating(x) != "2")
-      tp2 += actual_1.filter(x => SVMPrediction(x) == "2").size
-      tn2 += not_2.filter(x => SVMPrediction(x) != "2").size
+      tp2 += actual_1.filter(x => RFPrediction(x) == "2").size
+      tn2 += not_2.filter(x => RFPrediction(x) != "2").size
       fp2 += predicted_2.filter(x => rating(x) != "2").size
-      fn2 += actual_2.filter(x => SVMPrediction(x) != "2").size
+      fn2 += actual_2.filter(x => RFPrediction(x) != "2").size
       pred2 += predicted_2.size
       act2 += actual_2.size
 
-      val predicted_3 = testData.filter(x => SVMPrediction(x) == "3")
+      val predicted_3 = testData.filter(x => RFPrediction(x) == "3")
       val actual_3 = testData.filter(x => rating(x) == "3")
       val not_3 = testData.filter(x => rating(x) != "3")
-      tp3 += actual_3.filter(x => SVMPrediction(x) == "3").size
-      tn3 += not_3.filter(x => SVMPrediction(x) != "3").size
+      tp3 += actual_3.filter(x => RFPrediction(x) == "3").size
+      tn3 += not_3.filter(x => RFPrediction(x) != "3").size
       fp3 += predicted_3.filter(x => rating(x) != "3").size
-      fn3 += actual_3.filter(x => SVMPrediction(x) != "3").size
+      fn3 += actual_3.filter(x => RFPrediction(x) != "3").size
       pred3 += predicted_3.size
       act3 += actual_3.size
 
-      val predicted_4 = testData.filter(x => SVMPrediction(x) == "4")
+      val predicted_4 = testData.filter(x => RFPrediction(x) == "4")
       val actual_4 = testData.filter(x => rating(x) == "4")
       val not_4 = testData.filter(x => rating(x) != "4")
-      tp4 += actual_4.filter(x => SVMPrediction(x) == "4").size
-      tn4 += not_4.filter(x => SVMPrediction(x) != "4").size
+      tp4 += actual_4.filter(x => RFPrediction(x) == "4").size
+      tn4 += not_4.filter(x => RFPrediction(x) != "4").size
       fp4 += predicted_4.filter(x => rating(x) != "4").size
-      fn4 += actual_4.filter(x => SVMPrediction(x) != "4").size
+      fn4 += actual_4.filter(x => RFPrediction(x) != "4").size
       pred4 += predicted_4.size
       act4 += actual_4.size
 
-      CompanyClassifier2.CompanyClassifierSVM.forget()
+      CompanyClassifier2.CompanyClassifierRandomForest.forget()
     }
 
 
