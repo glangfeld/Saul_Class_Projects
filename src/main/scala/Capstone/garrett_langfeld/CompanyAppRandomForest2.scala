@@ -60,7 +60,7 @@ object CompanyAppRandomForest2 extends App{
   def crossValidate(indust:Int=10) : Unit = {
     var allData = reader.compData
     //adding functionality to filter by industry if function has input indust
-    if (indust > -1 && indust < 8){
+    if (indust > 0 && indust < 9){
       var sectorData = new ArrayList[companyDataCompustat]()
       for (e <- 0 until allData.size()) {
         if (allData.get(e).sector == indust) {
@@ -241,7 +241,7 @@ object CompanyAppRandomForest2 extends App{
       val predicted_2 = testData.filter(x => RFPrediction(x) == "2")
       val actual_2 = testData.filter(x => rating(x) == "2")
       val not_2 = testData.filter(x => rating(x) != "2")
-      tp2 += actual_1.filter(x => RFPrediction(x) == "2").size
+      tp2 += actual_2.filter(x => RFPrediction(x) == "2").size
       tn2 += not_2.filter(x => RFPrediction(x) != "2").size
       fp2 += predicted_2.filter(x => rating(x) != "2").size
       fn2 += actual_2.filter(x => RFPrediction(x) != "2").size
@@ -317,7 +317,7 @@ object CompanyAppRandomForest2 extends App{
     println()
     println()
     println("Sector " + indust)
-    println("Label  Precision Recall  F1  Accuracy    Predicted Count   Actual Count")
+    println("Label       Precision           Recall         F1          Accuracy        Predicted Count    Actual Count")
     println("0:     " + precision_0 + " " + recall_0 + " " + f1_0 + " " + acc_0 + " " + pred0 + " " + act0)
     println("1:     " + precision_1 + " " + recall_1 + " " + f1_1 + " " + acc_1 + " " + pred1 + " " + act1)
     println("2:     " + precision_2 + " " + recall_2 + " " + f1_2 + " " + acc_2 + " " + pred2 + " " + act2)

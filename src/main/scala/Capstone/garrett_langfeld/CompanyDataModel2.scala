@@ -132,6 +132,10 @@ object CompanyDataModel2 extends DataModel{
     x: companyDataCompustat => CompanyClassifierSVM.classifier.discreteValue(x)
   }
 
+  val SVM2Prediction = property(comp){
+    x: companyDataCompustat => CompanyClassifierSVM2.classifier.discreteValue(x)
+  }
+
   val RFPrediction = property(comp){
     x: companyDataCompustat => CompanyClassifierRandomForest.classifier.discreteValue(x)
   }

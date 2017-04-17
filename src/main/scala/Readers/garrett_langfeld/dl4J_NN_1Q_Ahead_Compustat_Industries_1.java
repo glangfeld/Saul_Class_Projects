@@ -25,6 +25,7 @@ import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.dataset.SplitTestAndTrain;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
+import org.nd4j.linalg.dataset.api.iterator.KFoldIterator;
 import org.nd4j.linalg.dataset.api.preprocessor.DataNormalization;
 import org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
@@ -233,7 +234,7 @@ public class dl4J_NN_1Q_Ahead_Compustat_Industries_1 {
                 //run the model
                 MultiLayerNetwork model = new MultiLayerNetwork(conf);
                 model.init();
-                model.setListeners(new ScoreIterationListener(100));
+                //model.setListeners(new ScoreIterationListener(100));
 
                 model.fit(trainingData);
 
@@ -249,7 +250,7 @@ public class dl4J_NN_1Q_Ahead_Compustat_Industries_1 {
                 //log.info(eval.stats());
                 ArrayList<Prediction> errors = new ArrayList<Prediction>();
                 //List<Prediction> errors2 = eval.eval(testData.getLabels(), output).getPredictionErrors();
-                List<Prediction> errors2 = eval.getPredictionErrors();
+                //List<Prediction> errors2 = eval.getPredictionErrors();
 
             /*
             if(!output.equals(iterator.next().getLabels())){
@@ -289,27 +290,27 @@ public class dl4J_NN_1Q_Ahead_Compustat_Industries_1 {
                 precision_1 += eval.precision(1);
                 recall_1 += eval.recall(1);
                 f1_1 += eval.f1(1);
-                act_0 += eval.classCount(1);
+                act_1 += eval.classCount(1);
 
                 precision_2 += eval.precision(2);
                 recall_2 += eval.recall(2);
                 f1_2 += eval.f1(2);
-                act_0 += eval.classCount(2);
+                act_2 += eval.classCount(2);
 
                 precision_3 += eval.precision(3);
                 recall_3 += eval.recall(3);
                 f1_3 += eval.f1(3);
-                act_0 += eval.classCount(3);
+                act_3 += eval.classCount(3);
 
                 precision_4 += eval.precision(4);
                 recall_4 += eval.recall(4);
                 f1_4 += eval.f1(4);
-                act_0 += eval.classCount(4);
+                act_4 += eval.classCount(4);
 
 
             }
 
-
+            System.out.println();
             System.out.println("Results for Industry " + it);
             sum_accuracy = sum_accuracy / (10);
             sum_precision = sum_precision / 10;
@@ -324,9 +325,9 @@ public class dl4J_NN_1Q_Ahead_Compustat_Industries_1 {
             precision_0 = precision_0 / 10;
             System.out.println("Precision: " + precision_0);
             recall_0 = recall_0/10;
-            System.out.println("Recall: " + recall_0/10);
+            System.out.println("Recall: " + recall_0);
             f1_0 = f1_0 / 10;
-            System.out.println("F1: " + f1_0/10);
+            System.out.println("F1: " + f1_0);
             System.out.println("Actual examples in class 0: " + act_0);
             precision_1 = precision_1 / 10;
             recall_1 = recall_1 / 10;
@@ -403,8 +404,8 @@ public class dl4J_NN_1Q_Ahead_Compustat_Industries_1 {
         System.out.println();
         System.out.println("Label 0 Results");
         System.out.println("Precision: " + tot_precision_0);
-        System.out.println("Recall: " + tot_recall_0/10);
-        System.out.println("F1: " + tot_f1_0/10);
+        System.out.println("Recall: " + tot_recall_0);
+        System.out.println("F1: " + tot_f1_0);
         System.out.println();
         System.out.println("Label 1 Results");
         System.out.println("Precision: " + tot_precision_1);
