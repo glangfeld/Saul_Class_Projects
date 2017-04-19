@@ -18,12 +18,16 @@
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5aad8799
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f1d134b
 >>>>>>> dl4J
 =======
 [debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@caf892d
+>>>>>>> dl4J
+=======
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30a8100e
 >>>>>>> dl4J
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
@@ -1776,12 +1780,16 @@
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [debug] :: resolution report :: resolve 2487ms :: artifacts dl 116ms
 =======
 [debug] :: resolution report :: resolve 2648ms :: artifacts dl 63ms
 >>>>>>> dl4J
 =======
 [debug] :: resolution report :: resolve 2845ms :: artifacts dl 63ms
+>>>>>>> dl4J
+=======
+[debug] :: resolution report :: resolve 1861ms :: artifacts dl 74ms
 >>>>>>> dl4J
 [debug] 	report for default#saul_class_projects-build;0.1-SNAPSHOT compile produced in C:\Users\glang\OneDrive\Documents\Tulane\Senior Year First Semester\Capstone\Saul_Class_Projects\project\target\resolution-cache\reports\default-saul_class_projects-build-compile.xml
 [debug] 	report for default#saul_class_projects-build;0.1-SNAPSHOT runtime produced in C:\Users\glang\OneDrive\Documents\Tulane\Senior Year First Semester\Capstone\Saul_Class_Projects\project\target\resolution-cache\reports\default-saul_class_projects-build-runtime.xml
@@ -1798,11 +1806,15 @@
 [debug] 	report for default#saul_class_projects-build;0.1-SNAPSHOT scala-tool produced in C:\Users\glang\OneDrive\Documents\Tulane\Senior Year First Semester\Capstone\Saul_Class_Projects\project\target\resolution-cache\reports\default-saul_class_projects-build-scala-tool.xml
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [debug] 	resolve done (2487ms resolve - 116ms download)
 =======
 [debug] 	resolve done (2648ms resolve - 63ms download)
 >>>>>>> dl4J
 =======
 [debug] 	resolve done (2845ms resolve - 63ms download)
+>>>>>>> dl4J
+=======
+[debug] 	resolve done (1861ms resolve - 74ms download)
 >>>>>>> dl4J
 [info] Done updating.

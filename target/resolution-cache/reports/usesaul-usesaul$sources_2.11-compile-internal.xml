@@ -9,12 +9,16 @@
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		date="20170215163519"/>
 =======
 		date="20170331081023"/>
 >>>>>>> dl4J
 =======
 		date="20170331232341"/>
+>>>>>>> dl4J
+=======
+		date="20170418102541"/>
 >>>>>>> dl4J
 	<dependencies>
 		<module organisation="org.tachyonproject" name="tachyon">
@@ -33,6 +37,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013723" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="171">
 				<metadata-artifact status="successful" details="" size="5474" time="403" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 =======
@@ -42,6 +47,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="5474" time="268" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013723" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="171">
+				<metadata-artifact status="successful" details="" size="5474" time="337" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -61,11 +70,11 @@
 				<metadata-artifact status="no" details="" size="2978" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.jackson\jackson-xc\ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jackson-xc" type="jar" ext="jar" status="no" details="" size="32353" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.jackson\jackson-xc\jars\jackson-xc-1.8.8.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.jar"/>
-					</artifact>
 					<artifact name="jackson-xc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18371" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.jackson\jackson-xc\srcs\jackson-xc-1.8.8-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-xc" type="jar" ext="jar" status="no" details="" size="32353" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.jackson\jackson-xc\jars\jackson-xc-1.8.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-xc/1.8.8/jackson-xc-1.8.8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -88,6 +97,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013711" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="155">
 				<metadata-artifact status="successful" details="" size="4335" time="599" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 =======
@@ -97,6 +107,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="4335" time="854" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013711" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="155">
+				<metadata-artifact status="successful" details="" size="4335" time="338" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -111,6 +125,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013703" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="170">
 				<metadata-artifact status="successful" details="" size="1675" time="531" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 =======
@@ -120,6 +135,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="1675" time="268" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013703" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="170">
+				<metadata-artifact status="successful" details="" size="1675" time="338" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -134,6 +153,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013538" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="172">
 				<metadata-artifact status="successful" details="" size="7324" time="517" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 =======
@@ -143,6 +163,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="7324" time="254" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013538" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="172">
+				<metadata-artifact status="successful" details="" size="7324" time="346" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -157,6 +181,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013659" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="156">
 				<metadata-artifact status="successful" details="" size="3273" time="485" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 =======
@@ -166,6 +191,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="3273" time="903" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013659" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="156">
+				<metadata-artifact status="successful" details="" size="3273" time="281" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -180,6 +209,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013526" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="169">
 				<metadata-artifact status="successful" details="" size="3534" time="555" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 =======
@@ -189,6 +219,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="3534" time="250" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013526" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="169">
+				<metadata-artifact status="successful" details="" size="3534" time="334" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -203,6 +237,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013626" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="168">
 				<metadata-artifact status="successful" details="" size="3085" time="800" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 =======
@@ -212,6 +247,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="3085" time="654" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013626" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="168">
+				<metadata-artifact status="successful" details="" size="3085" time="348" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -226,6 +265,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-client">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013604" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="167">
 				<metadata-artifact status="successful" details="" size="1961" time="544" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
 =======
@@ -235,6 +275,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="1961" time="845" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013604" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="167">
+				<metadata-artifact status="successful" details="" size="1961" time="310" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -249,6 +293,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013515" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="157">
 				<metadata-artifact status="successful" details="" size="5032" time="403" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 =======
@@ -258,6 +303,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="5032" time="852" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013515" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="157">
+				<metadata-artifact status="successful" details="" size="5032" time="300" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -272,6 +321,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="2.2.0" status="release" pubdate="20131007013452" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="158">
 				<metadata-artifact status="successful" details="" size="2956" time="666" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 =======
@@ -281,6 +331,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="2956" time="880" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="2.2.0" status="release" pubdate="20131007013452" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="158">
+				<metadata-artifact status="successful" details="" size="2956" time="343" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
@@ -298,11 +352,11 @@
 				<metadata-artifact status="no" details="" size="5888" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.contribs\jersey-guice\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jersey-guice" type="jar" ext="jar" status="no" details="" size="14786" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.contribs\jersey-guice\jars\jersey-guice-1.9.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar"/>
-					</artifact>
 					<artifact name="jersey-guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12402" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.contribs\jersey-guice\srcs\jersey-guice-1.9-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9-sources.jar"/>
+					</artifact>
+					<artifact name="jersey-guice" type="jar" ext="jar" status="no" details="" size="14786" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.contribs\jersey-guice\jars\jersey-guice-1.9.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -312,11 +366,11 @@
 				<metadata-artifact status="no" details="" size="4610" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.jersey-test-framework\jersey-test-framework-grizzly2\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jersey-test-framework-grizzly2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7369" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.jersey-test-framework\jersey-test-framework-grizzly2\srcs\jersey-test-framework-grizzly2-1.9-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9-sources.jar"/>
-					</artifact>
 					<artifact name="jersey-test-framework-grizzly2" type="jar" ext="jar" status="no" details="" size="12976" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.jersey-test-framework\jersey-test-framework-grizzly2\jars\jersey-test-framework-grizzly2-1.9.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar"/>
+					</artifact>
+					<artifact name="jersey-test-framework-grizzly2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7369" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey.jersey-test-framework\jersey-test-framework-grizzly2\srcs\jersey-test-framework-grizzly2-1.9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -326,11 +380,11 @@
 				<metadata-artifact status="no" details="" size="30999" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="hadoop-hdfs" type="jar" ext="jar" status="no" details="" size="5242252" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\jars\hadoop-hdfs-2.2.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar"/>
-					</artifact>
 					<artifact name="hadoop-hdfs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1979066" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\srcs\hadoop-hdfs-2.2.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0-sources.jar"/>
+					</artifact>
+					<artifact name="hadoop-hdfs" type="jar" ext="jar" status="no" details="" size="5242252" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\jars\hadoop-hdfs-2.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -354,11 +408,11 @@
 				<metadata-artifact status="no" details="" size="33664" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-auth\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="49750" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-auth\jars\hadoop-auth-2.2.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar"/>
-					</artifact>
 					<artifact name="hadoop-auth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37782" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-auth\srcs\hadoop-auth-2.2.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0-sources.jar"/>
+					</artifact>
+					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="49750" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.hadoop\hadoop-auth\jars\hadoop-auth-2.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -368,11 +422,11 @@
 				<metadata-artifact status="no" details="" size="10527" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.avro\avro\ivy-1.7.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/avro/avro/1.7.4/avro-1.7.4.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.4" rev-constraint-default="1.7.4" rev-constraint-dynamic="1.7.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="205338" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.avro\avro\srcs\avro-1.7.4-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/avro/avro/1.7.4/avro-1.7.4-sources.jar"/>
-					</artifact>
 					<artifact name="avro" type="jar" ext="jar" status="no" details="" size="303139" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.avro\avro\jars\avro-1.7.4.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/avro/avro/1.7.4/avro-1.7.4.jar"/>
+					</artifact>
+					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="205338" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.avro\avro\srcs\avro-1.7.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/avro/avro/1.7.4/avro-1.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -398,11 +452,11 @@
 				<metadata-artifact status="no" details="" size="5732" time="0" location="C:\Users\glang\.ivy2\cache\commons-configuration\commons-configuration\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-configuration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="316787" time="0" location="C:\Users\glang\.ivy2\cache\commons-configuration\commons-configuration\srcs\commons-configuration-1.6-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar"/>
-					</artifact>
 					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="C:\Users\glang\.ivy2\cache\commons-configuration\commons-configuration\jars\commons-configuration-1.6.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+					</artifact>
+					<artifact name="commons-configuration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="316787" time="0" location="C:\Users\glang\.ivy2\cache\commons-configuration\commons-configuration\srcs\commons-configuration-1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -427,11 +481,11 @@
 				<metadata-artifact status="no" details="" size="2423" time="0" location="C:\Users\glang\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="195349" time="0" location="C:\Users\glang\.ivy2\cache\commons-beanutils\commons-beanutils\srcs\commons-beanutils-1.7.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"/>
-					</artifact>
 					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="188671" time="0" location="C:\Users\glang\.ivy2\cache\commons-beanutils\commons-beanutils\jars\commons-beanutils-1.7.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+					</artifact>
+					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="195349" time="0" location="C:\Users\glang\.ivy2\cache\commons-beanutils\commons-beanutils\srcs\commons-beanutils-1.7.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -455,11 +509,11 @@
 				<metadata-artifact status="no" details="" size="5868" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-json\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jersey-json" type="jar" ext="jar" status="no" details="" size="147952" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-json\jars\jersey-json-1.9.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"/>
-					</artifact>
 					<artifact name="jersey-json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="113614" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-json\srcs\jersey-json-1.9-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-sources.jar"/>
+					</artifact>
+					<artifact name="jersey-json" type="jar" ext="jar" status="no" details="" size="147952" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-json\jars\jersey-json-1.9.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -499,11 +553,11 @@
 				<metadata-artifact status="no" details="" size="7220" time="0" location="C:\Users\glang\.ivy2\cache\org.mortbay.jetty\jetty-util\ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="177131" time="0" location="C:\Users\glang\.ivy2\cache\org.mortbay.jetty\jetty-util\jars\jetty-util-6.1.26.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
-					</artifact>
 					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123338" time="0" location="C:\Users\glang\.ivy2\cache\org.mortbay.jetty\jetty-util\srcs\jetty-util-6.1.26-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"/>
+					</artifact>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="177131" time="0" location="C:\Users\glang\.ivy2\cache\org.mortbay.jetty\jetty-util\jars\jetty-util-6.1.26.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -513,11 +567,11 @@
 				<metadata-artifact status="no" details="" size="5949" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-math\ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-math/2.1/commons-math-2.1.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-math" type="jar" ext="jar" status="no" details="" size="832410" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-math\jars\commons-math-2.1.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
-					</artifact>
 					<artifact name="commons-math" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1027714" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-math\srcs\commons-math-2.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-math/2.1/commons-math-2.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-math" type="jar" ext="jar" status="no" details="" size="832410" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-math\jars\commons-math-2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -555,11 +609,11 @@
 				<metadata-artifact status="no" details="" size="51809" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.11/1.4.1/spark-core_2.11-1.4.1.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="spark-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1489627" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.spark\spark-core_2.11\srcs\spark-core_2.11-1.4.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.11/1.4.1/spark-core_2.11-1.4.1-sources.jar"/>
-					</artifact>
 					<artifact name="spark-core_2.11" type="jar" ext="jar" status="no" details="" size="10335289" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-1.4.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.11/1.4.1/spark-core_2.11-1.4.1.jar"/>
+					</artifact>
+					<artifact name="spark-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1489627" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.spark\spark-core_2.11\srcs\spark-core_2.11-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.11/1.4.1/spark-core_2.11-1.4.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -642,11 +696,11 @@
 				<metadata-artifact status="no" details="" size="5340" time="0" location="C:\Users\glang\.ivy2\cache\io.dropwizard.metrics\metrics-json\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-json/3.1.0/metrics-json-3.1.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="metrics-json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3484" time="0" location="C:\Users\glang\.ivy2\cache\io.dropwizard.metrics\metrics-json\srcs\metrics-json-3.1.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-json/3.1.0/metrics-json-3.1.0-sources.jar"/>
-					</artifact>
 					<artifact name="metrics-json" type="jar" ext="jar" status="no" details="" size="15823" time="0" location="C:\Users\glang\.ivy2\cache\io.dropwizard.metrics\metrics-json\jars\metrics-json-3.1.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-json/3.1.0/metrics-json-3.1.0.jar"/>
+					</artifact>
+					<artifact name="metrics-json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3484" time="0" location="C:\Users\glang\.ivy2\cache\io.dropwizard.metrics\metrics-json\srcs\metrics-json-3.1.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-json/3.1.0/metrics-json-3.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -713,11 +767,11 @@
 				<metadata-artifact status="no" details="" size="5490" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-core\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jersey-core" type="jar" ext="jar" status="no" details="" size="458739" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-core\jars\jersey-core-1.9.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
-					</artifact>
 					<artifact name="jersey-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="431251" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-core\srcs\jersey-core-1.9-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-sources.jar"/>
+					</artifact>
+					<artifact name="jersey-core" type="jar" ext="jar" status="no" details="" size="458739" time="0" location="C:\Users\glang\.ivy2\cache\com.sun.jersey\jersey-core\jars\jersey-core-1.9.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -846,11 +900,11 @@
 				<metadata-artifact status="no" details="" size="3922" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.akka\akka-remote_2.11\ivy-2.3.4-spark.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spark-project/akka/akka-remote_2.11/2.3.4-spark/akka-remote_2.11-2.3.4-spark.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.4-spark" rev-constraint-default="2.3.4-spark" rev-constraint-dynamic="2.3.4-spark" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="150430" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.akka\akka-remote_2.11\srcs\akka-remote_2.11-2.3.4-spark-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/akka/akka-remote_2.11/2.3.4-spark/akka-remote_2.11-2.3.4-spark-sources.jar"/>
-					</artifact>
 					<artifact name="akka-remote_2.11" type="jar" ext="jar" status="no" details="" size="1343289" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.4-spark.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/akka/akka-remote_2.11/2.3.4-spark/akka-remote_2.11-2.3.4-spark.jar"/>
+					</artifact>
+					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="150430" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.akka\akka-remote_2.11\srcs\akka-remote_2.11-2.3.4-spark-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/akka/akka-remote_2.11/2.3.4-spark/akka-remote_2.11-2.3.4-spark-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -876,11 +930,11 @@
 				<metadata-artifact status="no" details="" size="3061" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.protobuf\protobuf-java\ivy-2.5.0-spark.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spark-project/protobuf/protobuf-java/2.5.0-spark/protobuf-java-2.5.0-spark.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.0-spark" rev-constraint-default="2.5.0-spark" rev-constraint-dynamic="2.5.0-spark" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="537956" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.protobuf\protobuf-java\jars\protobuf-java-2.5.0-spark.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/protobuf/protobuf-java/2.5.0-spark/protobuf-java-2.5.0-spark.jar"/>
-					</artifact>
 					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="437" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.protobuf\protobuf-java\srcs\protobuf-java-2.5.0-spark-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/protobuf/protobuf-java/2.5.0-spark/protobuf-java-2.5.0-spark-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="537956" time="0" location="C:\Users\glang\.ivy2\cache\org.spark-project.protobuf\protobuf-java\jars\protobuf-java-2.5.0-spark.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/protobuf/protobuf-java/2.5.0-spark/protobuf-java-2.5.0-spark.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -891,11 +945,11 @@
 				<metadata-artifact status="no" details="" size="6581" time="0" location="C:\Users\glang\.ivy2\cache\io.netty\netty\ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1079966" time="0" location="C:\Users\glang\.ivy2\cache\io.netty\netty\srcs\netty-3.8.0.Final-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar"/>
-					</artifact>
 					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1230201" time="0" location="C:\Users\glang\.ivy2\cache\io.netty\netty\jars\netty-3.8.0.Final.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1079966" time="0" location="C:\Users\glang\.ivy2\cache\io.netty\netty\srcs\netty-3.8.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1008,11 +1062,11 @@
 				<metadata-artifact status="no" details="" size="8200" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-recipes\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="curator-recipes" type="jar" ext="jar" status="no" details="" size="241322" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-recipes\jars\curator-recipes-2.4.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar"/>
-					</artifact>
 					<artifact name="curator-recipes" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="140078" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-recipes\srcs\curator-recipes-2.4.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0-sources.jar"/>
+					</artifact>
+					<artifact name="curator-recipes" type="jar" ext="jar" status="no" details="" size="241322" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-recipes\jars\curator-recipes-2.4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1022,11 +1076,11 @@
 				<metadata-artifact status="no" details="" size="8047" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-framework\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="curator-framework" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116042" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-framework\srcs\curator-framework-2.4.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0-sources.jar"/>
-					</artifact>
 					<artifact name="curator-framework" type="jar" ext="jar" status="no" details="" size="179720" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-framework\jars\curator-framework-2.4.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar"/>
+					</artifact>
+					<artifact name="curator-framework" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116042" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-framework\srcs\curator-framework-2.4.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1036,11 +1090,11 @@
 				<metadata-artifact status="no" details="" size="8095" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-client\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="curator-client" type="jar" ext="jar" status="no" details="" size="67254" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-client\jars\curator-client-2.4.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar"/>
-					</artifact>
 					<artifact name="curator-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52734" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-client\srcs\curator-client-2.4.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0-sources.jar"/>
+					</artifact>
+					<artifact name="curator-client" type="jar" ext="jar" status="no" details="" size="67254" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.curator\curator-client\jars\curator-client-2.4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1209,11 +1263,11 @@
 				<metadata-artifact status="no" details="" size="4895" time="0" location="C:\Users\glang\.ivy2\cache\org.slf4j\slf4j-log4j12\ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10411" time="0" location="C:\Users\glang\.ivy2\cache\org.slf4j\slf4j-log4j12\srcs\slf4j-log4j12-1.7.10-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10-sources.jar"/>
-					</artifact>
 					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="8866" time="0" location="C:\Users\glang\.ivy2\cache\org.slf4j\slf4j-log4j12\jars\slf4j-log4j12-1.7.10.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar"/>
+					</artifact>
+					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10411" time="0" location="C:\Users\glang\.ivy2\cache\org.slf4j\slf4j-log4j12\srcs\slf4j-log4j12-1.7.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1254,11 +1308,11 @@
 				<metadata-artifact status="no" details="" size="3668" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.kryo\kryo\ivy-2.21.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="kryo" type="jar" ext="jar" status="no" details="" size="363460" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.kryo\kryo\jars\kryo-2.21.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar"/>
-					</artifact>
 					<artifact name="kryo" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71023" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.kryo\kryo\srcs\kryo-2.21-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21-sources.jar"/>
+					</artifact>
+					<artifact name="kryo" type="jar" ext="jar" status="no" details="" size="363460" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.kryo\kryo\jars\kryo-2.21.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1298,11 +1352,11 @@
 				<metadata-artifact status="no" details="" size="2984" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.reflectasm\reflectasm\ivy-1.07.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.07" rev-constraint-default="1.07" rev-constraint-dynamic="1.07" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="reflectasm" type="jar" ext="jar" status="no" details="" size="17672" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.reflectasm\reflectasm\jars\reflectasm-1.07.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07.jar"/>
-					</artifact>
 					<artifact name="reflectasm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8990" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.reflectasm\reflectasm\srcs\reflectasm-1.07-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-sources.jar"/>
+					</artifact>
+					<artifact name="reflectasm" type="jar" ext="jar" status="no" details="" size="17672" time="0" location="C:\Users\glang\.ivy2\cache\com.esotericsoftware.reflectasm\reflectasm\jars\reflectasm-1.07.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1326,11 +1380,11 @@
 				<metadata-artifact status="no" details="" size="82437" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.directory.studio\org.apache.commons.codec\ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="org.apache.commons.codec" type="jar" ext="jar" status="no" details="" size="220830" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.directory.studio\org.apache.commons.codec\jars\org.apache.commons.codec-1.8.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar"/>
-					</artifact>
 					<artifact name="org.apache.commons.codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5017" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.directory.studio\org.apache.commons.codec\srcs\org.apache.commons.codec-1.8-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8-sources.jar"/>
+					</artifact>
+					<artifact name="org.apache.commons.codec" type="jar" ext="jar" status="no" details="" size="220830" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.directory.studio\org.apache.commons.codec\jars\org.apache.commons.codec-1.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1399,11 +1453,11 @@
 				<metadata-artifact status="no" details="" size="6375" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco\javacv\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/bytedeco/javacv/1.3/javacv-1.3.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="javacv" type="jar" ext="jar" status="no" details="" size="375694" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco\javacv\jars\javacv-1.3.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/bytedeco/javacv/1.3/javacv-1.3.jar"/>
-					</artifact>
 					<artifact name="javacv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226902" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco\javacv\srcs\javacv-1.3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/bytedeco/javacv/1.3/javacv-1.3-sources.jar"/>
+					</artifact>
+					<artifact name="javacv" type="jar" ext="jar" status="no" details="" size="375694" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco\javacv\jars\javacv-1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/bytedeco/javacv/1.3/javacv-1.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1469,11 +1523,11 @@
 				<metadata-artifact status="no" details="" size="4609" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco.javacpp-presets\libfreenect\ivy-0.5.3-1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.5.3-1.3" rev-constraint-default="0.5.3-1.3" rev-constraint-dynamic="0.5.3-1.3" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="libfreenect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15514" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco.javacpp-presets\libfreenect\srcs\libfreenect-0.5.3-1.3-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3-sources.jar"/>
-					</artifact>
 					<artifact name="libfreenect" type="jar" ext="jar" status="no" details="" size="21946" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco.javacpp-presets\libfreenect\jars\libfreenect-0.5.3-1.3.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3.jar"/>
+					</artifact>
+					<artifact name="libfreenect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15514" time="0" location="C:\Users\glang\.ivy2\cache\org.bytedeco.javacpp-presets\libfreenect\srcs\libfreenect-0.5.3-1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.3/libfreenect-0.5.3-1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1536,6 +1590,7 @@
 		</module>
 		<module organisation="com.twelvemonkeys.imageio" name="imageio-bmp">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="3.1.1" status="release" pubdate="20150611050400" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="113">
 				<metadata-artifact status="successful" details="" size="1012" time="497" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.pom"/>
 =======
@@ -1545,6 +1600,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="1012" time="864" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="3.1.1" status="release" pubdate="20150611050400" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="113">
+				<metadata-artifact status="successful" details="" size="1012" time="327" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-bmp\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-bmp/3.1.1/imageio-bmp-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
@@ -1559,6 +1618,7 @@
 		</module>
 		<module organisation="com.twelvemonkeys.imageio" name="imageio-psd">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="3.1.1" status="release" pubdate="20150611051000" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="112">
 				<metadata-artifact status="successful" details="" size="1158" time="623" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.pom"/>
 =======
@@ -1568,6 +1628,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="1158" time="847" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="3.1.1" status="release" pubdate="20150611051000" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="112">
+				<metadata-artifact status="successful" details="" size="1158" time="302" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-psd\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-psd/3.1.1/imageio-psd-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
@@ -1582,6 +1646,7 @@
 		</module>
 		<module organisation="com.twelvemonkeys.imageio" name="imageio-tiff">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="3.1.1" status="release" pubdate="20150611051200" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="111">
 				<metadata-artifact status="successful" details="" size="1171" time="629" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.pom"/>
 =======
@@ -1591,6 +1656,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="1171" time="829" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="3.1.1" status="release" pubdate="20150611051200" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="111">
+				<metadata-artifact status="successful" details="" size="1171" time="257" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-tiff\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-tiff/3.1.1/imageio-tiff-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
@@ -1605,6 +1674,7 @@
 		</module>
 		<module organisation="com.twelvemonkeys.imageio" name="imageio-jpeg">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="3.1.1" status="release" pubdate="20150611050600" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="106">
 				<metadata-artifact status="successful" details="" size="1180" time="482" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.pom"/>
 =======
@@ -1614,6 +1684,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="1180" time="778" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="3.1.1" status="release" pubdate="20150611050600" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="106">
+				<metadata-artifact status="successful" details="" size="1180" time="369" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-jpeg\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-jpeg/3.1.1/imageio-jpeg-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
@@ -1628,6 +1702,7 @@
 		</module>
 		<module organisation="com.twelvemonkeys.imageio" name="imageio-metadata">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<revision name="3.1.1" status="release" pubdate="20150611050100" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="107">
 				<metadata-artifact status="successful" details="" size="983" time="429" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.pom"/>
 =======
@@ -1637,6 +1712,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="983" time="794" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="3.1.1" status="release" pubdate="20150611050100" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="107">
+				<metadata-artifact status="successful" details="" size="983" time="354" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.imageio\imageio-metadata\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/imageio/imageio-metadata/3.1.1/imageio-metadata-3.1.1.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
@@ -1668,11 +1747,11 @@
 				<metadata-artifact status="no" details="" size="4434" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-io\ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="common-io" type="jar" ext="jar" status="no" details="" size="88580" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-io\jars\common-io-3.1.1.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.jar"/>
-					</artifact>
 					<artifact name="common-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="121889" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-io\srcs\common-io-3.1.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="common-io" type="jar" ext="jar" status="no" details="" size="88580" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-io\jars\common-io-3.1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-io/3.1.1/common-io-3.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1682,11 +1761,11 @@
 				<metadata-artifact status="no" details="" size="4200" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-lang\ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="common-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="128867" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-lang\srcs\common-lang-3.1.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1-sources.jar"/>
-					</artifact>
 					<artifact name="common-lang" type="jar" ext="jar" status="no" details="" size="117270" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-lang\jars\common-lang-3.1.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1.jar"/>
+					</artifact>
+					<artifact name="common-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="128867" time="0" location="C:\Users\glang\.ivy2\cache\com.twelvemonkeys.common\common-lang\srcs\common-lang-3.1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twelvemonkeys/common/common-lang/3.1.1/common-lang-3.1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1697,11 +1776,11 @@
 				<metadata-artifact status="no" details="" size="3570" time="0" location="C:\Users\glang\.ivy2\cache\com.github.jai-imageio\jai-imageio-core\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jai-imageio-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="569808" time="0" location="C:\Users\glang\.ivy2\cache\com.github.jai-imageio\jai-imageio-core\srcs\jai-imageio-core-1.3.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0-sources.jar"/>
-					</artifact>
 					<artifact name="jai-imageio-core" type="jar" ext="jar" status="no" details="" size="601101" time="0" location="C:\Users\glang\.ivy2\cache\com.github.jai-imageio\jai-imageio-core\jars\jai-imageio-core-1.3.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0.jar"/>
+					</artifact>
+					<artifact name="jai-imageio-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="569808" time="0" location="C:\Users\glang\.ivy2\cache\com.github.jai-imageio\jai-imageio-core\srcs\jai-imageio-core-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/jai-imageio/jai-imageio-core/1.3.0/jai-imageio-core-1.3.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1725,11 +1804,11 @@
 				<metadata-artifact status="no" details="" size="5664" time="0" location="C:\Users\glang\.ivy2\cache\org.datavec\datavec-api\ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/datavec/datavec-api/0.7.2/datavec-api-0.7.2.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="datavec-api" type="jar" ext="jar" status="no" details="" size="615909" time="0" location="C:\Users\glang\.ivy2\cache\org.datavec\datavec-api\jars\datavec-api-0.7.2.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datavec/datavec-api/0.7.2/datavec-api-0.7.2.jar"/>
-					</artifact>
 					<artifact name="datavec-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="440601" time="0" location="C:\Users\glang\.ivy2\cache\org.datavec\datavec-api\srcs\datavec-api-0.7.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datavec/datavec-api/0.7.2/datavec-api-0.7.2-sources.jar"/>
+					</artifact>
+					<artifact name="datavec-api" type="jar" ext="jar" status="no" details="" size="615909" time="0" location="C:\Users\glang\.ivy2\cache\org.datavec\datavec-api\jars\datavec-api-0.7.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datavec/datavec-api/0.7.2/datavec-api-0.7.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1754,11 +1833,11 @@
 				<metadata-artifact status="no" details="" size="11008" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-native\ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-native/0.7.2/nd4j-native-0.7.2.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="nd4j-native" type="jar" ext="jar" status="no" details="" size="61920" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-native\jars\nd4j-native-0.7.2.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-native/0.7.2/nd4j-native-0.7.2.jar"/>
-					</artifact>
 					<artifact name="nd4j-native" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45393" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-native\srcs\nd4j-native-0.7.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-native/0.7.2/nd4j-native-0.7.2-sources.jar"/>
+					</artifact>
+					<artifact name="nd4j-native" type="jar" ext="jar" status="no" details="" size="61920" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-native\jars\nd4j-native-0.7.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-native/0.7.2/nd4j-native-0.7.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1824,11 +1903,11 @@
 				<metadata-artifact status="no" details="" size="10260" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-compress\ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8/commons-compress-1.8.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="364620" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-compress\jars\commons-compress-1.8.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8/commons-compress-1.8.jar"/>
-					</artifact>
 					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="376179" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-compress\srcs\commons-compress-1.8-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8/commons-compress-1.8-sources.jar"/>
+					</artifact>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="364620" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.commons\commons-compress\jars\commons-compress-1.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8/commons-compress-1.8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1839,11 +1918,11 @@
 				<metadata-artifact status="no" details="" size="2306" time="0" location="C:\Users\glang\.ivy2\cache\org.tukaani\xz\ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/tukaani/xz/1.5/xz-1.5.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117832" time="0" location="C:\Users\glang\.ivy2\cache\org.tukaani\xz\srcs\xz-1.5-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/tukaani/xz/1.5/xz-1.5-sources.jar"/>
-					</artifact>
 					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="99555" time="0" location="C:\Users\glang\.ivy2\cache\org.tukaani\xz\jars\xz-1.5.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/tukaani/xz/1.5/xz-1.5.jar"/>
+					</artifact>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117832" time="0" location="C:\Users\glang\.ivy2\cache\org.tukaani\xz\srcs\xz-1.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/tukaani/xz/1.5/xz-1.5-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1853,11 +1932,11 @@
 				<metadata-artifact status="no" details="" size="9447" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-api\ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/nd4j-api/0.7.2/nd4j-api-0.7.2.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="nd4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="614003" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-api\srcs\nd4j-api-0.7.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-api/0.7.2/nd4j-api-0.7.2-sources.jar"/>
-					</artifact>
 					<artifact name="nd4j-api" type="jar" ext="jar" status="no" details="" size="895478" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-api\jars\nd4j-api-0.7.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-api/0.7.2/nd4j-api-0.7.2.jar"/>
+					</artifact>
+					<artifact name="nd4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="614003" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\nd4j-api\srcs\nd4j-api-0.7.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/nd4j-api/0.7.2/nd4j-api-0.7.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1957,11 +2036,11 @@
 				<metadata-artifact status="no" details="" size="2474" time="0" location="C:\Users\glang\.ivy2\cache\org.projectlombok\lombok\ivy-1.16.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/projectlombok/lombok/1.16.10/lombok-1.16.10.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.16.10" rev-constraint-default="1.16.10" rev-constraint-dynamic="1.16.10" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="lombok" type="jar" ext="jar" status="no" details="" size="1400040" time="0" location="C:\Users\glang\.ivy2\cache\org.projectlombok\lombok\jars\lombok-1.16.10.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar"/>
-					</artifact>
 					<artifact name="lombok" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="771909" time="0" location="C:\Users\glang\.ivy2\cache\org.projectlombok\lombok\srcs\lombok-1.16.10-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/projectlombok/lombok/1.16.10/lombok-1.16.10-sources.jar"/>
+					</artifact>
+					<artifact name="lombok" type="jar" ext="jar" status="no" details="" size="1400040" time="0" location="C:\Users\glang\.ivy2\cache\org.projectlombok\lombok\jars\lombok-1.16.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1971,11 +2050,11 @@
 				<metadata-artifact status="no" details="" size="6988" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\jackson\ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/nd4j/jackson/0.7.2/jackson-0.7.2.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jackson" type="jar" ext="jar" status="no" details="" size="1880618" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\jackson\jars\jackson-0.7.2.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/jackson/0.7.2/jackson-0.7.2.jar"/>
-					</artifact>
 					<artifact name="jackson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1946" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\jackson\srcs\jackson-0.7.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/jackson/0.7.2/jackson-0.7.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson" type="jar" ext="jar" status="no" details="" size="1880618" time="0" location="C:\Users\glang\.ivy2\cache\org.nd4j\jackson\jars\jackson-0.7.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/nd4j/jackson/0.7.2/jackson-0.7.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1986,11 +2065,11 @@
 				<metadata-artifact status="no" details="" size="3386" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.woodstox\stax2-api\ivy-3.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.1.4" rev-constraint-default="3.1.4" rev-constraint-dynamic="3.1.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="stax2-api" type="jar" ext="jar" status="no" details="" size="161867" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.woodstox\stax2-api\jars\stax2-api-3.1.4.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar"/>
-					</artifact>
 					<artifact name="stax2-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="182824" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.woodstox\stax2-api\srcs\stax2-api-3.1.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4-sources.jar"/>
+					</artifact>
+					<artifact name="stax2-api" type="jar" ext="jar" status="no" details="" size="161867" time="0" location="C:\Users\glang\.ivy2\cache\org.codehaus.woodstox\stax2-api\jars\stax2-api-3.1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2044,11 +2123,11 @@
 				<metadata-artifact status="no" details="" size="3643" time="0" location="C:\Users\glang\.ivy2\cache\com.twitter\joauth\ivy-6.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/joauth/6.0.2/joauth-6.0.2.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="6.0.2" rev-constraint-default="6.0.2" rev-constraint-dynamic="6.0.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="joauth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27647" time="0" location="C:\Users\glang\.ivy2\cache\com.twitter\joauth\srcs\joauth-6.0.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/joauth/6.0.2/joauth-6.0.2-sources.jar"/>
-					</artifact>
 					<artifact name="joauth" type="jar" ext="jar" status="no" details="" size="63214" time="0" location="C:\Users\glang\.ivy2\cache\com.twitter\joauth\jars\joauth-6.0.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/joauth/6.0.2/joauth-6.0.2.jar"/>
+					</artifact>
+					<artifact name="joauth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27647" time="0" location="C:\Users\glang\.ivy2\cache\com.twitter\joauth\srcs\joauth-6.0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/joauth/6.0.2/joauth-6.0.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2086,11 +2165,11 @@
 				<metadata-artifact status="no" details="" size="6676" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.2.4" rev-constraint-default="4.2.4" rev-constraint-dynamic="4.2.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="227275" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.2.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar"/>
-					</artifact>
 					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="325247" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.httpcomponents\httpcore\srcs\httpcore-4.2.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4-sources.jar"/>
+					</artifact>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="227275" time="0" location="C:\Users\glang\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2101,11 +2180,11 @@
 				<metadata-artifact status="no" details="" size="3585" time="0" location="C:\Users\glang\.ivy2\cache\org.json\json\ivy-20140107.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json/json/20140107/json-20140107.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="20140107" rev-constraint-default="20140107" rev-constraint-dynamic="20140107" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="json" type="jar" ext="jar" status="no" details="" size="64952" time="0" location="C:\Users\glang\.ivy2\cache\org.json\json\jars\json-20140107.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json/json/20140107/json-20140107.jar"/>
-					</artifact>
 					<artifact name="json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="79981" time="0" location="C:\Users\glang\.ivy2\cache\org.json\json\srcs\json-20140107-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/json/json/20140107/json-20140107-sources.jar"/>
+					</artifact>
+					<artifact name="json" type="jar" ext="jar" status="no" details="" size="64952" time="0" location="C:\Users\glang\.ivy2\cache\org.json\json\jars\json-20140107.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json/json/20140107/json-20140107.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2216,11 +2295,11 @@
 				<metadata-artifact status="no" details="" size="6458" time="0" location="C:\Users\glang\.ivy2\cache\commons-lang\commons-lang\ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="C:\Users\glang\.ivy2\cache\commons-lang\commons-lang\srcs\commons-lang-2.6-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
-					</artifact>
 					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="C:\Users\glang\.ivy2\cache\commons-lang\commons-lang\jars\commons-lang-2.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="C:\Users\glang\.ivy2\cache\commons-lang\commons-lang\srcs\commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2244,11 +2323,11 @@
 				<metadata-artifact status="no" details="" size="6859" time="0" location="C:\Users\glang\.ivy2\cache\com.google.guava\guava\ivy-19.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="19.0" rev-constraint-default="19.0" rev-constraint-dynamic="19.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2308517" time="0" location="C:\Users\glang\.ivy2\cache\com.google.guava\guava\jars\guava-19.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/19.0/guava-19.0.jar"/>
-					</artifact>
 					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1319216" time="0" location="C:\Users\glang\.ivy2\cache\com.google.guava\guava\srcs\guava-19.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/19.0/guava-19.0-sources.jar"/>
+					</artifact>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2308517" time="0" location="C:\Users\glang\.ivy2\cache\com.google.guava\guava\jars\guava-19.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/19.0/guava-19.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2258,11 +2337,11 @@
 				<metadata-artifact status="no" details="" size="4771" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-ner\ivy-3.0.64.xml" searched="false" origin-is-local="false" origin-location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-ner/3.0.64/illinois-ner-3.0.64.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.0.64" rev-constraint-default="3.0.64" rev-constraint-dynamic="3.0.64" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="illinois-ner" type="jar" ext="jar" status="no" details="" size="261999" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-ner\jars\illinois-ner-3.0.64.jar">
-						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-ner/3.0.64/illinois-ner-3.0.64.jar"/>
-					</artifact>
 					<artifact name="illinois-ner" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="187332" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-ner\srcs\illinois-ner-3.0.64-sources.jar">
 						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-ner/3.0.64/illinois-ner-3.0.64-sources.jar"/>
+					</artifact>
+					<artifact name="illinois-ner" type="jar" ext="jar" status="no" details="" size="261999" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-ner\jars\illinois-ner-3.0.64.jar">
+						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-ner/3.0.64/illinois-ner-3.0.64.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2362,11 +2441,11 @@
 				<metadata-artifact status="no" details="" size="3184" time="0" location="C:\Users\glang\.ivy2\cache\javax.xml.bind\jaxb-api\ivy-2.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.2.7" rev-constraint-default="2.2.7" rev-constraint-dynamic="2.2.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jaxb-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="244681" time="0" location="C:\Users\glang\.ivy2\cache\javax.xml.bind\jaxb-api\srcs\jaxb-api-2.2.7-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar"/>
-					</artifact>
 					<artifact name="jaxb-api" type="jar" ext="jar" status="no" details="" size="100146" time="0" location="C:\Users\glang\.ivy2\cache\javax.xml.bind\jaxb-api\jars\jaxb-api-2.2.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar"/>
+					</artifact>
+					<artifact name="jaxb-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="244681" time="0" location="C:\Users\glang\.ivy2\cache\javax.xml.bind\jaxb-api\srcs\jaxb-api-2.2.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2391,11 +2470,11 @@
 				<metadata-artifact status="no" details="" size="2490" time="0" location="C:\Users\glang\.ivy2\cache\xalan\xalan\ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="xalan" type="jar" ext="jar" status="no" details="" size="2730442" time="0" location="C:\Users\glang\.ivy2\cache\xalan\xalan\jars\xalan-2.7.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar"/>
-					</artifact>
 					<artifact name="xalan" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3137807" time="0" location="C:\Users\glang\.ivy2\cache\xalan\xalan\srcs\xalan-2.7.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/xalan/xalan/2.7.0/xalan-2.7.0-sources.jar"/>
+					</artifact>
+					<artifact name="xalan" type="jar" ext="jar" status="no" details="" size="2730442" time="0" location="C:\Users\glang\.ivy2\cache\xalan\xalan\jars\xalan-2.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2405,11 +2484,11 @@
 				<metadata-artifact status="no" details="" size="4267" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-chunker\ivy-3.0.64.xml" searched="false" origin-is-local="false" origin-location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-chunker/3.0.64/illinois-chunker-3.0.64.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.0.64" rev-constraint-default="3.0.64" rev-constraint-dynamic="3.0.64" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="illinois-chunker" type="jar" ext="jar" status="no" details="" size="31151" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-chunker\jars\illinois-chunker-3.0.64.jar">
-						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-chunker/3.0.64/illinois-chunker-3.0.64.jar"/>
-					</artifact>
 					<artifact name="illinois-chunker" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22796" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-chunker\srcs\illinois-chunker-3.0.64-sources.jar">
 						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-chunker/3.0.64/illinois-chunker-3.0.64-sources.jar"/>
+					</artifact>
+					<artifact name="illinois-chunker" type="jar" ext="jar" status="no" details="" size="31151" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-chunker\jars\illinois-chunker-3.0.64.jar">
+						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-chunker/3.0.64/illinois-chunker-3.0.64.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2448,16 +2527,17 @@
 				<metadata-artifact status="no" details="" size="7974" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="play_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="359644" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play_2.11\srcs\play_2.11-2.4.3-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar"/>
-					</artifact>
 					<artifact name="play_2.11" type="jar" ext="jar" status="no" details="" size="3797010" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.jar"/>
+					</artifact>
+					<artifact name="play_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="359644" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play_2.11\srcs\play_2.11-2.4.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
+<<<<<<< HEAD
 <<<<<<< HEAD
 			<revision name="4.0" status="release" pubdate="20150428153500" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="56">
 				<metadata-artifact status="successful" details="" size="549" time="684" location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
@@ -2468,6 +2548,10 @@
 >>>>>>> dl4J
 =======
 				<metadata-artifact status="successful" details="" size="549" time="850" location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+>>>>>>> dl4J
+=======
+			<revision name="4.0" status="release" pubdate="20150428153500" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="56">
+				<metadata-artifact status="successful" details="" size="549" time="433" location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\glang\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 >>>>>>> dl4J
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
 				<artifacts>
@@ -2485,11 +2569,11 @@
 				<metadata-artifact status="no" details="" size="5819" time="0" location="C:\Users\glang\.ivy2\cache\com.google.inject\guice\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="guice" type="jar" ext="jar" status="no" details="" size="668235" time="0" location="C:\Users\glang\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar"/>
-					</artifact>
 					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="305803" time="0" location="C:\Users\glang\.ivy2\cache\com.google.inject\guice\srcs\guice-4.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0-sources.jar"/>
+					</artifact>
+					<artifact name="guice" type="jar" ext="jar" status="no" details="" size="668235" time="0" location="C:\Users\glang\.ivy2\cache\com.google.inject\guice\jars\guice-4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/inject/guice/4.0/guice-4.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2529,11 +2613,11 @@
 				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\glang\.ivy2\cache\javax.transaction\jta\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jta" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="C:\Users\glang\.ivy2\cache\javax.transaction\jta\srcs\jta-1.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
-					</artifact>
 					<artifact name="jta" type="jar" ext="jar" status="no" details="" size="15071" time="0" location="C:\Users\glang\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.jar"/>
+					</artifact>
+					<artifact name="jta" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="C:\Users\glang\.ivy2\cache\javax.transaction\jta\srcs\jta-1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2544,11 +2628,11 @@
 				<metadata-artifact status="no" details="" size="4305" time="0" location="C:\Users\glang\.ivy2\cache\xerces\xercesImpl\ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1367760" time="0" location="C:\Users\glang\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar"/>
-					</artifact>
 					<artifact name="xercesImpl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2081596" time="0" location="C:\Users\glang\.ivy2\cache\xerces\xercesImpl\srcs\xercesImpl-2.11.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar"/>
+					</artifact>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1367760" time="0" location="C:\Users\glang\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2605,11 +2689,11 @@
 				<metadata-artifact status="no" details="" size="2700" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.13.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2792981" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar"/>
-					</artifact>
 					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336307" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.13-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2792981" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2620,11 +2704,11 @@
 				<metadata-artifact status="no" details="" size="2837" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41398" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar"/>
-					</artifact>
 					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="419701" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\jars\scala-parser-combinators_2.11-1.0.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41398" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2663,11 +2747,11 @@
 				<metadata-artifact status="no" details="" size="8540" time="0" location="C:\Users\glang\.ivy2\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="C:\Users\glang\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.4.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
-					</artifact>
 					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="C:\Users\glang\.ivy2\cache\commons-io\commons-io\srcs\commons-io-2.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="C:\Users\glang\.ivy2\cache\commons-io\commons-io\jars\commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2777,11 +2861,11 @@
 				<metadata-artifact status="no" details="" size="6229" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="39822" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\jars\jackson-annotations-2.5.4.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar"/>
-					</artifact>
 					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44848" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.5.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="39822" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\jars\jackson-annotations-2.5.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2791,11 +2875,11 @@
 				<metadata-artifact status="no" details="" size="6679" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="241162" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.5.4-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar"/>
-					</artifact>
 					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="229999" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\jars\jackson-core-2.5.4.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="241162" time="0" location="C:\Users\glang\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.5.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2821,11 +2905,11 @@
 				<metadata-artifact status="no" details="" size="6193" time="0" location="C:\Users\glang\.ivy2\cache\org.joda\joda-convert\ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.7/joda-convert-1.7.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="102981" time="0" location="C:\Users\glang\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.7/joda-convert-1.7.jar"/>
-					</artifact>
 					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40304" time="0" location="C:\Users\glang\.ivy2\cache\org.joda\joda-convert\srcs\joda-convert-1.7-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.7/joda-convert-1.7-sources.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="102981" time="0" location="C:\Users\glang\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.7/joda-convert-1.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2851,11 +2935,11 @@
 				<metadata-artifact status="no" details="" size="2574" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play-functional_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9757" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play-functional_2.11\srcs\play-functional_2.11-2.4.3-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar"/>
-					</artifact>
 					<artifact name="play-functional_2.11" type="jar" ext="jar" status="no" details="" size="401129" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.jar"/>
+					</artifact>
+					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9757" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe.play\play-functional_2.11\srcs\play-functional_2.11-2.4.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2881,11 +2965,11 @@
 				<metadata-artifact status="no" details="" size="2783" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe\config\ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="config" type="jar" ext="jar" status="no" details="" size="277782" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe\config\jars\config-1.3.0.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
-					</artifact>
 					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167084" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe\config\srcs\config-1.3.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="277782" time="0" location="C:\Users\glang\.ivy2\cache\com.typesafe\config\jars\config-1.3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2896,11 +2980,11 @@
 				<metadata-artifact status="no" details="" size="2569" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-stm\scala-stm_2.11\ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-stm\scala-stm_2.11\srcs\scala-stm_2.11-0.7-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
-					</artifact>
 					<artifact name="scala-stm_2.11" type="jar" ext="jar" status="no" details="" size="630306" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116149" time="0" location="C:\Users\glang\.ivy2\cache\org.scala-stm\scala-stm_2.11\srcs\scala-stm_2.11-0.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-stm/scala-stm_2.11/0.7/scala-stm_2.11-0.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2957,11 +3041,11 @@
 				<metadata-artifact status="no" details="" size="10168" time="0" location="C:\Users\glang\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226208" time="0" location="C:\Users\glang\.ivy2\cache\ch.qos.logback\logback-classic\srcs\logback-classic-1.1.7-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-sources.jar"/>
-					</artifact>
 					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="304075" time="0" location="C:\Users\glang\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar"/>
+					</artifact>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226208" time="0" location="C:\Users\glang\.ivy2\cache\ch.qos.logback\logback-classic\srcs\logback-classic-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2972,11 +3056,11 @@
 				<metadata-artifact status="no" details="" size="3581" time="0" location="C:\Users\glang\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="C:\Users\glang\.ivy2\cache\log4j\log4j\srcs\log4j-1.2.17-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
-					</artifact>
 					<artifact name="log4j" type="jar" ext="jar" status="no" details="" size="489884" time="0" location="C:\Users\glang\.ivy2\cache\log4j\log4j\jars\log4j-1.2.17.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+					<artifact name="log4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="481200" time="0" location="C:\Users\glang\.ivy2\cache\log4j\log4j\srcs\log4j-1.2.17-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2986,11 +3070,11 @@
 				<metadata-artifact status="no" details="" size="2196" time="0" location="C:\Users\glang\.ivy2\cache\oro\oro\ivy-2.0.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/oro/oro/2.0.8/oro-2.0.8.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="oro" type="jar" ext="jar" status="no" details="" size="65261" time="0" location="C:\Users\glang\.ivy2\cache\oro\oro\jars\oro-2.0.8.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/oro/oro/2.0.8/oro-2.0.8.jar"/>
-					</artifact>
 					<artifact name="oro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="239964" time="0" location="C:\Users\glang\.ivy2\cache\oro\oro\srcs\oro-2.0.8-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/oro/oro/2.0.8/oro-2.0.8-sources.jar"/>
+					</artifact>
+					<artifact name="oro" type="jar" ext="jar" status="no" details="" size="65261" time="0" location="C:\Users\glang\.ivy2\cache\oro\oro\jars\oro-2.0.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/oro/oro/2.0.8/oro-2.0.8.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3029,11 +3113,11 @@
 				<metadata-artifact status="no" details="" size="6539" time="0" location="C:\Users\glang\.ivy2\cache\joda-time\joda-time\ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.9.2/joda-time-2.9.2.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="765887" time="0" location="C:\Users\glang\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.9.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.9.2/joda-time-2.9.2-sources.jar"/>
-					</artifact>
 					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="625596" time="0" location="C:\Users\glang\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.2.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="765887" time="0" location="C:\Users\glang\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.9.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.9.2/joda-time-2.9.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3088,11 +3172,11 @@
 				<metadata-artifact status="no" details="" size="2359" time="0" location="C:\Users\glang\.ivy2\cache\com.h2database\h2\ivy-1.4.191.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.4.191" rev-constraint-default="1.4.191" rev-constraint-dynamic="1.4.191" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1762629" time="0" location="C:\Users\glang\.ivy2\cache\com.h2database\h2\jars\h2-1.4.191.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.jar"/>
-					</artifact>
 					<artifact name="h2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1231563" time="0" location="C:\Users\glang\.ivy2\cache\com.h2database\h2\srcs\h2-1.4.191-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191-sources.jar"/>
+					</artifact>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1762629" time="0" location="C:\Users\glang\.ivy2\cache\com.h2database\h2\jars\h2-1.4.191.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/h2database/h2/1.4.191/h2-1.4.191.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3148,11 +3232,11 @@
 				<metadata-artifact status="no" details="" size="2452" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.trove4j\trove4j\ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="trove4j" type="jar" ext="jar" status="no" details="" size="2523218" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.trove4j\trove4j\jars\trove4j-3.0.3.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"/>
-					</artifact>
 					<artifact name="trove4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1793123" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.trove4j\trove4j\srcs\trove4j-3.0.3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3-sources.jar"/>
+					</artifact>
+					<artifact name="trove4j" type="jar" ext="jar" status="no" details="" size="2523218" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.trove4j\trove4j\jars\trove4j-3.0.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3162,11 +3246,11 @@
 				<metadata-artifact status="no" details="" size="4170" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\LBJava\ivy-1.2.24.xml" searched="false" origin-is-local="false" origin-location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/LBJava/1.2.24/LBJava-1.2.24.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="1.2.24" rev-constraint-default="1.2.24" rev-constraint-dynamic="1.2.24" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="LBJava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="661251" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\LBJava\srcs\LBJava-1.2.24-sources.jar">
-						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/LBJava/1.2.24/LBJava-1.2.24-sources.jar"/>
-					</artifact>
 					<artifact name="LBJava" type="jar" ext="jar" status="no" details="" size="751784" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\LBJava\jars\LBJava-1.2.24.jar">
 						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/LBJava/1.2.24/LBJava-1.2.24.jar"/>
+					</artifact>
+					<artifact name="LBJava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="661251" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\LBJava\srcs\LBJava-1.2.24-sources.jar">
+						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/LBJava/1.2.24/LBJava-1.2.24-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3192,11 +3276,11 @@
 				<metadata-artifact status="no" details="" size="3825" time="0" location="C:\Users\glang\.ivy2\cache\nz.ac.waikato.cms.weka\weka-stable\ivy-3.6.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/nz/ac/waikato/cms/weka/weka-stable/3.6.10/weka-stable-3.6.10.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="3.6.10" rev-constraint-default="3.6.10" rev-constraint-dynamic="3.6.10" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="weka-stable" type="jar" ext="jar" status="no" details="" size="6531543" time="0" location="C:\Users\glang\.ivy2\cache\nz.ac.waikato.cms.weka\weka-stable\jars\weka-stable-3.6.10.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/nz/ac/waikato/cms/weka/weka-stable/3.6.10/weka-stable-3.6.10.jar"/>
-					</artifact>
 					<artifact name="weka-stable" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5518116" time="0" location="C:\Users\glang\.ivy2\cache\nz.ac.waikato.cms.weka\weka-stable\srcs\weka-stable-3.6.10-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/nz/ac/waikato/cms/weka/weka-stable/3.6.10/weka-stable-3.6.10-sources.jar"/>
+					</artifact>
+					<artifact name="weka-stable" type="jar" ext="jar" status="no" details="" size="6531543" time="0" location="C:\Users\glang\.ivy2\cache\nz.ac.waikato.cms.weka\weka-stable\jars\weka-stable-3.6.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/nz/ac/waikato/cms/weka/weka-stable/3.6.10/weka-stable-3.6.10.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3207,11 +3291,11 @@
 				<metadata-artifact status="no" details="" size="2767" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\ivy-0.11a.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.11a" rev-constraint-default="0.11a" rev-constraint-dynamic="0.11a" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="java-cup" type="jar" ext="jar" status="no" details="" size="96121" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\jars\java-cup-0.11a.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a.jar"/>
-					</artifact>
 					<artifact name="java-cup" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="324558" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\srcs\java-cup-0.11a-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a-sources.jar"/>
+					</artifact>
+					<artifact name="java-cup" type="jar" ext="jar" status="no" details="" size="96121" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.squirrel-sql.thirdparty-non-maven\java-cup\jars\java-cup-0.11a.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/squirrel-sql/thirdparty-non-maven/java-cup/0.11a/java-cup-0.11a.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3221,11 +3305,11 @@
 				<metadata-artifact status="no" details="" size="3598" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-inference\ivy-0.6.0.xml" searched="false" origin-is-local="false" origin-location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-inference/0.6.0/illinois-inference-0.6.0.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.6.0" rev-constraint-default="0.6.0" rev-constraint-dynamic="0.6.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="illinois-inference" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23082" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-inference\srcs\illinois-inference-0.6.0-sources.jar">
-						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-inference/0.6.0/illinois-inference-0.6.0-sources.jar"/>
-					</artifact>
 					<artifact name="illinois-inference" type="jar" ext="jar" status="no" details="" size="41962" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-inference\jars\illinois-inference-0.6.0.jar">
 						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-inference/0.6.0/illinois-inference-0.6.0.jar"/>
+					</artifact>
+					<artifact name="illinois-inference" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23082" time="0" location="C:\Users\glang\.ivy2\cache\edu.illinois.cs.cogcomp\illinois-inference\srcs\illinois-inference-0.6.0-sources.jar">
+						<origin-location is-local="false" location="http://cogcomp.cs.illinois.edu/m2repo/edu/illinois/cs/cogcomp/illinois-inference/0.6.0/illinois-inference-0.6.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -3236,11 +3320,11 @@
 				<metadata-artifact status="no" details="" size="2554" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.jgrapht\jgrapht\ivy-0.8.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.pom"/>
 				<caller organisation="usesaul" name="usesaul$sources_2.11" conf="compile-internal, compile, provided, optional" rev="0.8.3" rev-constraint-default="0.8.3" rev-constraint-dynamic="0.8.3" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jgrapht" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="373838" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.jgrapht\jgrapht\srcs\jgrapht-0.8.3-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3-sources.jar"/>
-					</artifact>
 					<artifact name="jgrapht" type="jar" ext="jar" status="no" details="" size="245266" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.jgrapht\jgrapht\jars\jgrapht-0.8.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.jar"/>
+					</artifact>
+					<artifact name="jgrapht" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="373838" time="0" location="C:\Users\glang\.ivy2\cache\net.sf.jgrapht\jgrapht\srcs\jgrapht-0.8.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
