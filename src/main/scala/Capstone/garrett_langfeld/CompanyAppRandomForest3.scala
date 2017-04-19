@@ -39,5 +39,7 @@ object CompanyAppRandomForest3 extends App{
   CompanyClassifier2.CompanyClassifierRandomForest.learn(10)
   CompanyClassifier2.CompanyClassifierRandomForest.test(testData)
 
+  CompanyClassifier2.CompanyClassifierRandomForest.save()
+
 
 }
